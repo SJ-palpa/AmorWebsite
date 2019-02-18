@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block ajout_head %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/aPropos.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% load icons %}
+
+{% endblock %}
+
+{% block content %}
+    <main role="main">
+        <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere.jpg' %}')">
+            <div class="row float-md-left">
+                <svg viewBox="120 60 1080 400">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">A propos</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+                <div class="my-3 py-3">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                        A propos
+                    </h3>
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Nous offrons un service de bienfaisance en Afrique et en Europe depuis 1999</h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+                        <p>L'Association Mondiale pour les Orphelins est une organisation non-gouvernementale, avec le
+                            statut consultatif ECOSOC des Nations Unies, qui croît dans le potentiel de chaque individu
+                            et promeut le développement humain des orphelins, des séropositifs, des sans-abris, des
+                            femmes et de ceux qui sont dans le besoin. Nous considérons que de créer des opportunités
+                            pour ceux dans le besoin permet le développement de l'individu concerné et de la société.
+                        </p>
+                        <hr>
+                        <p>
+                            Ainsi depuis sa création, L'Association a organisé différentes levées de fonds et inauguré
+                            plusieurs événement en Côte d'Ivoire.
+                        </p>
+                        <hr>
+                        <p>
+                            Dans l'ère du digital, les outils informatiques devraient être accessible pour tous. Nous
+                            embarquons désormais dans un projet en Roumanie qui fournirait des cours de programmation et
+                            d'informatique basique aux orphelins de Bucarest afin de les motiver et les inspirer à
+                            développer des compétences en informatique
+                        </p>
+                        <hr>
+                        <p>
+                            En tant que véritable ONG humanitaire, AMOR cherche à apporter une solution à toute personne
+                            qui demande notre aide. Pour en savoir plus sur les fonders, s'il vous plaît cliquer <a href="#">ici</a>
+                        </p>
+                           </div>
+                       </div>
+                   </div>
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                            <div class="my-3 p-3">
+                                <img class="img-fluid mx-auto" alt="500x500"
+                                     src="{% static 'img/aPropos_img_reunion.jpg' %}" data-holder-rendered="true">
+                            </div>
+                        </div>
+                    </div>
+
+
+    </main>
+
+{% endblock %}

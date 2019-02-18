@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block ajout_head %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/aPropos.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% load icons %}
+
+{% endblock %}
+
+{% block content %}
+    <main role="main">
+        <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere.jpg' %}')">
+            <div class="row float-md-left">
+                <svg viewBox="0 60 1140 500">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">Contribution</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white ">
+            <div class="col-md-10 mx-auto">
+                <h2 class=" font-weight-normal">Contribuer à un monde meilleur</h2>
+
+                <p class="fas fa-hand-holding-heart icon-separtor"></p>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+        <div class=" container mb-5">
+            <h4 class="mb-3">Informations</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Nom</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Prenom</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optionel)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Adresse</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Rue de berne" required="">
+                    <div class="invalid-feedback">
+                        Please enter your shipping address.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optionel)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment ou suite">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Pays</label>
+                        <select class="custom-select d-block w-100" id="country" required="">
+                            <option value="">Choisir</option>
+                            <option>Suisse</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required="">
+                            <option value="">Choisir</option>
+                            <option>Genève</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Code postal
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <hr class="mb-4">
+                <button class="btn bg-clair-amor text-light btn-lg btn-block col-md-4 offset-md-4" type="submit">
+                    Valider
+                </button>
+            </form>
+        </div>
+    </main>
+
+{% endblock %}

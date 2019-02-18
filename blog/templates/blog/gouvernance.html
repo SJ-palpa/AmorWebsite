@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% block ajout_head %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/aPropos.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% load icons %}
+
+{% endblock %}
+
+{% block content %}
+    <main role="main">
+        <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere.jpg' %}')">
+            <div class="row float-md-left">
+                <svg viewBox="0 60 1140 500">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">Gouvernance</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white ">
+            <div class="col-md-10 mx-auto">
+                <h2 class=" font-weight-normal">Rencontrez notre équipe</h2>
+                <p class="lead font-weight-normal text-secondary">Vous trouverez ici un bref profil de tout notre
+                    personnel dévoué!</p>
+                <p class="fas fa-users icon-separtor"></p>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+        <div class="ml-5 mr-5">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 color-clair-amor">Executive Director</strong>
+                            <h3 class="mb-0">
+                                <p class="text-dark">Marc Vlad De Maio</p>
+                            </h3>
+                            <p class="card-text mb-auto">Basé à Genève, je suis entré dans l'Association pour assurer
+                                ses relations publiques et...</p>
+                            <a href="#">Continuer à lire</a>
+                        </div>
+                        <img class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                             src="{% static 'img/Marc-De-Maio-AMOR-540x500.jpg' %}" width="250" height="270">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 color-clair-amor">Président-Fondateur</strong>
+                            <h3 class="mb-0">
+                                <p class="text-dark">Nanan Akassimandou</p>
+                            </h3>
+                            <p class="card-text mb-auto">Orphelin moi-même, j'étais un enfant sans-abri dans les rues
+                                d'Abidjan. </p>
+                            <a href="#">Continuer à lire</a>
+                        </div>
+                        <img class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                             src="{% static 'img/Nanan-Aka-Simandou-540x500.jpg' %}" width="250" height="270">
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 color-clair-amor">AMOR Côte D'Ivoire Présidente</strong>
+                            <h3 class="mb-0">
+                                <p class="text-dark">Morokro Marie-Claire</p>
+                            </h3>
+                            <p class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Asperiores autem blanditiis</p>
+                            <a href="#">Continuer à lire</a>
+                        </div>
+                        <img class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                             src="{% static 'img/Morokro-Marie-Claire-540x500.jpg' %}" width="250" height="270">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 color-clair-amor">AMOR Sénégal Présidente</strong>
+                            <h3 class="mb-0">
+                                <p class="text-dark">
+                                    Fatou Barro Diakhate</p>
+                            </h3>
+                            <p class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Asperiores autem blanditiis</p>
+                            <a href="#">Continuer à lire</a>
+                        </div>
+                        <img class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                             src="{% static 'img/fato_barro540x500.jpg' %}" width="250" height="270">
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 color-clair-amor">Ile Maurice AMOR Présidente / Ile
+                                Maurice</strong>
+                            <h3 class="mb-0">
+                                <p class="text-dark">Marguerite Corine MATRINGE</p>
+                            </h3>
+                            <p class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Asperiores autem blanditiis</p>
+                            <a href="#">Continuer à lire</a>
+                        </div>
+                        <img class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                             src="{% static 'img/Marguerite_Corine_MATRINGE_540x500.jpg' %}" width="250" height="270">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 color-clair-amor">Mali AMOR Présidente</strong>
+                            <h3 class="mb-0">
+                                <p class="text-dark">Adiaratou Doumbia</p>
+                            </h3>
+                            <p class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Asperiores autem blanditiis</p>
+                            <a href="#">Continuer à lire</a>
+                        </div>
+                        <img class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                             src="{% static 'img/amor-mali-540x500.jpeg' %}" width="250" height="270">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+{% endblock %}

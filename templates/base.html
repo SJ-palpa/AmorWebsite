@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {# Load the tag library #}
+    {% load bootstrap4 %}
+    {% load icons %}
+    <!-- pour la liste de toutes les icon :  https://fontawesome.com/icons?d=gallery -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    {# Load CSS and JavaScript #}
+    {% bootstrap_css %}
+    {% bootstrap_javascript jquery='full' %}
+
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+
+    {# Display django.contrib.messages as Bootstrap alerts #}
+    {% bootstrap_messages %}
+    {% block ajout_head %}
+    {% endblock %}
+
+    <title>{% block title %}Amor{% endblock %}</title>
+</head>
+<body>
+
+
+{# Mettre des breadcrumb#}
+
+
+{% block nav %}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-border-top">
+            <img src="{% static 'img/Amor-main.png' %}" alt="LogoAmorSmall" class="ml-3"/>
+            <a class="navbar-brand" href="#"> A.M.OR</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse text-size-nav navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMaison" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ACCUEIL
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
+                            <a class="dropdown-item bg-clair-amor text-light" href="{% url "accueil" %}">PRÉSIDENT</a>
+                            <a class="dropdown-item" href="#">SDG-AMOR</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownAprop" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            A PROPOS
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdownAprop">
+                            <a class="dropdown-item" href="{% url "aPropos" %}">L'HISTOIRE D'AMOR</a>
+                            <a class="dropdown-item" href="{% url "gouvernance" %}">GOUVERNANCE</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">STATUT</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             HITECH4ORPHANS
+                        </a>
+                        <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdownMaison">
+                            <a class="dropdown-item" href="{% url "pays" %}">ANGLETERRE</a>
+                            <a class="dropdown-item" href="#">BÉNIN</a>
+                            <a class="dropdown-item" href="#">CÔTE D'IVOIRE</a>
+                            <a class="dropdown-item" href="#">ESPAGNE</a>
+                            <a class="dropdown-item" href="#">GHANA</a>
+                            <a class="dropdown-item" href="#">FRANCE</a>
+                            <a class="dropdown-item" href="#">GUINÉE</a>
+                            <a class="dropdown-item" href="#">ILE-MAURICE</a>
+                            <a class="dropdown-item" href="#">ITALIE</a>
+                            <a class="dropdown-item" href="#">JAPON</a>
+                            <a class="dropdown-item" href="#">LUXEMBOURG</a>
+                            <a class="dropdown-item" href="#">MAROC</a>
+                            <a class="dropdown-item" href="#">MONACO</a>
+                            <a class="dropdown-item" href="#">MALI</a>
+                            <a class="dropdown-item" href="#">ROUMANIE</a>
+                            <a class="dropdown-item" href="#">RUSSIE</a>
+                            <a class="dropdown-item" href="#">SÉNÉGAL</a>
+                            <a class="dropdown-item" href="#">SUISSE</a>
+                            <a class="dropdown-item" href="#">USA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAprop" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            FESTIAMOR
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
+                            <a class="dropdown-item" href="{% url "festiamor_2013" %}">2013</a>
+                            <a class="dropdown-item" href="#">2014</a>
+                            <a class="dropdown-item" href="#">AMOR-10 ANS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             ECOSOC
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
+                            <a class="dropdown-item" href="{% url "ecosoc" %}">NOTRE UTILISATION D'ECOSOC</a>
+                            <a class="dropdown-item" href="#">PLAIDOIRIE</a>
+                            <a class="dropdown-item" href="#">NOS AMBASSADEURS</a>
+                            <a class="dropdown-item" href="#">GENÈVE</a>
+                            <a class="dropdown-item" href="#">NEW YORK</a>
+                            <a class="dropdown-item" href="#">VIENNE</a>
+                            <a class="dropdown-item" href="#">GUINÉE</a>
+                            <a class="dropdown-item" href="#">GALA 2019</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              SOUTIEN AMOR
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
+                            <a class="dropdown-item" href="#">STAGIAIRES</a>
+                            <a class="dropdown-item" href="#">BÉNÉVOLAT</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                CONTACTEZ-NOUS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
+                            <a class="dropdown-item" href="{% url "contribution" %}">CONTRIBUTION</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+{% endblock %}
+
+<section id="content">
+    {% block content %}
+    {% endblock %}
+</section>
+</body>
+<footer class="blog-footer ">
+    <p class="mt-3">© AMOR - CONSEIL ÉCONOMIQUE ET SOCIAL - 2018, TOUS DROITS RÉSERVÉS, PAR LE RÉSEAU <a href="#"
+                                                                                            class="color-clair-amor">Privacy</a>
+        · <a href="#" class="color-clair-amor">Terms</a></p>
+    <span>
+        <a class="icon-arrow-amor" href="#">{% icon 'arrow-circle-up' %}</a>
+    </span>
+</footer>
+{% block script %}
+{% endblock %}
+</html>
