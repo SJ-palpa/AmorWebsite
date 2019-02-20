@@ -9,6 +9,7 @@ class Article(models.Model):
     class Meta:
         verbose_name = "article"
         ordering = ['date']
+
     def __str__(self):
         """
         Cette méthode que nous définirons dans tous les modèles

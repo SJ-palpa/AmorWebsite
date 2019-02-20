@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -85,9 +86,9 @@ DATABASES = {
     #}
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "amor",
-        "USER": "stephane",
-        "PASSWORD": "",
+        "NAME": "amorDB",
+        "USER": "postgres",
+        "PASSWORD": "jnzmYPpMe34",
         "HOST": "localhost",
         "PORT": "5432",
     }
