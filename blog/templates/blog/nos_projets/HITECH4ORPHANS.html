@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block ajout_head %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/projet.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% load icons %}
+
+{% endblock %}
+
+{% block content %}
+
+
+
+<!--
+
+    Ajouter les photos
+
+ -->
+
+
+    <main role="main">
+        <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
+            <div class="row  float-sm-left">
+                <svg viewBox="300 100 1824 800">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="47%" y="80%">HITECH4ORPHANS</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module">
+            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden paragraph_design">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                        Résumé
+                    </h3>
+                    <div class="blog-post">
+                        <p>Elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et orphelins à maîtriser des compétences informatiques. Nous offrons des cours basiques et avancés en bureautique. Une fois introduit aux éléments primaires sur Microsoft Office et sur d'autres logiciels libres, les étudiants motivés de HiTech4Orphans auront l'opportunité d'approfondir leurs connaissances en s'inscrivant dans des cours de programmation (Objet orienté - C) et de design graphique (AP,AE).
+                        </p>
+                        <hr>
+                        <p>
+                            Pour mener à bien ce projet central, nous recherchons du matériel informatique, des programmeurs, des dons, et des bonnes idées.
+                        </p>
+                        <hr>
+                    </div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center" id="watchme" >
+                <div class="my-3 p-3">
+                    <img src="http://unsplash.it/400/400" class="align-right slide-in" >
+                </div>
+            </div>
+        </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 ">
+             <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                    <img src="{% static 'img/Marc-De-Maio-AMOR-540x500.jpg' %}" class="align-left slide-in">
+                </div>
+            </div>
+            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden paragraph_design">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                        1ère étape : 1500 enfants aidés et formés en Roumanie et au Sénégal
+                    </h3>
+
+                    <div class="blog-post">
+                        <p>Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. HiTech4Orphans travaille en étroite collaboration avec la direction générale de la protection de l’enfance du secteur 6 (Direcţia Generală de ASISTENTA sociala şi Protectia Copilului secteur 6) de Bucarest. Le projet sera mis en œuvre dans trois bâtiments différents. En tout premier lieu dans le bâtiment qui accueille les enfants handicapés (900 enfants) qui pourront apprendre grâce à la technologie d'assistance. En second lieu, nous allons mettre en place les premiers cours d'introduction de codage pour des enfants de tous les milieux sociaux et les orphelins qui suivent des cours dans un programme informatique conjoint avec le secteur 6 (jusqu'à 20 personnes).
+                        </p>
+                        <hr>
+                        <p>
+                           Au Sénégal, nous avons ouvert une antenne A.M.OR Sénégal et nommée une présidente, qui cherche actuellement à établir des partenariats avec des associations locales dans la région de Dakar. Notre objectif est de permettre à 500 enfants de bénéficier de HiTech4Orphans.
+                        </p>
+                        <p>
+                            Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus grâce à la générosité de nos 3 partenaires. L’International Conference Center (CICG - Centre International de Genève Conférences) , qui nous a fait don de 47 ordinateurs. La Solidarité Informatique Sans Frontière (SISF – Belgique) qui nous a donné 20 ordinateurs. Enfin, la fondation Thuor (Genève) qui nous a offert 20 ordinateurs. Nous remercions chaleureusement tous nos partenaires pour leur confiance.
+                        </p>
+                        <hr>
+                    </div>
+            </div>
+        </div>
+
+    </main>
+
+{% endblock %}
+
+{% block script %}
+     <script type="text/javascript" src="{% static 'blog/js/base_blog.js' %}"></script>
+{% endblock %}

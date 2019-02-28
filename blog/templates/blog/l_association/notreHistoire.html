@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block ajout_head %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% load icons %}
+
+{% endblock %}
+
+{% block content %}
+    <main role="main">
+        <div class="banniere margeBanniere" style="background-image: url('{% static  'img/photo-banniere2.jpg' %}')">
+            <div class="row float-md-left">
+                <svg viewBox="300 100 1824 800">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="47%" y="80%">Histoire</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+                <div class="my-3 py-3">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                       Notre Histoire
+                    </h3>
+
+                    <div class="blog-post">
+
+                        <p>L’Association fut créée 7 janvier 1999 par M. Togiri Aka, un orphelin originaire de Côte d’Ivoire, ayant émigré en Suisse. Durant les années suivantes, l’ONG a organisé différents événements tels que FESTI AMOR en 2013 où un pack informatique a été installé à l’EPP Nianda 1 en Côte d’Ivoire. Lors de l’édition 2014, une série de dons a été faite à l’Orphelinat de Bingerville et à SOS Village d’Abobo.
+                        </p>
+                        <hr>
+                        <p>
+                            En 2017 ce fût la récompense avec le statut ECOSOC obtenu auprès de l’ONU. Aujourd’hui ce  sont plus de 17 délégations dans différents pays que rassemble A.MOR et plus d’une trentaine de collaborateur œuvrant dans l’association.
+                        </p>
+                        <hr>
+                        <p>
+                           L'Association Mondiale pour les Orphelins (A.M.OR) est donc à l’heure actuelle une organisation non gouvernementale à but non lucratif dotée du statut consultatif auprès de l'ECOSOC, qui croit au potentiel de tous les individus, y compris en celui des orphelins, des sans-abri, des personnes séropositives, des femmes et autres personnes dans le besoin. Elle vise à contribuer à offrir des chances égales de développement et de prospérité dans le monde.
+                        </p>
+                        <hr>
+                        <p>
+                            Créer des opportunités pour tous est gratifiant tant pour les individus que pour la société. Avec HiTech4Orphans, notre projet phare lancé en 2017, nous nous axons dans l’enseignement numérique pour permettre à ceux qui n’en n’ont pas eu la chance de se former au monde de l’informatique.
+                        </p>
+                           </div>
+                       </div>
+                   </div>
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                            <div class="my-3 p-3">
+                                <img class="img-fluid mx-auto" alt="500x500"
+                                     src="{% static 'img/aPropos_img_reunion.jpg' %}" data-holder-rendered="true">
+                            </div>
+                        </div>
+                    </div>
+
+
+    </main>
+
+{% endblock %}

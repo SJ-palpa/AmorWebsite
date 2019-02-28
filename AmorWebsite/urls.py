@@ -25,7 +25,7 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
-    path('blog/', include('blog.urls')),
+    path('', include('blog.urls')),
     #(_(r'^dual-lang/'), include('duallang.urls')),
 )
 

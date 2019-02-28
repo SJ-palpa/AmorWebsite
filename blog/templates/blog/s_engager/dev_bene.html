@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block ajout_head %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/projet.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% load icons %}
+
+{% endblock %}
+
+{% block content %}
+
+<!--
+    FAIRE la page
+ -->
+
+    <main role="main">
+        <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
+            <div class="row float-md-left">
+                 <svg viewBox="300 100 1824 800">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="47%" y="80%">Bénévoles</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </main>
+{% endblock %}

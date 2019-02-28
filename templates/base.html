@@ -39,99 +39,61 @@
 
             <div class="collapse text-size-nav navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMaison" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ACCUEIL
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item bg-clair-amor text-light" href="{% url "accueil" %}">PRÉSIDENT</a>
-                            <a class="dropdown-item" href="#">SDG-AMOR</a>
-                        </div>
-                    </li>
+                    <a class="nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="{% url "accueil" %}">
+                        ACCUEIL
+                    </a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdownAprop" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            A PROPOS
+                            L'ASSOCIATION
                         </a>
                         <div class="dropdown-menu " aria-labelledby="navbarDropdownAprop">
-                            <a class="dropdown-item" href="{% url "aPropos" %}">L'HISTOIRE D'AMOR</a>
-                            <a class="dropdown-item" href="{% url "gouvernance" %}">GOUVERNANCE</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">STATUT</a>
+                            <a class="dropdown-item" href="{% url "notreHistoire" %}">Notre Histoire</a>
+                            <a class="dropdown-item" href="{% url "nos_membres" %}">Nos Membres</a>
+                            <a class="dropdown-item" href="{% url "nos_ambassadeurs" %}">Nos ambassadeurs</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             HITECH4ORPHANS
+                             NOS PROJETS
                         </a>
                         <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item" href="{% url "pays" %}">ANGLETERRE</a>
-                            <a class="dropdown-item" href="#">BÉNIN</a>
-                            <a class="dropdown-item" href="#">CÔTE D'IVOIRE</a>
-                            <a class="dropdown-item" href="#">ESPAGNE</a>
-                            <a class="dropdown-item" href="#">GHANA</a>
-                            <a class="dropdown-item" href="#">FRANCE</a>
-                            <a class="dropdown-item" href="#">GUINÉE</a>
-                            <a class="dropdown-item" href="#">ILE-MAURICE</a>
-                            <a class="dropdown-item" href="#">ITALIE</a>
-                            <a class="dropdown-item" href="#">JAPON</a>
-                            <a class="dropdown-item" href="#">LUXEMBOURG</a>
-                            <a class="dropdown-item" href="#">MAROC</a>
-                            <a class="dropdown-item" href="#">MONACO</a>
-                            <a class="dropdown-item" href="#">MALI</a>
-                            <a class="dropdown-item" href="#">ROUMANIE</a>
-                            <a class="dropdown-item" href="#">RUSSIE</a>
-                            <a class="dropdown-item" href="#">SÉNÉGAL</a>
-                            <a class="dropdown-item" href="#">SUISSE</a>
-                            <a class="dropdown-item" href="#">USA</a>
+                            <a class="dropdown-item" href="{% url "hitech4orphans" %}">HITECH4ORPHANS</a>
+                            <a class="dropdown-item" href="{% url "gala_2019" %}">Gala 2019</a>
+                            <a class="dropdown-item" href="{% url "articles" %}">Articles</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAprop" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            FESTIAMOR
+                            S'ENGAGER
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
-                            <a class="dropdown-item" href="{% url "festiamor_2013" %}">2013</a>
-                            <a class="dropdown-item" href="#">2014</a>
-                            <a class="dropdown-item" href="#">AMOR-10 ANS</a>
+                            <a class="dropdown-item" href="{% url "dev_bene" %}">Devenir Bénévole</a>
+                            <a class="dropdown-item" href="{% url "dev_stagiaire" %}">Devenir Stagiaire</a>
+                            <a class="dropdown-item" href="{% url "donner" %}">Donner</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             ECOSOC
+                             AMOR MONDE
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item" href="{% url "ecosoc" %}">NOTRE UTILISATION D'ECOSOC</a>
-                            <a class="dropdown-item" href="#">PLAIDOIRIE</a>
-                            <a class="dropdown-item" href="#">NOS AMBASSADEURS</a>
-                            <a class="dropdown-item" href="#">GENÈVE</a>
-                            <a class="dropdown-item" href="#">NEW YORK</a>
-                            <a class="dropdown-item" href="#">VIENNE</a>
-                            <a class="dropdown-item" href="#">GUINÉE</a>
-                            <a class="dropdown-item" href="#">GALA 2019</a>
+                            <a class="dropdown-item" href="{% url "ecosoc_onu" %}">ECOSOC/ONU</a>
+                            <a class="dropdown-item" href="{% url "media" %}">Media</a>
+                            <a class="dropdown-item" href="{% url "pays" %}">Pays</a>
+                            <a class="dropdown-item" href="{% url "policy_papers" %}">Policy papers</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMaison" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              SOUTIEN AMOR
+                          {% icon 'globe' %} Français
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item" href="#">STAGIAIRES</a>
-                            <a class="dropdown-item" href="#">BÉNÉVOLAT</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                CONTACTEZ-NOUS
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item" href="{% url "contribution" %}">CONTRIBUTION</a>
+                            <a class="dropdown-item" href="">Anglais</a>
                         </div>
                     </li>
                 </ul>

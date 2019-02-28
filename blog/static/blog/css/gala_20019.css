@@ -1,0 +1,8 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("/static/img/gala_2019.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

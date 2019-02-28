@@ -115,48 +115,6 @@
     }
 
 
-
-/*
-    ICONS
-*/
-
-.icon-heart
-{
-  font-size: 100px;
-  color: #ffffff;
-}
-
-.icon-heart:hover
-{
-  color: #000000;
-}
-
-.icon-separtor
-{
-  font-size: 100px;
-  color: #000000;
-}
-
-
-.icon-separtor:hover
-{
-  font-size: 100px;
-  color: #f10000;
-}
-
-.icon-separtor-grand
-{
-  font-size: 300px;
-  color: #000000;
-}
-
-.icon-separtor-grand:hover
-{
-  font-size: 300px;
-  color: #f10000;
-}
-
-
 /*
 
 CountDown
