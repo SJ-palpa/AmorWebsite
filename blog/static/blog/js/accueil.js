@@ -47,10 +47,10 @@ function CountDownTimer(dt, id, idprogressbar) {
         let seconds = Math.floor((distance % _minute) / _second);
 
         document.getElementById(id).innerHTML = 'Temps restant : ';
-        document.getElementById(id).innerHTML += days + 'Jours ';
-        document.getElementById(id).innerHTML += hours + 'H ';
-        document.getElementById(id).innerHTML += minutes + 'M ';
-        document.getElementById(id).innerHTML += seconds + 'S';
+        document.getElementById(id).innerHTML += days + 'Days ';
+        document.getElementById(id).innerHTML += hours + ':';
+        document.getElementById(id).innerHTML += minutes + ':';
+        document.getElementById(id).innerHTML += seconds ;
 
 
     }

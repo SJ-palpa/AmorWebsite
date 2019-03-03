@@ -10,16 +10,16 @@
 
 {% block content %}
 
-<!--
-    FAIRE la page
- -->
+    <!--
+        FAIRE la page
+     -->
 
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
-            <div class="row  float-sm-left">
+            <div class="row float-md-left">
                 <svg viewBox="300 100 1824 800">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">MEDIA</text>
+                        <text text-anchor="middle" x="47%" y="80%">Article</text>
                     </symbol>
 
                     <g class="g-ants">
@@ -30,6 +30,22 @@
                         <use xlink:href="#s-text" class="text-copy"></use>
                     </g>
                 </svg>
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module ">
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module mb-5">
+                <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-4 text-white overflow-hidden text-secondary paragraph_design">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                        {{ article.titre }}
+                    </h3>
+                    <div class="blog-post justify">
+                        <p>{{ article.contenu }}
+                        </p>
+                        <hr>
+                        <p class="text-center">{{ article.auteur }}, {{ article.created_at }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

@@ -127,4 +127,28 @@ CountDown
   font-size: 2em;
 }
 
+/*
 
+    Image fonc gala
+
+*/
+.masthead {
+  height: 100vh;
+  max-height: 400px;
+  background-image: url("/static/img/gala_2019.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*
+
+    Background gala
+
+*/
+
+
+
+.bg-gala {
+    background-color: rgba(91, 53, 53, 0.45)!important;
+}

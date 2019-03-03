@@ -10,26 +10,66 @@
 
 {% block content %}
 
-<header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
-        <h1 class="text-light">Vertically Centered Masthead Content</h1>
-        <p class="text-light">A great starter layout for a landing page</p>
-      </div>
-    </div>
-  </div>
-</header>
+    <!--
+
+    lien page contact tout en bas !
+
+    -->
 
 
-<section class="py-5">
-  <div class="container">
-    <h2 class="font-weight-light">Page Content</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
-  </div>
-</section>
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="text-light">Gala A.M.OR 2019</h1>
+                    <p class="text-light">A cette occasion, A.M.OR a décidé d’organiser un GALA qui se tiendra le 8
+                        novembre à Genève. C’est tout au long d’une soirée rythmée par un repas, différentes activités
+                        et présentations que les convives pourront découvrir plus intimement, les actions menées par
+                        A.M.OR depuis 20 années d’existence. Une occasion pour partager les derniers retours sur les
+                        projets en cours et d’introduire pourquoi pas, de nouveaux objectifs.</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
+
+    <main role="main">
+        <section class="py-5">
+            <div class="container">
+                <div class="container">
+                    <h2 class="font-weight-light">Organisation</h2>
+                    <p>Pour l’organisation de cette soirée, nous avons la chance de pouvoir compter sur : Lorentz
+                        Élodie,
+                        Présidente Directrice Générale de EJL Événementiel et Corine Matringe, Présidente de A .M.OR
+                        Ile-Maurice.</p>
+                </div>
+                <div class="d-md-flex flex-md-equal my-md-3 pl-md-3 module">
+                    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center">
+                        <div class="my-3 p-3">
+                            <img src="{% static 'img/Marguerite_Corine_MATRINGE_540x500.jpg' %}" class="align-left slide-in img-fluid">
+                            <p class="mt-3">Corine Matringe</p>
+                        </div>
+                    </div>
+                    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center">
+                        <div class="my-3 p-3 ">
+                            <img src="{% static 'img/Lorentz_elodie.jpg' %}" class="align-right slide-in img-fluid">
+                            <p class="mt-3">Lorentz Élodie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <p>Votre entrée comprendra donc un repas chaud et complet, une place assise pour assister aux
+                        présentations, aux activités, et une partie servira de don pour le projet HiTech4Orphans.</p>
+                    <p>Pour plus d’information ou vous inscrire, n’hésitez pas à nous contacter liens vers page
+                        contact</p>
+                </div>
+            </div>
+        </section>
 
 
     </main>
+{% endblock %}
+
+{% block script %}
+    <script type="text/javascript" src="{% static 'blog/js/base_blog.js' %}"></script>
 {% endblock %}

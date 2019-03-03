@@ -2,7 +2,6 @@
 {% block ajout_head %}
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/projet.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
@@ -41,56 +40,38 @@
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
-        <div class="ml-5 mr-5">
+
+        {% for article in articles %}
+         <div class="ml-5 mr-5">
             <div class="row mb-2">
                 <div class="col-md-12">
                     <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                         <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 color-clair-amor">Executive Director</strong>
+                            <strong class="d-inline-block mb-2 color-clair-amor">{{ article.auteur}}</strong>
                             <h3 class="mb-0">
-                                <p class="text-dark">Marc Vlad De Maio</p>
+                                <p class="text-dark">{{ article.titre }}</p>
                             </h3>
-                            <p class="card-text mb-auto">Basé à Genève, je suis entré dans l'Association pour assurer
-                                ses relations publiques et...</p>
-                            <a href="#">Continuer à lire</a>
+                            <p class="card-text mb-auto">{{ article.contenu|truncatewords_html:40 }}</p>
+                            <a href="{% url "article" article.id %}">Lire la suite</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="ml-5 mr-5">
-            <div class="row mb-2">
-                <div class="col-md-12">
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-                        <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 color-clair-amor">Executive Director</strong>
-                            <h3 class="mb-0">
-                                <p class="text-dark">Marc Vlad De Maio</p>
-                            </h3>
-                            <p class="card-text mb-auto">Basé à Genève, je suis entré dans l'Association pour assurer
-                                ses relations publiques et...</p>
-                            <a href="#">Continuer à lire</a>
-                        </div>
-                    </div>
-                </div>
+        {% endfor %}
+        {# Mise en forme de la pagination ici #}
+        <div class="ml-5 mr-5 mb-5">
+        {% if is_paginated %}
+            <div class="pagination">
+                   {% if page_obj.has_previous %}
+                       <a href="?page={{ page_obj.previous_page_number }}">Précédente</a> —
+                   {% endif %}
+                   Page {{ page_obj.number }} sur {{ page_obj.paginator.num_pages }}
+                   {% if page_obj.has_next %}
+                      — <a href="?page={{ page_obj.next_page_number }}">Suivante</a>
+                   {% endif %}
             </div>
-        </div>
-        <div class="ml-5 mr-5">
-            <div class="row mb-2">
-                <div class="col-md-12">
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-                        <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 color-clair-amor">Executive Director</strong>
-                            <h3 class="mb-0">
-                                <p class="text-dark">Marc Vlad De Maio</p>
-                            </h3>
-                            <p class="card-text mb-auto">Basé à Genève, je suis entré dans l'Association pour assurer
-                                ses relations publiques et...</p>
-                            <a href="#">Continuer à lire</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        {% endif %}
         </div>
     </main>
 {% endblock %}

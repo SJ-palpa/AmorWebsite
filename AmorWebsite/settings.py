@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'blog',
     'bootstrap4',
     'django_icons',
+    'fontawesome',
 ]
 
 MIDDLEWARE = [
@@ -66,6 +67,7 @@ LANGUAGES = (
 
 
 ROOT_URLCONF = 'AmorWebsite.urls'
+
 
 TEMPLATES = [
     {
@@ -99,7 +101,7 @@ DATABASES = {
     #}
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "amorDB",
+        "NAME": "amorDataBase",
         "USER": "postgres",
         "PASSWORD": "jnzmYPpMe34",
         "HOST": "localhost",
@@ -149,3 +151,8 @@ STATIC_URL = '/static/'   # Qui devrait déjà être la configuration par défau
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+parent_dir = os.path.abspath(os.path.dirname(__file__) + '/..')
+MEDIA_URL = '/img/'
+MEDIA_ROOT = os.path.join(parent_dir, "static/")
+

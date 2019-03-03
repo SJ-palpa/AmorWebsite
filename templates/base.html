@@ -2,8 +2,11 @@
 <html lang="fr">
 <head>
     {# Load the tag library #}
+    {% load i18n %}
     {% load bootstrap4 %}
     {% load icons %}
+    {% load fontawesome %}
+
     <!-- pour la liste de toutes les icon :  https://fontawesome.com/icons?d=gallery -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -11,9 +14,10 @@
     {# Load CSS and JavaScript #}
     {% bootstrap_css %}
     {% bootstrap_javascript jquery='full' %}
-
+    {% fontawesome_stylesheet %}
 
     {% load static %}
+
     <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
 
     {# Display django.contrib.messages as Bootstrap alerts #}
@@ -25,79 +29,86 @@
 </head>
 <body>
 
-
 {# Mettre des breadcrumb#}
 
 {% block nav %}
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-border-top">
-            <img src="{% static 'img/Amor-main.png' %}" alt="LogoAmorSmall" class="ml-3"/>
-            <a class="navbar-brand" href="#"> A.M.OR</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <img src="{% static 'img/Amor-main.png' %}" alt="LogoAmorSmall" class="ml-3"/>
+        <a class="navbar-brand" href="#"> A.M.OR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse text-size-nav navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto ">
-                    <a class="nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="{% url "accueil" %}">
-                        ACCUEIL
+        <div class="collapse text-size-nav navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto ">
+                <a class="nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="{% url "accueil" %}">
+                    ACCUEIL
+                </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownAprop" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        L'ASSOCIATION
                     </a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownAprop" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            L'ASSOCIATION
-                        </a>
-                        <div class="dropdown-menu " aria-labelledby="navbarDropdownAprop">
-                            <a class="dropdown-item" href="{% url "notreHistoire" %}">Notre Histoire</a>
-                            <a class="dropdown-item" href="{% url "nos_membres" %}">Nos Membres</a>
-                            <a class="dropdown-item" href="{% url "nos_ambassadeurs" %}">Nos ambassadeurs</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             NOS PROJETS
-                        </a>
-                        <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item" href="{% url "hitech4orphans" %}">HITECH4ORPHANS</a>
-                            <a class="dropdown-item" href="{% url "gala_2019" %}">Gala 2019</a>
-                            <a class="dropdown-item" href="{% url "articles" %}">Articles</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAprop" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            S'ENGAGER
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
-                            <a class="dropdown-item" href="{% url "dev_bene" %}">Devenir Bénévole</a>
-                            <a class="dropdown-item" href="{% url "dev_stagiaire" %}">Devenir Stagiaire</a>
-                            <a class="dropdown-item" href="{% url "donner" %}">Donner</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             AMOR MONDE
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item" href="{% url "ecosoc_onu" %}">ECOSOC/ONU</a>
-                            <a class="dropdown-item" href="{% url "media" %}">Media</a>
-                            <a class="dropdown-item" href="{% url "pays" %}">Pays</a>
-                            <a class="dropdown-item" href="{% url "policy_papers" %}">Policy papers</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMaison" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          {% icon 'globe' %} Français
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
-                            <a class="dropdown-item" href="">Anglais</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdownAprop">
+                        <a class="dropdown-item" href="{% url "notreHistoire" %}">Notre Histoire</a>
+                        <a class="dropdown-item" href="{% url "nos_membres" %}">Nos Membres</a>
+                        <a class="dropdown-item" href="{% url "nos_ambassadeurs" %}">Nos ambassadeurs</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        NOS PROJETS
+                    </a>
+                    <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdownMaison">
+                        <a class="dropdown-item" href="{% url "hitech4orphans" %}">HITECH4ORPHANS</a>
+                        <a class="dropdown-item" href="{% url "gala_2019" %}">Gala 2019</a>
+                        <a class="dropdown-item" href="{% url "articles" %}">Articles</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAprop" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        S'ENGAGER
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
+                        <a class="dropdown-item" href="{% url "dev_bene" %}">Devenir Bénévole</a>
+                        <a class="dropdown-item" href="{% url "dev_stagiaire" %}">Devenir Stagiaire</a>
+                        <a class="dropdown-item" href="{% url "donner" %}">Faire un don</a>
+                        <a class="dropdown-item" href="{% url "contact" %}">Contact</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMaison" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        AMOR MONDE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
+                        <a class="dropdown-item" href="{% url "ecosoc_onu" %}">ECOSOC/ONU</a>
+                        <a class="dropdown-item" href="{% url "pays" 1%}">Pays</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {% icon 'globe' %} Langue
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        {% for language in languages %}
+                             <form class="flex-container" method="post" action="{% url 'set_language' %}" >
+                            {% csrf_token %}
+                                  <input name="next" type="hidden" value="{{ redirect_to }}">
+                                  <button type="submit" name="language" class="btn btn-default" value="{{ language.code }}">{{ language.name_local }} ({{ language.code }})</button>
+                            </form>
+                        {% endfor %}
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
 {% endblock %}
 
@@ -105,11 +116,28 @@
     {% block content %}
     {% endblock %}
 </section>
+
 </body>
-<footer class="blog-footer ">
+
+<footer class="blog-footer">
+    <div class="container align-right mt-3">
+        <a class="btn btn-social-icon btn-lg btn-twitter" target="_blank" href="https://twitter.com/amorgeneve1">
+            <span class="fa fa-twitter white"></span>
+        </a>
+        <a class="btn btn-social-icon btn-lg btn-facebook" target="_blank" href="https://www.facebook.com/Association-Mondiale-pour-les-Orphelins-1940330459537434/">
+            <span class="fa fa-facebook white"></span>
+        </a>
+        <a class="btn btn-social-icon btn-lg btn-instagram" target="_blank" href="https://www.instagram.com/a.m.or_officiel/">
+            <span class="fa fa-instagram white"></span>
+        </a>
+        <a class="btn btn-social-icon btn-lg btn-linkedin" target="_blank" href="https://www.linkedin.com/in/amor-gen%C3%A8ve-8b807a179/">
+            <span class="fa fa-linkedin white"></span>
+        </a>
+    </div>
     <p class="mt-3">© AMOR - CONSEIL ÉCONOMIQUE ET SOCIAL - 2018, TOUS DROITS RÉSERVÉS, PAR LE RÉSEAU <a href="#"
-                                                                                            class="color-clair-amor">Privacy</a>
+                                                                                                         class="color-clair-amor">Privacy</a>
         · <a href="#" class="color-clair-amor">Terms</a></p>
+
     <span>
         <a class="icon-arrow-amor" href="#">{% icon 'arrow-circle-up' %}</a>
     </span>

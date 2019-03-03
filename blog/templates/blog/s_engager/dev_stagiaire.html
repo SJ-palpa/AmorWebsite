@@ -2,8 +2,7 @@
 {% block ajout_head %}
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/projet.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/s_engager.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
 
@@ -12,15 +11,19 @@
 {% block content %}
 
 <!--
-    FAIRE la page
+    ajouter un bouton contacter
+
+    Ajouter les photo des meuf et de perrine
+
+
  -->
 
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="row float-md-left">
-              <svg viewBox="300 100 1824 800">
+                 <svg viewBox="300 100 1824 800">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">Stages</text>
+                        <text text-anchor="middle" x="47%" y="80%">Stagiaire</text>
                     </symbol>
 
                     <g class="g-ants">
@@ -33,5 +36,27 @@
                 </svg>
             </div>
         </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module">
+            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden paragraph_design">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                       Envie d'obtenir un stage qui a du sens ?
+                    </h3>
+                    <div class="blog-post justify">
+                        <p>• L’association est à la recherche de jeunes dynamiques et prêts à développer leurs propres projets à des fins humanitaires tout comme Eugénie, Justine, Amélie et Elisabeth, étudiantes en DUT Gestion des Entreprises et Administrations à l’université d’Amiens parties en janvier pour une mission d’une semaine au Sénégal.
+                        </p>
+                        <hr>
+                        <P>• Ou comme Perrine Bertrand stagiaire, chargée de communication et relation-presse. Avec un accès à l’ONU de Genève et aux conférences qui s’y déroulent. </P>
+                        <p class="text-center" ><i class="fas fa-graduation-cap icon-separtor-inverse"></i></p>
+                    </div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center">
+                <div class="my-3 p-3">
+                    <img src="{% static 'img/internship.jpg' %}" class="align-right slide-in imgBenevole img-fluid" >
+                </div>
+            </div>
+        </div>
     </main>
+{% endblock %}
+{% block script %}
+     <script type="text/javascript" src="{% static 'blog/js/base_blog.js' %}"></script>
 {% endblock %}

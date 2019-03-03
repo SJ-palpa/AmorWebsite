@@ -6,9 +6,11 @@ class Membre(models.Model):
     id = models.AutoField(primary_key=True, db_column='mem_id')
     nom = models.CharField(max_length=100, db_column='mem_nom')
     prenom = models.CharField(max_length=100, db_column='mem_auteur')
-    mail = models.TextField(null=True, db_column='mem_contenu')
+    mail = models.CharField(max_length=100, null=True, db_column='mem_mail')
+    description = models.TextField(null=True, db_column='mem_description')
+    titre = models.CharField(max_length=100, blank=True, null=True, db_column='mem_titre')
     created_at = models.DateTimeField(default=timezone.now, db_column='rmem_create_at')
-    image = models.ImageField(blank=True, upload_to='adh_image')
+    image = models.ImageField(blank=True, upload_to="img")
 
     class Meta:
         verbose_name = "Membre"
@@ -71,8 +73,7 @@ class Adherent(models.Model):
 class Pays(models.Model):
     id = models.AutoField(primary_key=True, db_column='pay_id')
     nom = models.CharField(max_length=100, db_column='pay_nom')
-    description = models.TextField(null=True, db_column='pay_description')
-    representant = models.ForeignKey(Membre, null=True, on_delete=models.CASCADE, db_column='pay_representant')
+    representant = models.ManyToManyField(Membre, db_column='pay_representant')
     created_at = models.DateTimeField(default=timezone.now, db_column='pay_create_at')
     updated_at = models.DateTimeField(default=timezone.now, db_column='pay_date_update')
 
@@ -83,3 +84,4 @@ class Pays(models.Model):
 
     def __str__(self):
         return self.nom
+

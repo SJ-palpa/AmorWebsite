@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/projet.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/s_engager.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
 
@@ -12,7 +12,7 @@
 {% block content %}
 
 <!--
-    FAIRE la page
+    ajouter un bouton contacter
  -->
 
     <main role="main">
@@ -33,5 +33,30 @@
                 </svg>
             </div>
         </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module">
+            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden paragraph_design">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                       Envie de donner de ton temps ?
+                    </h3>
+                    <div class="blog-post justify">
+                        <p>• A.M.OR est toujours à la recherche d’une bonne âme prête à s’engager ponctuellement ou pour une durée un peu plus longue afin d’aider notre équipe !
+                        </p>
+                        <hr>
+                        <p>• Tu as des compétences informatiques, programmer un jeu t’intéresse, envie de nous donner un coup de main dans la recherche de matériel informatique, une bonne énergie et de bonnes idées?
+Contacte-nous au plus vite !
+                        </p>
+                        <hr>
+                        <p class="text-center" ><i class="fas fa-handshake icon-separtor-inverse"></i></p>
+                    </div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center">
+                <div class="my-3 p-3">
+                    <img src="{% static 'img/benevole.jpg' %}" class="align-right slide-in imgBenevole img-fluid" >
+                </div>
+            </div>
+        </div>
     </main>
+{% endblock %}
+{% block script %}
+     <script type="text/javascript" src="{% static 'blog/js/base_blog.js' %}"></script>
 {% endblock %}
