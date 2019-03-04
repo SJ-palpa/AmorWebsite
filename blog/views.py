@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView
-from blog.models import Article,Membre,Pays
+from blog.models import Article, Membre, Pays, Ambassadeur
 
 def home(request):
     return render(request, 'blog/accueil.html')
@@ -15,14 +15,18 @@ class ListeMembres(ListView):
     context_object_name = "membres"
     template_name = "blog/l_association/nos_membres.html"
     queryset = Membre.objects.all() #prend tout les membres
-    paginate_by = 5
+    paginate_by = 6
 
 def membre(request, mem_id):
     membreSelect = Membre.objects.get(id=mem_id)  # id du membre
     return render(request, 'blog/l_association/membre.html', {'article': membreSelect})
 
-def nos_ambassadeurs(request):
-    return render(request, 'blog/l_association/nos_ambassadeurs.html')
+class nos_ambassadeurs(ListView):
+    model = Ambassadeur
+    context_object_name = "Ambassadeurs"
+    template_name = "blog/l_association/nos_ambassadeurs.html"
+    queryset = Ambassadeur.objects.all() #prend tout les ambassadeurs
+    paginate_by = 4
 
 
 #------------------------------------------------------------------------------------------------

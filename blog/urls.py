@@ -6,11 +6,12 @@ from blog import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="accueil"),
+    path('accueil', views.home, name="accueil"),
 
     path('l_association/notreHistoire', views.notreHistoire, name="notreHistoire"),
     path('l_association/nos_membres', views.ListeMembres.as_view(), name="nos_membres"),
     path('l_association/membre/<int:mem_id>', views.Membre, name="membre"),
-    path('l_association/nos_ambassadeurs', views.nos_ambassadeurs, name="nos_ambassadeurs"),
+    path('l_association/nos_ambassadeurs', views.nos_ambassadeurs.as_view(), name="nos_ambassadeurs"),
 
     path('nos_projet/hitech4orphans', views.hitech4orphans, name="hitech4orphans"),
     path('nos_projet/gala_2019', views.gala_2019, name="gala_2019"),

@@ -6,7 +6,7 @@ class Membre(models.Model):
     id = models.AutoField(primary_key=True, db_column='mem_id')
     nom = models.CharField(max_length=100, db_column='mem_nom')
     prenom = models.CharField(max_length=100, db_column='mem_auteur')
-    mail = models.CharField(max_length=100, null=True, db_column='mem_mail')
+    mail = models.CharField(max_length=100, null=True, blank=True, db_column='mem_mail')
     description = models.TextField(null=True, db_column='mem_description')
     titre = models.CharField(max_length=100, blank=True, null=True, db_column='mem_titre')
     created_at = models.DateTimeField(default=timezone.now, db_column='rmem_create_at')
@@ -15,6 +15,24 @@ class Membre(models.Model):
     class Meta:
         verbose_name = "Membre"
         verbose_name_plural = "Membre"
+        ordering = ['nom']
+
+    def __str__(self):
+        return "{0} {1}".format(self.nom, self.prenom)
+
+
+class Ambassadeur(models.Model):
+    id = models.AutoField(primary_key=True, db_column='amb_id')
+    nom = models.CharField(max_length=100, db_column='amb_nom')
+    prenom = models.CharField(max_length=100, db_column='amb_auteur')
+    mail = models.CharField(max_length=100, null=True, blank=True, db_column='amb_mail')
+    description = models.TextField(null=True, db_column='amb_description')
+    created_at = models.DateTimeField(default=timezone.now, db_column='amb_create_at')
+    image = models.ImageField(blank=True, upload_to="img")
+
+    class Meta:
+        verbose_name = "Ambassadeur"
+        verbose_name_plural = "Ambassadeurs"
         ordering = ['nom']
 
     def __str__(self):

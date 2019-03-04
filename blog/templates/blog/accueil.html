@@ -21,7 +21,7 @@
 
 
     Modifier la soucre de image les mettre dans le css
-    lien vers les pages !!
+
 
 
     -->
@@ -35,52 +35,48 @@
         <!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" style="background-image: url('{% static 'img/slider-1 (1).jpg' %}')">
+                <div class="carousel-item" style="background-image: url('{% static 'img/slider-1 (1).jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
                         <img class="mt-5 rounded img-border d-none d-sm-block d-sm-none d-md-block"
-                             src="{% static 'img/amor-axel-greub.jpg' %}" width="200" height="200">
-                        <h1 class="color-clair-amor">
+                             src="{% static 'img/hitech4_2.jpg' %}" width="300" height="200">
+                        <h1 class="color-fonce-amor">
                             <div class="animate one">
-                                <span>A</span><span>s</span><span>s</span><span>o</span><span>c</span><span>i</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
-                                <span>A</span><span>.M</span><span>.O</span><span>R</span>
+                                <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
                             </div>
                         </h1>
-                        <p class="h2 d-none d-sm-block d-sm-none d-md-block">Cras justo odio, dapibus ac facilisis in,
-                            egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg bg-clair-amor text-light" href="#" role="button">En savoir plus</a></p>
+                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-4">Notre projet phare, elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et orphelins...</p>
+                        <p><a class="btn btn-lg bg-fonce-amor text-light" href="{% url "hitech4orphans" %}" role="button">En savoir plus</a></p>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('{% static 'img/masonry-14.jpg' %}')">
+                <div class="carousel-item active" style="background-image: url('{% static 'img/masonry-14.jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
+                        <img class="mt-5 rounded img-border d-none d-sm-block d-sm-none d-md-block"
+                             src="{% static 'img/accueilVolontaire.jpg' %}" width="300" height="200">
                         <h1 class="color-fonce-amor">
                             <div class="animate one">
                                 <span>A</span><span>s</span><span>s</span><span>o</span><span>c</span><span>i</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
                                 <span>A</span><span>.M</span><span>.O</span><span>R</span>
                             </div>
                         </h1>
-                        <p class="h3 d-none d-sm-block d-sm-none d-md-block">Cras justo odio, dapibus ac facilisis in,
-                            egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg bg-fonce-amor text-light" href="#" role="button">En savoir plus</a></p>
+                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-4">Nous croyons au potentiel de individus et notre objectif est d'aider ceux dans le besoin afin d'atteindre le meilleur de leurs capacités.</p>
+                        <p><a class="btn btn-lg bg-fonce-amor text-light" href="{% url "notreHistoire" %}" role="button">En savoir plus</a></p>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('{% static 'img/slider-4 (1).jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
+                        <img class="mt-5 rounded img-border d-none d-sm-block d-sm-none d-md-block"
+                             src="{% static 'img/internship.jpg' %}" width="300" height="200">
                         <h1 class="color-fonce-amor">
                             <div class="animate one">
-                                <span>A</span><span>s</span><span>s</span><span>o</span><span>c</span><span>i</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
-                                <span>A</span><span>.M</span><span>.O</span><span>R</span>
+                                <span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>
                             </div>
                         </h1>
-                        <p class="h4 d-none d-sm-block d-sm-none d-md-block">Cras justo odio, dapibus ac facilisis in,
-                            egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-4">Nos ambassadeurs sportifs engagés.</p>
                         <p><a class="btn btn-lg bg-fonce-amor text-light" href="#" role="button">En savoir plus</a></p>
                     </div>
                 </div>
@@ -114,7 +110,7 @@
                         </div>
                     </div>
                     </br>
-                    <a class="btn btn-outline-light mb-3" href="#">En savoir plus</a>
+                    <a class="btn btn-outline-light mb-3" href="{% url "gala_2019" %}">En savoir plus</a>
                 </div>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -165,11 +161,11 @@
 
                 <p class="fas fa-laptop icon-separtor"></p>
 
-                <h2 class="font-weight-normal color-clair-amor">IHITECH4ORPHANS</h2>
+                <h2 class="font-weight-normal color-clair-amor">HiTech4Orphans</h2>
                 <p class="lead font-weight-normal text-secondary">HiTech4Orphans est notre nouveau projet en Roumanie.
                     Son objectif est
                     d'aider les orphelins à obtenir des compétences dans l'informatique.</p>
-                <a class="btn btn-outline-danger" href="#">En savoir plus</a>
+                <a class="btn btn-outline-danger" href="{% url "hitech4orphans" %}">En savoir plus</a>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -189,7 +185,6 @@
                 <p class="lead font-weight-normal text-light"> Grâce à des sponsors et les dons, les orphelins ont
                     reçu des ordinateurs,
                     des livres et d'autres objets pour encourager l'apprentissage et le bien-être.</p>
-                <a class="btn btn-outline-dark" href="#">En savoir plus</a>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>

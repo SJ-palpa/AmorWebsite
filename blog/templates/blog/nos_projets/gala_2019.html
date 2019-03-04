@@ -10,18 +10,12 @@
 
 {% block content %}
 
-    <!--
-
-    lien page contact tout en bas !
-
-    -->
-
-
     <header class="masthead">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="text-light">Gala A.M.OR 2019</h1>
+                <div class=" text-center bg-gala ">
+                    <h1 class="text-light"><u> Gala A.M.OR 2019 </u></h1>
+                    </br>
                     <p class="text-light">A cette occasion, A.M.OR a décidé d’organiser un GALA qui se tiendra le 8
                         novembre à Genève. C’est tout au long d’une soirée rythmée par un repas, différentes activités
                         et présentations que les convives pourront découvrir plus intimement, les actions menées par
@@ -60,8 +54,7 @@
                 <div class="container">
                     <p>Votre entrée comprendra donc un repas chaud et complet, une place assise pour assister aux
                         présentations, aux activités, et une partie servira de don pour le projet HiTech4Orphans.</p>
-                    <p>Pour plus d’information ou vous inscrire, n’hésitez pas à nous contacter liens vers page
-                        contact</p>
+                    <p>Pour plus d’information ou vous inscrire, n’hésitez pas à nous <a href="{% url "contact" %}">contacter</a></p>
                 </div>
             </div>
         </section>

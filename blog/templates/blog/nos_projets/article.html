@@ -9,11 +9,6 @@
 {% endblock %}
 
 {% block content %}
-
-    <!--
-        FAIRE la page
-     -->
-
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="row float-md-left">
@@ -40,10 +35,11 @@
                         {{ article.titre }}
                     </h3>
                     <div class="blog-post justify">
-                        <p>{{ article.contenu }}
+                        <p>{{ article.contenu|linebreaks }}
                         </p>
                         <hr>
                         <p class="text-center">{{ article.auteur }}, {{ article.created_at }}</p>
+                        <a class="btn btn-lg bg-fonce-amor text-light mb-5" href="{%  url "articles" %}">retour</a>
                     </div>
                 </div>
             </div>

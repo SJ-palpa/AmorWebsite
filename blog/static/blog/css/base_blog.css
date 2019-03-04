@@ -139,3 +139,35 @@
     border-left: solid 5px;
     border-color: #f10000 !important;
 }
+
+/*
+
+     pour menu dans pays--------------------------------
+
+*/
+
+.scrollable-menu {
+    height: auto;
+    max-height: 500px;
+}
+
+/*
+
+     btn banniere--------------------------------
+
+*/
+
+
+.btn-banniere-size {
+  padding: 10px 24px;
+}
+
+.btn-banniere-size_dons {
+  padding: 10px 56px;
+  float: right;
+  margin-top: 120px;
+}
+
+.float-right {
+  float: right;
+}

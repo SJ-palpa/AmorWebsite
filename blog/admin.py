@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Membre, Article, NewsLetter, Pays
+from .models import Membre, Article, NewsLetter, Pays, Ambassadeur, Adherent
 
 class ArticleAdmin(admin.ModelAdmin):
     # Configuration de la liste d'articles
@@ -36,6 +36,8 @@ class ArticleAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Membre)
+admin.site.register(Ambassadeur)
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(NewsLetter)
+admin.site.register(Adherent)
 admin.site.register(Pays)
