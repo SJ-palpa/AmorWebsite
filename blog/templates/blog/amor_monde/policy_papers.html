@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
-
+{% load i18n %}
 {% endblock %}
 
 {% block content %}
@@ -19,7 +19,7 @@
             <div class="row  float-sm-left">
                 <svg viewBox="300 100 1824 800">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">Policy Papers</text>
+                        <text text-anchor="middle" x="47%" y="80%">{% trans "Policy Papers" %}</text>
                     </symbol>
                     <g class="g-ants">
                         <use xlink:href="#s-text" class="text-copy"></use>

@@ -6,9 +6,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
-
     {% load icons %}
-
 {% endblock %}
 
 {% block content %}
@@ -20,9 +18,9 @@
 
 
 
-    Modifier la soucre de image les mettre dans le css
+    Modifier la source de image les mettre dans le css
 
-
+    Le carousel n'est pas dans le fichier de traduction
 
     -->
 
@@ -42,41 +40,35 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item" style="background-image: url('{% static 'img/slider-1 (1).jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
-                        <img class="mt-5 rounded img-border d-none d-sm-block d-sm-none d-md-block"
-                             src="{% static 'img/hitech4_2.jpg' %}" width="300" height="200">
                         <h1 class="color-fonce-amor">
                             <div class="animate one">
                                 <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
                             </div>
                         </h1>
-                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-4">Notre projet phare, elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et orphelins...</p>
+                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-5">Notre projet phare, elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et orphelins...</p>
                         <p><a class="btn btn-lg bg-fonce-amor text-light" href="{% url "hitech4orphans" %}" role="button">En savoir plus</a></p>
                     </div>
                 </div>
                 <div class="carousel-item active" style="background-image: url('{% static 'img/masonry-14.jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
-                        <img class="mt-5 rounded img-border d-none d-sm-block d-sm-none d-md-block"
-                             src="{% static 'img/accueilVolontaire.jpg' %}" width="300" height="200">
                         <h1 class="color-fonce-amor">
                             <div class="animate one">
                                 <span>A</span><span>s</span><span>s</span><span>o</span><span>c</span><span>i</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
                                 <span>A</span><span>.M</span><span>.O</span><span>R</span>
                             </div>
                         </h1>
-                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-4">Nous croyons au potentiel de individus et notre objectif est d'aider ceux dans le besoin afin d'atteindre le meilleur de leurs capacités.</p>
+                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-5">Nous croyons au potentiel de individus et notre objectif est d'aider ceux dans le besoin afin d'atteindre le meilleur de leurs capacités.</p>
                         <p><a class="btn btn-lg bg-fonce-amor text-light" href="{% url "notreHistoire" %}" role="button">En savoir plus</a></p>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('{% static 'img/slider-4 (1).jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
-                        <img class="mt-5 rounded img-border d-none d-sm-block d-sm-none d-md-block"
-                             src="{% static 'img/internship.jpg' %}" width="300" height="200">
                         <h1 class="color-fonce-amor">
                             <div class="animate one">
                                 <span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>
                             </div>
                         </h1>
-                        <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-4">Nos ambassadeurs sportifs engagés.</p>
+                        <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-5">Nos ambassadeurs sportifs engagés.</p>
                         <p><a class="btn btn-lg bg-fonce-amor text-light" href="#" role="button">En savoir plus</a></p>
                     </div>
                 </div>
@@ -97,11 +89,10 @@
 
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light masthead">
             <div class="col-md-10 mx-auto">
-
                 <div class="bg-gala container rounded col-md-8 offset-md-2">
                     <div class=" container rounded col-md-8 offset-md-2 mt-4  mb-3">
-                        <h1 class=" white ">Gala 2019</h1>
-                        <h5 class=" white">8 Novembre, 2019</h5>
+                        <h1 class=" white ">{% trans "Gala 2019"%}</h1>
+                        <h5 class=" white">{% trans "8 Novembre, 2019"%}</h5>
                     </div>
                     <div id="countdown" class="text-light "></div>
                     <div class="col-md-10 offset-md-1 ">
@@ -110,7 +101,7 @@
                         </div>
                     </div>
                     </br>
-                    <a class="btn btn-outline-light mb-3" href="{% url "gala_2019" %}">En savoir plus</a>
+                    <a class="btn btn-outline-light mb-3" href="{% url "gala_2019" %}">{% trans "En savoir plus"%}</a>
                 </div>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -122,7 +113,7 @@
             <div class="col-md-10 mx-auto ">
                 <h2 class="far fa-heart icon-heart"></h2>
                 <p class="lead font-weight-normal text-light">{% trans "Votre contribution aidera ceux qui en ont besoin!" %}</p>
-                <a class="btn btn-outline-light" href="#">Contribuer maintenant</a>
+                <a class="btn btn-outline-light" href="#">{% trans "Contribuer maintenant"%}</a>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -131,18 +122,11 @@
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light "
              style="background-image: url({% static 'img/enfant1.jpg' %});">
             <div class="col-md-10 mx-auto">
-                <h2 class=" font-weight-normal">Notre Mission</h2>
-                <p class="lead font-weight-normal text-light">L'Association Mondiale pour les Orphelins (A.M.OR) a été
-                    fondée par
-                    un orphelin.</p>
+                <h2 class=" font-weight-normal">{% trans "Notre Mission"%}</h2>
+                <p class="lead font-weight-normal text-light">{% trans "L'Association Mondiale pour les Orphelins (A.M.OR) a été fondée par un orphelin."%}</p>
                 <p class="fas fa-bullseye icon-separtor"></p>
-                <p class="lead font-weight-normal text-light">Depuis sa création le 7 Janvier 1999 à Genève, A.M.OR a
-                    mené
-                    différents projets pour les orphelins, les personnes séropositives, les femmes et ceux dans le
-                    besoin.</p>
-                <p class="lead font-weight-normal text-light">En Mai 2017 l'Association reçu le statut consultatif
-                    ECOSOC des
-                    Nations Unies.</p>
+                <p class="lead font-weight-normal text-light">{% trans "Depuis sa création le 7 Janvier 1999 à Genève, A.M.OR a mené différents projets pour les orphelins, les personnes séropositives, les femmes et ceux dans lebesoin." %}</p>
+                <p class="lead font-weight-normal text-light">{% trans "En Mai 2017 l'Association reçu le statut consultatif ECOSOC des Nations Unies." %}</p>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -151,21 +135,13 @@
 
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
             <div class="col-md-10 mx-auto">
-                <h2 class="font-weight-normal">Inspirer les orphelins</h2>
-                <p class="lead font-weight-normal text-secondary">Nous postulons que l'éducation est à la souche du
-                    progrès pour chaque
-                    sociétés et individus. </p>
-                <p class="lead font-weight-normal text-secondary">Par conséquent, nous cherchons à investir chez les
-                    plus jeunes pour
-                    les préparer à leur futur.</p>
-
+                <h2 class="font-weight-normal">{% trans "Inspirer les orphelins" %}</h2>
+                <p class="lead font-weight-normal text-secondary">{% trans "Nous postulons que l'éducation est à la souche du progrès pour chaque sociétés et individus." %} </p>
+                <p class="lead font-weight-normal text-secondary">{% trans "Par conséquent, nous cherchons à investir chez les plus jeunes pour les préparer à leur futur." %}</p>
                 <p class="fas fa-laptop icon-separtor"></p>
-
-                <h2 class="font-weight-normal color-clair-amor">HiTech4Orphans</h2>
-                <p class="lead font-weight-normal text-secondary">HiTech4Orphans est notre nouveau projet en Roumanie.
-                    Son objectif est
-                    d'aider les orphelins à obtenir des compétences dans l'informatique.</p>
-                <a class="btn btn-outline-danger" href="{% url "hitech4orphans" %}">En savoir plus</a>
+                <h2 class="font-weight-normal color-clair-amor">{% trans "HiTech4Orphans" %}</h2>
+                <p class="lead font-weight-normal text-secondary">{% trans "HiTech4Orphans est notre nouveau projet en Roumanie. Son objectif est d'aider les orphelins à obtenir des compétences dans l'informatique." %}</p>
+                <a class="btn btn-outline-danger" href="{% url "hitech4orphans" %}">{% trans "En savoir plus" %}</a>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -177,14 +153,10 @@
                      -o-background-size: cover;
                      background-size: cover; background-image: url({% static 'img/enfant2.jpg' %});">
             <div class="col-md-10 mx-auto ">
-                <h2 class="font-weight-normal">FESTIAMOR</h2>
-                <p class="lead font-weight-normal text-light">FESTIAMOR est une série d'événements publics qui ont
-                    l'intention
-                    d'apporter le bonheur et de l'inspiration aux orphelins. </p>
+                <h2 class="font-weight-normal">{% trans "FESTIAMOR" %}</h2>
+                <p class="lead font-weight-normal text-light">{% trans "FESTIAMOR est une série d'événements publics qui ont l'intention d'apporter le bonheur et de l'inspiration aux orphelins." %} </p>
                 <p class="fas fa-glass-cheers icon-separtor"></p>
-                <p class="lead font-weight-normal text-light"> Grâce à des sponsors et les dons, les orphelins ont
-                    reçu des ordinateurs,
-                    des livres et d'autres objets pour encourager l'apprentissage et le bien-être.</p>
+                <p class="lead font-weight-normal text-light"> {% trans "Grâce à des sponsors et les dons, les orphelins ont reçu des ordinateurs, des livres et d'autres objets pour encourager l'apprentissage et le bien-être." %}</p>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>

@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
-
+{% load i18n %}
 {% endblock %}
 
 {% block content %}
@@ -25,7 +25,7 @@
              <div class="row  float-sm-left">
                 <svg viewBox="300 100 1824 800">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">Ambassadeurs</text>
+                        <text text-anchor="middle" x="47%" y="80%">{% trans "Ambassadeurs" %}</text>
                     </symbol>
                     <g class="g-ants">
                         <use xlink:href="#s-text" class="text-copy"></use>
@@ -39,9 +39,9 @@
         </div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white ">
             <div class="col-md-10 mx-auto">
-                <h2 class=" font-weight-normal">Nos ambassadeurs</h2>
-                <p class="lead font-weight-normal text-secondary">Sportifs, musiciens, ou artistes en tout genre, ont accepté de porter et communiquer les couleurs et les idées de l’ONG A.M.OR.</p>
-                <p class="lead font-weight-normal text-secondary">Que ce soit à travers la chanson, un maillot durant une course sportive, où un hashtag sur leur réseau social, chacun apporte à sa manière et à sa hauteur une belle contribution à nos projets.</p>
+                <h2 class=" font-weight-normal">{% trans "Nos ambassadeurs" %}</h2>
+                <p class="lead font-weight-normal text-secondary">{% trans "Sportifs, musiciens, ou artistes en tout genre, ont accepté de porter et communiquer les couleurs et les idées de l’ONG A.M.OR." %}</p>
+                <p class="lead font-weight-normal text-secondary">{% trans "Que ce soit à travers la chanson, un maillot durant une course sportive, où un hashtag sur leur réseau social, chacun apporte à sa manière et à sa hauteur une belle contribution à nos projets." %}</p>
                 <p class="fas fa-users icon-separtor"></p>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>

@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/gala_20019.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
+    {% load i18n %}
 
 {% endblock %}
 
@@ -14,13 +15,9 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class=" text-center bg-gala ">
-                    <h1 class="text-light"><u> Gala A.M.OR 2019 </u></h1>
+                    <h1 class="text-light"><u>{% trans "Gala A.M.OR 2019" %} </u></h1>
                     </br>
-                    <p class="text-light">A cette occasion, A.M.OR a décidé d’organiser un GALA qui se tiendra le 8
-                        novembre à Genève. C’est tout au long d’une soirée rythmée par un repas, différentes activités
-                        et présentations que les convives pourront découvrir plus intimement, les actions menées par
-                        A.M.OR depuis 20 années d’existence. Une occasion pour partager les derniers retours sur les
-                        projets en cours et d’introduire pourquoi pas, de nouveaux objectifs.</p>
+                    <p class="text-light">{% trans "A cette occasion, A.M.OR a décidé d’organiser un GALA qui se tiendra le 8 novembre à Genève. C’est tout au long d’une soirée rythmée par un repas, différentes activités et présentations que les convives pourront découvrir plus intimement, les actions menées par A.M.OR depuis 20 années d’existence. Une occasion pour partager les derniers retours sur les projets en cours et d’introduire pourquoi pas, de nouveaux objectifs." %}</p>
                 </div>
             </div>
         </div>
@@ -31,30 +28,26 @@
         <section class="py-5">
             <div class="container">
                 <div class="container">
-                    <h2 class="font-weight-light">Organisation</h2>
-                    <p>Pour l’organisation de cette soirée, nous avons la chance de pouvoir compter sur : Lorentz
-                        Élodie,
-                        Présidente Directrice Générale de EJL Événementiel et Corine Matringe, Présidente de A .M.OR
-                        Ile-Maurice.</p>
+                    <h2 class="font-weight-light">{% trans "Organisation" %}</h2>
+                    <p>{% trans "Pour l’organisation de cette soirée, nous avons la chance de pouvoir compter sur : Lorentz Élodie, Présidente Directrice Générale de EJL Événementiel et Corine Matringe, Présidente de A .M.OR Ile-Maurice." %}</p>
                 </div>
                 <div class="d-md-flex flex-md-equal my-md-3 pl-md-3 module">
                     <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center">
                         <div class="my-3 p-3">
                             <img src="{% static 'img/Marguerite_Corine_MATRINGE_540x500.jpg' %}" class="align-left slide-in img-fluid">
-                            <p class="mt-3">Corine Matringe</p>
+                            <p class="mt-3">{% trans "Corine Matringe" %}</p>
                         </div>
                     </div>
                     <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center">
                         <div class="my-3 p-3 ">
                             <img src="{% static 'img/Lorentz_elodie.jpg' %}" class="align-right slide-in img-fluid">
-                            <p class="mt-3">Lorentz Élodie</p>
+                            <p class="mt-3">{% trans "Lorentz Élodie" %}</p>
                         </div>
                     </div>
                 </div>
                 <div class="container">
-                    <p>Votre entrée comprendra donc un repas chaud et complet, une place assise pour assister aux
-                        présentations, aux activités, et une partie servira de don pour le projet HiTech4Orphans.</p>
-                    <p>Pour plus d’information ou vous inscrire, n’hésitez pas à nous <a href="{% url "contact" %}">contacter</a></p>
+                    <p>{% trans "Votre entrée comprendra donc un repas chaud et complet, une place assise pour assister aux présentations, aux activités, et une partie servira de don pour le projet HiTech4Orphans." %}</p>
+                    <p>{% trans "Pour plus d’information ou vous inscrire, n’hésitez pas à nous" %}<a href="{% url "contact" %}">{% trans "contacter" %}</a></p>
                 </div>
             </div>
         </section>

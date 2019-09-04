@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
+      {% load i18n %}
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/s_engager.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -16,32 +17,23 @@
 
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
-            <div class="row float-md-left">
-                 <svg viewBox="300 100 1824 800">
-                    <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">Stagiaire</text>
-                    </symbol>
-
-                    <g class="g-ants">
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                    </g>
-                </svg>
+            <div class="container float-right">
+                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="#">{% trans "Dons" %}</a>
+            </div>
+            <div class="container float-right">
+                <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"  href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
             </div>
         </div>
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module">
             <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden paragraph_design">
                     <h3 class="pb-3 mb-4 font-italic border-bottom">
-                       Envie d'obtenir un stage qui a du sens ?
+                        {% trans "Envie d'obtenir un stage qui a du sens ?" %}
                     </h3>
                     <div class="blog-post justify">
-                        <p>• L’association est à la recherche de jeunes dynamiques et prêts à développer leurs propres projets à des fins humanitaires tout comme Eugénie, Justine, Amélie et Elisabeth, étudiantes en DUT Gestion des Entreprises et Administrations à l’université d’Amiens parties en janvier pour une mission d’une semaine au Sénégal.
+                        <p>{% trans "• L’association est à la recherche de jeunes dynamiques et prêts à développer leurs propres projets à des fins humanitaires tout comme Eugénie, Justine, Amélie et Elisabeth, étudiantes en DUT Gestion des Entreprises et Administrations à l’université d’Amiens parties en janvier pour une mission d’une semaine au Sénégal." %}
                         </p>
                         <hr>
-                        <P>• Ou comme Perrine Bertrand stagiaire, chargée de communication et relation-presse. Avec un accès à l’ONU de Genève et aux conférences qui s’y déroulent. <a href="{% url "contact" %}">Contacte-nous</a> au plus vite !</P>
+                        <P>{% trans "• Ou comme Perrine Bertrand stagiaire, chargée de communication et relation-presse. Avec un accès à l’ONU de Genève et aux conférences qui s’y déroulent. " %}<a href="{% url "contact" %}">{% trans "Contacte-nous1" %}</a>{% trans " au plus vite !" %}</P>
                         <p class="text-center" ><i class="fas fa-graduation-cap icon-separtor-inverse"></i></p>
                     </div>
             </div>

@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -59,12 +60,16 @@ LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),
 )
 
-
 LANGUAGES = (
-    ('en', ugettext('English')),
     ('fr', ugettext('French')),
+    ('en', ugettext('English')),
 )
 
+MODELTRANSLATION_LANGUAGES = ('fr','en')
+
+#Valeur de langue par défaut pour la database
+#Util si un article n'est pas traduit dans toutes les langues
+#MODELTRANSLATION_FALLBACK_LANGUAGES = ('en', 'de')
 
 ROOT_URLCONF = 'AmorWebsite.urls'
 
@@ -132,7 +137,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'fr'
 
 TIME_ZONE = 'UTC'
 
@@ -146,12 +151,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'   # Qui devrait déjà être la configuration par défaut
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
-
 parent_dir = os.path.abspath(os.path.dirname(__file__) + '/..')
 MEDIA_URL = '/img/'
 MEDIA_ROOT = os.path.join(parent_dir, "static/")

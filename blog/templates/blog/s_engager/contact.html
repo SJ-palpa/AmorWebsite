@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
+    {% load i18n %}
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
-
 {% endblock %}
 
 {% block content %}
@@ -14,7 +14,7 @@
             <div class="row float-md-left">
                 <svg viewBox="300 100 1824 800">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">Contact</text>
+                        <text text-anchor="middle" x="47%" y="80%">{% trans "Contact" %}</text>
                     </symbol>
 
                     <g class="g-ants">
@@ -29,7 +29,7 @@
         </div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white ">
             <div class="col-md-10 mx-auto">
-                <h2 class=" font-weight-normal">Contribuer à un monde meilleur</h2>
+                <h2 class=" font-weight-normal">{% trans "Contribuer à un monde meilleur" %}</h2>
 
                 <p class="fas fa-hand-holding-heart icon-separtor"></p>
             </div>
@@ -37,40 +37,40 @@
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
         <div class=" container mb-5">
-            <h4 class="mb-3">Informations</h4>
+            <h4 class="mb-3">{% trans "Informations" %}</h4>
             <form class="needs-validation" novalidate="">
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <label for="firstName">Nom</label>
+                        <label for="firstName">{% trans "Nom" %}</label>
                         <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
                         <div class="invalid-feedback">
-                            Valid first name is required.
+                            {% trans "Nom valid requis" %}
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label for="lastName">Prenom</label>
+                        <label for="lastName">{% trans "Prenom" %}</label>
                         <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
                         <div class="invalid-feedback">
-                            Valid last name is required.
+                            {% trans "Prénom valide requis" %}
                         </div>
                     </div>
                 </div>
 
                 <div class="mb-3">
-                    <label for="email">Email <span class="text-muted">(Optionel)</span></label>
+                    <label for="email">{% trans "Email" %}<span class="text-muted">{% trans "(Optionel)" %}</span></label>
                     <input type="email" class="form-control" id="email" placeholder="you@example.com">
                     <div class="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
+                        {% trans "Entrer un mail valide" %}
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
+                    <label for="exampleFormControlTextarea1">{% trans "Message" %}</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <hr class="mb-4">
                 <button class="btn bg-clair-amor text-light btn-lg btn-block col-md-4 offset-md-4" type="submit">
-                    Valider
+                    {% trans "Valider" %}
                 </button>
             </form>
         </div>

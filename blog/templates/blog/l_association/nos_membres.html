@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
-
+{% load i18n %}
 {% endblock %}
 
 {% block content %}
@@ -21,17 +21,16 @@
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="#">Dons</a>
+                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="#">{% trans "Dons" %}</a>
             </div>
             <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"  href="#">NewsLetters</a>
+                <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"  href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
             </div>
         </div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white ">
             <div class="col-md-10 mx-auto">
-                <h2 class=" font-weight-normal">Rencontrez notre équipe</h2>
-                <p class="lead font-weight-normal text-secondary">Vous trouverez ici un bref profil de tout notre
-                    personnel dévoué!</p>
+                <h2 class=" font-weight-normal">{% trans "Rencontrez notre équipe" %}</h2>
+                <p class="lead font-weight-normal text-secondary">{% trans "Vous trouverez ici un bref profil de tout notre personnel dévoué!" %}</p>
                 <p class="fas fa-users icon-separtor"></p>
             </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>

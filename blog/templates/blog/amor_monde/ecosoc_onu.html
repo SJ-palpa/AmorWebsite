@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
-
+{% load i18n %}
 {% endblock %}
 
 {% block content %}
@@ -13,7 +13,7 @@
             <div class="row  float-sm-left">
                 <svg viewBox="300 100 1824 800">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">ECOSOC</text>
+                        <text text-anchor="middle" x="47%" y="80%">{% trans "ECOSOC" %}</text>
                     </symbol>
 
                     <g class="g-ants">
@@ -30,30 +30,19 @@
             <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden paragraph_design">
                 <div class="my-3 py-3">
                     <h3 class="pb-3 mb-4 font-italic border-bottom">
-                        ECOSOC
+                        {% trans "ECOSOC" %}
                     </h3>
 
                     <div class="blog-post justify">
-                        <p>Placé au cœur même du système des Nations Unies, le Conseil économique et social promeut les
-                            trois dimensions - économique, sociale et environnementale - du développement durable. C'est
-                            le lieu central à partir duquel des débats s'engagent, des idées nouvelles émergent, des
-                            consensus se forgent autour des voies à suivre et des actions sont coordonnées pour
-                            poursuivre les objectifs arrêtés au niveau international. Le Conseil a également pour
-                            fonction d'assurer le suivi des grandes conférences et réunions au sommet organisées par les
-                            Nations Unies.
+                        <p>{% trans "Placé au cœur même du système des Nations Unies, le Conseil économique et social promeut les trois dimensions - économique, sociale et environnementale - du développement durable. C'est le lieu central à partir duquel des débats s'engagent, des idées nouvelles émergent, des consensus se forgent autour des voies à suivre et des actions sont coordonnées pour poursuivre les objectifs arrêtés au niveau international. Le Conseil a également pour fonction d'assurer le suivi des grandes conférences et réunions au sommet organisées par les Nations Unies." %}
                         </p>
                         <hr>
                         <p>
-                            La Charte des Nations Unies a créé l'ECOSOC en 1945 comme l'un des six organes principaux
-                            des Nations Unies. Lors de sa réunion de coordination et de gestion en Avril 2017, le
-                            Conseil économique et social des Nations Unies (ECOSOC) a approuvé la recommandation du
-                            Comité chargé des organisations non gouvernementales à accorder le statut consultatif
-                            spécial: Association AMOR.
+                            {% trans "La Charte des Nations Unies a créé l'ECOSOC en 1945 comme l'un des six organes principaux des Nations Unies. Lors de sa réunion de coordination et de gestion en Avril 2017, le Conseil économique et social des Nations Unies (ECOSOC) a approuvé la recommandation du Comité chargé des organisations non gouvernementales à accorder le statut consultatif spécial: Association AMOR." %}
                         </p>
                          <hr>
                         <p>
-                            Ainsi, l’ONG A.M.OR dispose du statut d’observateur aux conférences qui se déroulent à l’ONU et peut donc y assister et même y participer.
-                        </p>
+                            {% trans "Ainsi, l’ONG A.M.OR dispose du statut d’observateur aux conférences qui se déroulent à l’ONU et peut donc y assister et même y participer." %}</p>
                     </div>
                 </div>
             </div>

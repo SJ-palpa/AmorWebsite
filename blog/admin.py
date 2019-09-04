@@ -37,7 +37,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
 admin.site.register(Membre)
 admin.site.register(Ambassadeur)
-admin.site.register(Article, ArticleAdmin)
+admin.site.register(Article)
 admin.site.register(NewsLetter)
 admin.site.register(Adherent)
 admin.site.register(Pays)
