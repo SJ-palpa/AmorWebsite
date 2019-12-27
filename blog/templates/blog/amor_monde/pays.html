@@ -1,9 +1,8 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/pays.css' %}">
     {% load icons %}
 {% load i18n %}
 {% endblock %}
@@ -17,7 +16,7 @@
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="container float-right">
                 <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
-                   href="#">{% trans "Dons" %} </a>
+                   href="{% url "contact" %}">{% trans "Dons" %} </a>
             </div>
             <div class="container float-right">
                 <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
@@ -26,11 +25,11 @@
         </div>
         {% for representantActif in group.paysSelect.representant.all %}
 
-            <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-                {% if forloop.counter0 == 0 %}
-                    <div class="list-group col-md-2 text-white scrollable-menu overflow-hidden">
+            <div class="d-md-flex flex-md-equal my-md-3 pl-md-3">
+              {% if forloop.counter0 == 0 %}
+                    <div class="list-group col-md-2 ml-2 mb-1 text-white">
                         <h3 class="text-dark text-center mb-3 mt-3">{% trans "Liste pays" %}</h3>
-                        <div class="scrollable-menu overflow-hidden">
+                        <div class="scrollable-menu">
                             {% for paysTous in group.paysTous %}
                                 {% if paysTous.id == group.paysSelect.id %}
                                     <a class="list-group-item list-group-item-action bg-fonce-amor text-light">{{ paysTous.nom }}</a>
@@ -39,9 +38,184 @@
                                        class="list-group-item list-group-item-action">{{ paysTous.nom }}</a>
                                 {% endif %}
                             {% endfor %}
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Afghanistan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Afrique du Sud" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Albanie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Algérie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Andorre" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Angola" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Antigua-et-Barbuda" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Arabie saoudite" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Argentine" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Arménie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Australie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Autriche" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Azerbaïdjan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bahamas" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bahreïn" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Barbade" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bélarus" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bélgique" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Belize" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bhoutan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bolivie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bosnie-Herzégovine" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Botswana" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Brésil" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Brunei Darussalam" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Bulgarie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Burkina Faso" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Burundi" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Cabo Verde" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Cambodge" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Cameroun" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Canada" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Chili" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Chine" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Chypre" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Colombie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Comores" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Congo" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Costa Rica" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Croatie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Cuba" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Danemark" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Djibouti" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Dominique" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Egypte" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "El Salvador" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Emirats arabes unis" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Equateur" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Erythree" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Estonie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Eswatini" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Ethiopie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Fédération de Russie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Fidji" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Finlande" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Gabonv" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Gambie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Géorgie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Ghana" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Grèce" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Grenade" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Guatemala" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Guinée Bissau" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Guinée équatoriale" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Guyana" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Haïtiv" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Honduras" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Hongrie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "îles Marshall" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "îles Salomonv" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Inde" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Indonésie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Iran" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Iraq" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Irlande" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Islande" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Israël" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Jamaïque" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Jordanie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Kazakhstan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Kenya" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Kirghizistan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Kiribati" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Koweït" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Lesotho" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Lettonie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Liban" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Libéria" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Libye" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Liechtenstein" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Lituanie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Macédonie du nord" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Madagascar" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Malaisie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Malawi" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Malte" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Maroc" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Maurice" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Méxique" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Micronésie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Mangolie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Monténégro" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Mozambique" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Myanmar" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Namibie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Nauru" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Népal" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Nicaragua" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Niger" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Nigéria" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Norvège" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Nouvelle-Zélande" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Oman" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Ouganda" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Ouzbékistan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Paistan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Palaos" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Papousie-Nouvell-Guinée" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Paraguay" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Pays-Bas" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Préou" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Philippines" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Pologne" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Portugal" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Quatar" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République arabe syrienne" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République centrafricaine" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République de Corée" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République de Moldova" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République démocratique du Congo" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République démocratique populaire lao" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République dominicaine" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Répuplique populaire démocratique de Corée" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République tchèque" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "République-Unie de Tanzanie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Roumanie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Rwanda" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Saint-kitts-et-Nevis" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Saint-Martin" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Saint-Vincent-et-les-Grenadines" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Sainte-Lucie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Samoa" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Sao Tomé-et-Principe" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Serbie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Seychelles" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Sierra Leone" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Singapour" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Slovaquie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Slovénie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Somalie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Soudan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Soudan du Sud" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Sri Lanka" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Suède" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Suriname" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Tadjikistan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Tchad" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Thaïlande" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Timor-Leste" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Togo" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Tonga" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Trinité-et-Tobago" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Tunisie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Turkménistan" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Turquie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Tuvalu" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Ukraine" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Uruguay" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Vanuatu" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Venezuaela" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Viet Nam" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Yémem" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Zambie" %}</div>
+                            <div class="list-group-item list-group-item-action disabled bg-secondary text-white" >{% trans "Zimbabwe" %}</div>
                         </div>
+                        <div class="list-group-item bg-fonce-amor text-center fas fa-arrow-down"></div>
                     </div>
-                {% else %}
+              {% else %}
                     <div class="col-md-2 ">
                     </div>
                 {% endif %}

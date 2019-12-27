@@ -129,13 +129,13 @@ CountDown
 
 /*
 
-    Image fonc gala
+    Image fonc actualite
 
 */
-.masthead {
+.imageActu {
   height: 100vh;
   max-height: 400px;
-  background-image: url("/static/img/gala_2019.jpg");
+  background-image: url("/static/img/accueil/actualite.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,12 +143,22 @@ CountDown
 
 /*
 
-    Background gala
+    Background actualite
 
 */
 
 
-
-.bg-gala {
+.bg-actualite {
     background-color: rgba(91, 53, 53, 0.45)!important;
+}
+
+/*
+
+    Actualite scroll down
+
+*/
+
+.scroll-actualite{
+    height: 100%!important;
+    overflow: scroll!important;
 }

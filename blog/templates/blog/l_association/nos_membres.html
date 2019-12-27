@@ -1,11 +1,9 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
-{% load i18n %}
+    {% load i18n %}
 {% endblock %}
 
 {% block content %}
@@ -13,7 +11,7 @@
 
     <!--
 
-        Rajouter les membres non présent
+        todo: Rajouter les membres non présent
 
     -->
 
@@ -21,10 +19,12 @@
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="#">{% trans "Dons" %}</a>
+                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                   href="{% url "contact" %}">{% trans "Dons" %}</a>
             </div>
             <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"  href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
+                <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                   href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
             </div>
         </div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white ">
@@ -42,8 +42,6 @@
             {% for membre in membres %}
                 {% if forloop.counter0|divisibleby:2 %}
                     <div class="row mb-2">
-
-
                 {% endif %}
 
             <div class="col-md-6">
@@ -54,7 +52,18 @@
                             <p class="text-dark">{{ membre.nom }} {{ membre.prenom }}</p>
                         </h4>
                         <p class="card-text mb-auto">{{ membre.description|truncatewords_html:5 }} </p>
-                        <a href="{% url "pays" 16%}">Continuer à lire</a>
+
+
+                        <a href="
+
+                        {% if not membre.pays_set.first.id %}
+                            {% url "membre" membre.id %}
+                        {% else %}
+                            {% url "pays" membre.pays_set.first.id %}
+                        {% endif %}
+
+                         ">{% trans "Continuer à lire"%}</a>
+
                     </div>
                     <img class="bd-placeholder-img card-img-right  d-none d-lg-block"
                          src="{{ membre.image.url }}" width="250" height="250">
@@ -66,17 +75,28 @@
             {% endfor %}
         </div>
         <div class="ml-5 mr-5 mb-5">
-        {% if is_paginated %}
-            <div class="pagination">
-                   {% if page_obj.has_previous %}
-                       <a href="?page={{ page_obj.previous_page_number }}">Précédente</a> —
-                   {% endif %}
-                   Page {{ page_obj.number }} sur {{ page_obj.paginator.num_pages }}
-                   {% if page_obj.has_next %}
-                      — <a href="?page={{ page_obj.next_page_number }}">Suivante</a>
-                   {% endif %}
-            </div>
-        {% endif %}
+            {% if is_paginated %}
+
+                <ul class="pagination">
+
+                    {% if page_obj.has_previous %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ page_obj.previous_page_number }}">{% trans "Précédente" %}</a>
+                        </li>
+                    {% endif %}
+
+                    <li class="page-item disabled">
+                        <a class="page-link" tabindex="-1">{% trans "Page" %} {{ page_obj.number }}
+                            {% trans "sur" %} {{ page_obj.paginator.num_pages }}</a>
+                    </li>
+                    {% if page_obj.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ page_obj.next_page_number }}">{% trans "Suivante" %}</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            {% endif %}
+        </div>
     </main>
 
 {% endblock %}

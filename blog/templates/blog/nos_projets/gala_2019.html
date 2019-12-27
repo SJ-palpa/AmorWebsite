@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/gala_20019.css' %}">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
     {% load i18n %}
 
@@ -47,7 +45,7 @@
                 </div>
                 <div class="container">
                     <p>{% trans "Votre entrée comprendra donc un repas chaud et complet, une place assise pour assister aux présentations, aux activités, et une partie servira de don pour le projet HiTech4Orphans." %}</p>
-                    <p>{% trans "Pour plus d’information ou vous inscrire, n’hésitez pas à nous" %}<a href="{% url "contact" %}">{% trans "contacter" %}</a></p>
+                    <p>{% trans "Pour plus d’information ou vous inscrire, n’hésitez pas à nous " %}<a href="{% url "contact" %}">{% trans "contacter" %}</a></p>
                 </div>
             </div>
         </section>

@@ -1,10 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block ajout_head %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
+    {% load icons %}
+    {% load i18n %}
+{% endblock %}
 
-</body>
-</html>
+{% block content %}
+    <main role="main">
+        <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
+            <div class="row float-md-left">
+                <svg viewBox="300 100 1824 800">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="47%" y="80%">{% trans "Membre" %}</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class=" w-100 my-md-3 pl-md-3 mb-5">
+                <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden text-secondary paragraph_design">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                        {{ membre.prenom }} {{ membre.nom }}
+                    </h3>
+                    <div>
+                        <p class="justify">{{ membre.description|safe|linebreaks }}</p>
+                        <hr>
+                        <p class="text-center">{{ membre.titre }}</p>
+                        <a class="btn btn-lg bg-fonce-amor text-light mb-5" href="{%  url "membres" %}">{% trans "retour" %}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+{% block script %}
+    <script>
+
+
+    </script>
+{% endblock %}

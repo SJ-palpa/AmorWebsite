@@ -147,8 +147,9 @@
 */
 
 .scrollable-menu {
-    height: auto;
-    max-height: 500px;
+    height: auto!important;
+    max-height: 300px!important;
+    overflow-x: hidden!important;
 }
 
 /*
@@ -171,3 +172,4 @@
 .float-right {
   float: right;
 }
+

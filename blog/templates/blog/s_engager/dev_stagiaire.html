@@ -2,9 +2,7 @@
 {% block ajout_head %}
     {% load static %}
       {% load i18n %}
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/s_engager.css' %}">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
 
 {% endblock %}
@@ -18,7 +16,7 @@
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="#">{% trans "Dons" %}</a>
+                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="{% url "contact" %}">{% trans "Dons" %}</a>
             </div>
             <div class="container float-right">
                 <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"  href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
@@ -33,7 +31,7 @@
                         <p>{% trans "• L’association est à la recherche de jeunes dynamiques et prêts à développer leurs propres projets à des fins humanitaires tout comme Eugénie, Justine, Amélie et Elisabeth, étudiantes en DUT Gestion des Entreprises et Administrations à l’université d’Amiens parties en janvier pour une mission d’une semaine au Sénégal." %}
                         </p>
                         <hr>
-                        <P>{% trans "• Ou comme Perrine Bertrand stagiaire, chargée de communication et relation-presse. Avec un accès à l’ONU de Genève et aux conférences qui s’y déroulent. " %}<a href="{% url "contact" %}">{% trans "Contacte-nous1" %}</a>{% trans " au plus vite !" %}</P>
+                        <P>{% trans "• Ou comme Perrine Bertrand stagiaire, chargée de communication et relation-presse. Avec un accès à l’ONU de Genève et aux conférences qui s’y déroulent. " %}<a href="{% url "contact" %}">{% trans "Contacte-nous" %}</a>{% trans " au plus vite !" %}</P>
                         <p class="text-center" ><i class="fas fa-graduation-cap icon-separtor-inverse"></i></p>
                     </div>
             </div>

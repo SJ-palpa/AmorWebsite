@@ -63,7 +63,15 @@ LOCALE_PATHS = (
 LANGUAGES = (
     ('fr', ugettext('French')),
     ('en', ugettext('English')),
+    #('ar', ugettext('العربية')),
+    #('zh-cn', ugettext('中文')),
+    #('ru', ugettext('Русский')),
+    #('es', ugettext('Español')),
+    #('it', ugettext('Italiano')),
 )
+
+#Langue officiel
+#Arabe Chinois Anglais Français Russe Espagnol
 
 MODELTRANSLATION_LANGUAGES = ('fr','en')
 
@@ -133,6 +141,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Mail settings
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
@@ -151,7 +162,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
+
+
 STATIC_URL = '/static/'
+
+STATIC_ROOT = "static/misc"
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),

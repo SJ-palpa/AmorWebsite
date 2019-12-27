@@ -20,6 +20,22 @@ class Membre(models.Model):
     def __str__(self):
         return "{0} {1}".format(self.nom, self.prenom)
 
+class Pays(models.Model):
+    id = models.AutoField(primary_key=True, db_column='pay_id')
+    nom = models.CharField(max_length=100, db_column='pay_nom')
+    representant = models.ManyToManyField(Membre, db_column='pay_representant')
+    created_at = models.DateTimeField(default=timezone.now, db_column='pay_create_at')
+    updated_at = models.DateTimeField(default=timezone.now, db_column='pay_date_update')
+
+    class Meta:
+        verbose_name = "Pays"
+        verbose_name_plural = "Pays"
+        ordering = ['nom']
+
+    def __str__(self):
+        return self.nom
+
+
 
 class Ambassadeur(models.Model):
     id = models.AutoField(primary_key=True, db_column='amb_id')
@@ -88,18 +104,5 @@ class Adherent(models.Model):
         return "{0} {1}".format(self.nom, self.prenom)
 
 
-class Pays(models.Model):
-    id = models.AutoField(primary_key=True, db_column='pay_id')
-    nom = models.CharField(max_length=100, db_column='pay_nom')
-    representant = models.ManyToManyField(Membre, db_column='pay_representant')
-    created_at = models.DateTimeField(default=timezone.now, db_column='pay_create_at')
-    updated_at = models.DateTimeField(default=timezone.now, db_column='pay_date_update')
 
-    class Meta:
-        verbose_name = "Pays"
-        verbose_name_plural = "Pays"
-        ordering = ['nom']
-
-    def __str__(self):
-        return self.nom
 

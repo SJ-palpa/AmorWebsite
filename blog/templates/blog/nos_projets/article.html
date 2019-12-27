@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
     {% load i18n %}
 {% endblock %}
@@ -28,15 +26,14 @@
             </div>
         </div>
 
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module ">
-            <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module mb-5">
-                <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-4 text-white overflow-hidden text-secondary paragraph_design">
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class=" w-100 my-md-3 pl-md-3 mb-5">
+                <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden text-secondary paragraph_design">
                     <h3 class="pb-3 mb-4 font-italic border-bottom">
                         {{ article.titre }}
                     </h3>
-                    <div class="blog-post justify">
-                        <p>{{ article.contenu|linebreaks }}
-                        </p>
+                    <div>
+                        <p class="justify">{{ article.contenu|safe|linebreaks }}</p>
                         <hr>
                         <p class="text-center">{{ article.auteur }}, {{ article.created_at }}</p>
                         <a class="btn btn-lg bg-fonce-amor text-light mb-5" href="{%  url "articles" %}">{% trans "retour" %}</a>
@@ -45,4 +42,10 @@
             </div>
         </div>
     </main>
+{% endblock %}
+{% block script %}
+    <script>
+
+
+    </script>
 {% endblock %}

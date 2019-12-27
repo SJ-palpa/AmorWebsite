@@ -2,11 +2,7 @@
 {% block ajout_head %}
     {% load static %}
     {% load i18n %}
-    <link rel="stylesheet" type="text/css" href="{% static '/css/base.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
-
 {% endblock %}
 
 {% block content %}
@@ -86,5 +82,6 @@
 {% endblock %}
 
 {% block script %}
-     <script type="text/javascript" src="{% static 'blog/js/base_blog.js' %}"></script>
+     <script type="text/javascript" src="{% static 'blog/js/base_blog.js' %}">
+     </script>
 {% endblock %}

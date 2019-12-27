@@ -17,9 +17,10 @@
     {% fontawesome_stylesheet %}
 
     {% load static %}
-
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
-
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="icon" href="{% static 'img/Amor-main.png' %}">
     {# Display django.contrib.messages as Bootstrap alerts #}
     {% bootstrap_messages %}
     {% block ajout_head %}
@@ -43,55 +44,55 @@
         <div class="collapse text-size-nav navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto ">
                 <a class="nav-link {% if "accueil" in request.path %}active{% endif %}" role="button" aria-haspopup="true" aria-expanded="false" href="{% url "accueil" %}">
-                    ACCUEIL
+                    {% trans "ACCUEIL"%}
                 </a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {% if "/l_association/" in request.path %}active{% endif %} " href="" id="navbarDropdownAprop" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        L'ASSOCIATION
+                        {% trans "L'ASSOCIATION"%}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
-                        <a class="dropdown-item" href="{% url "notreHistoire" %}">Notre Histoire</a>
-                        <a class="dropdown-item" href="{% url "nos_membres" %}">Nos Membres</a>
-                        <a class="dropdown-item" href="{% url "nos_ambassadeurs" %}">Nos ambassadeurs</a>
+                        <a class="dropdown-item nav-link-bg-click" id="test" href="{% url "notreHistoire" %}">{% trans "Notre Histoire"%}</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "membres" %}">{% trans "Nos Membres"%}</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "nos_ambassadeurs" %}">{% trans "Nos ambassadeurs"%}</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {% if "nos_projet" in request.path %}active{% endif %}" href="#" id="navbarDropdownMaison" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        NOS PROJETS
+                        {% trans "NOS PROJETS"%}
                     </a>
                     <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdownMaison">
-                        <a class="dropdown-item" href="{% url "hitech4orphans" %}">HITECH4ORPHANS</a>
-                        <a class="dropdown-item" href="{% url "gala_2019" %}">Gala 2019</a>
-                        <a class="dropdown-item" href="{% url "articles" %}">Articles</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "hitech4orphans" %}">{% trans "HITECH4ORPHANS"%}</a>
+                        {% comment %}<a class="dropdown-item" href="{% url "gala_2019" %}">{% trans "Gala 2019"%}</a>{% endcomment %}
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "articles" %}">{% trans "Articles"%}</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {% if "s_engager" in request.path %}active{% endif %}" href="#" id="navbarDropdownAprop" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        S'ENGAGER
+                        {% trans "S'ENGAGER"%}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
-                        <a class="dropdown-item" href="{% url "dev_bene" %}">Devenir Bénévole</a>
-                        <a class="dropdown-item" href="{% url "dev_stagiaire" %}">Devenir Stagiaire</a>
-                        <a class="dropdown-item" href="{% url "contact" %}">Contact</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "dev_bene" %}">{% trans "Devenir Bénévole"%}</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "dev_stagiaire" %}">{% trans "Devenir Stagiaire"%}</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "contact" %}">{% trans "Contact"%}</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {% if "amor_monde" in request.path %}active{% endif %}" href="#" id="navbarDropdownMaison" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        AMOR MONDE
+                        {% trans "AMOR MONDE"%}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMaison">
-                        <a class="dropdown-item" href="{% url "ecosoc_onu" %}">ECOSOC/ONU</a>
-                        <a class="dropdown-item" href="{% url "pays" 1%}">Pays</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "ecosoc_onu" %}">{% trans "ECOSOC/ONU"%}</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "pays" 1%}">{% trans "Pays"%}</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {% icon 'globe' %} Langue
+                        {% icon 'globe' %} {% trans "Langue"%}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         {% get_current_language as LANGUAGE_CODE %}
@@ -101,9 +102,13 @@
                              <form class="flex-container" method="post" action="{% url 'set_language' %}" >
                             {% csrf_token %}
                                   <input name="next" type="hidden" value="{{ redirect_to }}">
-                                  <button type="submit" name="language" class="btn btn-default" value="{{ language.code }}">{{ language.name_local }} ({{ language.code }})</button>
+                                  <button type="submit" name="language" class="dropdown-item nav-link-bg-click" value="{{ language.code }}">{{ language.name_local | title}}</button>
                             </form>
                         {% endfor %}
+                        <button type="submit" name="language" class="dropdown-item nav-link-bg-click" disabled>{% trans "Arabe" %}</button>
+                        <button type="submit" name="language" class="dropdown-item nav-link-bg-click" disabled>{% trans "Chinois" %}</button>
+                        <button type="submit" name="language" class="dropdown-item nav-link-bg-click" disabled>{% trans "Espagnol" %}</button>
+                        <button type="submit" name="language" class="dropdown-item nav-link-bg-click" disabled>{% trans "Russe" %}</button>
                     </div>
                 </li>
             </ul>
@@ -133,13 +138,12 @@
             <span class="fa fa-twitter white"></span>
         </a>
     </div>
-    <p class="mt-3">© AMOR - CONSEIL ÉCONOMIQUE ET SOCIAL - 2018, TOUS DROITS RÉSERVÉS, PAR LE RÉSEAU <a href="#"
-                                                                                                         class="color-clair-amor">Privacy</a>
-        · <a href="#" class="color-clair-amor">Terms</a></p>
+    <p class="mt-3">{% trans "© AMOR 2019, TOUS DROITS RÉSERVÉS, "%}
+        · <a href="#" class="color-clair-amor">{% trans "Conditions"%}</a></p>
     <span>
         <a class="icon-arrow-amor" href="#">{% icon 'arrow-circle-up' %}</a>
     </span>
 </footer>
+</html>
 {% block script %}
 {% endblock %}
-</html>

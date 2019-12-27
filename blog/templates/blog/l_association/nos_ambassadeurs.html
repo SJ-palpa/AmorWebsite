@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 {% block ajout_head %}
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/css/base_blog.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     {% load icons %}
 {% load i18n %}
 {% endblock %}
@@ -69,18 +67,28 @@
                 </div>
             {% endif %}
             {% endfor %}
-         <div class="ml-5 mr-5 mb-5">
-        {% if is_paginated %}
-            <div class="pagination">
-                   {% if page_obj.has_previous %}
-                       <a href="?page={{ page_obj.previous_page_number }}">Précédente</a> —
-                   {% endif %}
-                   Page {{ page_obj.number }} sur {{ page_obj.paginator.num_pages }}
-                   {% if page_obj.has_next %}
-                      — <a href="?page={{ page_obj.next_page_number }}">Suivante</a>
-                   {% endif %}
-            </div>
-        {% endif %}
+        <div class="ml-5 mr-5 mb-5">
+            {% if is_paginated %}
+
+                <ul class="pagination">
+
+                    {% if page_obj.has_previous %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ page_obj.previous_page_number }}">Précédente</a>
+                        </li>
+                    {% endif %}
+
+                    <li class="page-item disabled">
+                        <a class="page-link" tabindex="-1">Page {{ page_obj.number }}
+                            sur {{ page_obj.paginator.num_pages }}</a>
+                    </li>
+                    {% if page_obj.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ page_obj.next_page_number }}">Suivante</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            {% endif %}
         </div>
 
 
