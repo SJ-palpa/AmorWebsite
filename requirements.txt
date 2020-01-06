@@ -1,0 +1,7 @@
+Django==2.0.12
+django-bootstrap4
+django-icons
+django-fontawesome
+django-modeltranslation
+psycopg2
+pillow
