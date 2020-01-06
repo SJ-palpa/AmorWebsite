@@ -1,0 +1,11 @@
+/*
+
+    Visible scrollbar
+
+*/
+
+
+#scrollarea-invalid {
+    overflow-y: scroll!important;
+    height: 350px!important;
+}

@@ -1,0 +1,2461 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-16 19:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: AmorWebsite/settings.py:64
+msgid "French"
+msgstr ""
+
+#: AmorWebsite/settings.py:65
+msgid "English"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:43
+msgid ""
+"Notre projet phare, elaboré après que l'Association aie reçu le statut "
+"ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et "
+"orphelins..."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:44 blog/templates/blog/accueil.html:56
+#: blog/templates/blog/accueil.html:67 blog/templates/blog/accueil.html:137
+msgid "En savoir plus"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:55
+msgid ""
+"Nous croyons au potentiel de individus et notre objectif est d'aider ceux "
+"dans le besoin afin d'atteindre le meilleur de leurs capacités."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:63
+msgid ""
+"<span>A</span><span>m</span><span>b</span><span>a</span><span>s</"
+"span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</"
+"span><span>r</span><span>s</span>"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:66
+msgid "Nos ambassadeurs engagés."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:89
+msgid "Notre Mission"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:90
+msgid ""
+"L'Association Mondiale pour les Orphelins (A.M.OR) a été fondée par un "
+"orphelin."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:92
+msgid ""
+"Depuis sa création le 7 Janvier 1999 à Genève, A.M.OR a mené différents "
+"projets pour les orphelins, les personnes séropositives, les femmes et ceux "
+"dans le besoin."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:93
+msgid ""
+"En Mai 2017 l'Association reçu le statut consultatif ECOSOC des Nations "
+"Unies."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:100
+msgid "Votre contribution aidera ceux qui en ont besoin!"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:101
+msgid "Contribuer maintenant"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:106
+msgid "Nos Actualités"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:117
+msgid "Voir plus"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:131
+msgid "Inspirer les orphelins"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:132
+msgid ""
+"Nous postulons que l'éducation est à la souche du progrès pour chaque "
+"sociétés et individus."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:133
+msgid ""
+"Par conséquent, nous cherchons à investir chez les plus jeunes pour les "
+"préparer à leur futur."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:135
+msgid "HiTech4Orphans"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:136
+msgid ""
+"HiTech4Orphans est notre nouveau projet en Roumanie. Son objectif est "
+"d'aider les orphelins à obtenir des compétences dans l'informatique."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:150
+msgid "FESTIAMOR"
+msgstr ""
+
+#: blog/templates/blog/accueil.html:151
+msgid ""
+"FESTIAMOR est une série d'événements publics qui ont l'intention d'apporter "
+"le bonheur et de l'inspiration aux orphelins."
+msgstr ""
+
+#: blog/templates/blog/accueil.html:153
+msgid ""
+"Grâce à des sponsors et les dons, les orphelins ont reçu des ordinateurs, "
+"des livres et d'autres objets pour encourager l'apprentissage et le bien-"
+"être."
+msgstr ""
+
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:14
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:31
+msgid "ECOSOC"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:35
+msgid ""
+"Placé au cœur même du système des Nations Unies, le Conseil économique et "
+"social promeut les trois dimensions - économique, sociale et "
+"environnementale - du développement durable. C'est le lieu central à partir "
+"duquel des débats s'engagent, des idées nouvelles émergent, des consensus se "
+"forgent autour des voies à suivre et des actions sont coordonnées pour "
+"poursuivre les objectifs arrêtés au niveau international. Le Conseil a "
+"également pour fonction d'assurer le suivi des grandes conférences et "
+"réunions au sommet organisées par les Nations Unies."
+msgstr ""
+
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:39
+msgid ""
+"La Charte des Nations Unies a créé l'ECOSOC en 1945 comme l'un des six "
+"organes principaux des Nations Unies. Lors de sa réunion de coordination et "
+"de gestion en Avril 2017, le Conseil économique et social des Nations Unies "
+"(ECOSOC) a approuvé la recommandation du Comité chargé des organisations non "
+"gouvernementales à accorder le statut consultatif spécial: Association AMOR."
+msgstr ""
+
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:43
+msgid ""
+"Ainsi, l’ONG A.M.OR dispose du statut d’observateur aux conférences qui se "
+"déroulent à l’ONU et peut donc y assister et même y participer."
+msgstr ""
+
+#: blog/templates/blog/amor_monde/media.html:20
+msgid "MEDIA"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:19
+#: blog/templates/blog/l_association/nos_membres.html:23
+#: blog/templates/blog/s_engager/dev_bene.html:19
+#: blog/templates/blog/s_engager/dev_stagiaire.html:19
+msgid "Dons"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:23
+#: blog/templates/blog/l_association/nos_membres.html:27
+#: blog/templates/blog/s_engager/dev_bene.html:22
+#: blog/templates/blog/s_engager/dev_stagiaire.html:22
+msgid "NewsLetters"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:31
+msgid "Liste pays"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:41
+msgid "Afghanistan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:42
+msgid "Afrique du Sud"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:43
+msgid "Albanie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:44
+msgid "Algérie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:45
+msgid "Andorre"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:46
+msgid "Angola"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:47
+msgid "Antigua-et-Barbuda"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:48
+msgid "Arabie saoudite"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:49
+msgid "Argentine"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:50
+msgid "Arménie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:51
+msgid "Australie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:52
+msgid "Autriche"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:53
+msgid "Azerbaïdjan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:54
+msgid "Bahamas"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:55
+msgid "Bahreïn"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:56
+msgid "Barbade"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:57
+msgid "Bélarus"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:58
+msgid "Bélgique"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:59
+msgid "Belize"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:60
+msgid "Bhoutan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:61
+msgid "Bolivie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:62
+msgid "Bosnie-Herzégovine"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:63
+msgid "Botswana"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:64
+msgid "Brésil"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:65
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:66
+msgid "Bulgarie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:67
+msgid "Burkina Faso"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:68
+msgid "Burundi"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:69
+msgid "Cabo Verde"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:70
+msgid "Cambodge"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:71
+msgid "Cameroun"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:72
+msgid "Canada"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:73
+msgid "Chili"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:74
+msgid "Chine"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:75
+msgid "Chypre"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:76
+msgid "Colombie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:77
+msgid "Comores"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:78
+msgid "Congo"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:79
+msgid "Costa Rica"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:80
+msgid "Croatie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:81
+msgid "Cuba"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:82
+msgid "Danemark"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:83
+msgid "Djibouti"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:84
+msgid "Dominique"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:85
+msgid "Egypte"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:86
+msgid "El Salvador"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:87
+msgid "Emirats arabes unis"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:88
+msgid "Equateur"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:89
+msgid "Erythree"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:90
+msgid "Estonie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:91
+msgid "Eswatini"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:92
+msgid "Ethiopie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:93
+msgid "Fédération de Russie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:94
+msgid "Fidji"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:95
+msgid "Finlande"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:96
+msgid "Gabonv"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:97
+msgid "Gambie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:98
+msgid "Géorgie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:99
+msgid "Ghana"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:100
+msgid "Grèce"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:101
+msgid "Grenade"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:102
+msgid "Guatemala"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:103
+msgid "Guinée Bissau"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:104
+msgid "Guinée équatoriale"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:105
+msgid "Guyana"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:106
+msgid "Haïtiv"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:107
+msgid "Honduras"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:108
+msgid "Hongrie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:109
+msgid "îles Marshall"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:110
+msgid "îles Salomonv"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:111
+msgid "Inde"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:112
+msgid "Indonésie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:113
+msgid "Iran"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:114
+msgid "Iraq"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:115
+msgid "Irlande"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:116
+msgid "Islande"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:117
+msgid "Israël"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:118
+msgid "Jamaïque"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:119
+msgid "Jordanie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:120
+msgid "Kazakhstan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:121
+msgid "Kenya"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:122
+msgid "Kirghizistan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:123
+msgid "Kiribati"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:124
+msgid "Koweït"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:125
+msgid "Lesotho"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:126
+msgid "Lettonie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:127
+msgid "Liban"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:128
+msgid "Libéria"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:129
+msgid "Libye"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:130
+msgid "Liechtenstein"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:131
+msgid "Lituanie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:132
+msgid "Macédonie du nord"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:133
+msgid "Madagascar"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:134
+msgid "Malaisie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:135
+msgid "Malawi"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:136
+msgid "Malte"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:137
+msgid "Maroc"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:138
+msgid "Maurice"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:139
+msgid "Méxique"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:140
+msgid "Micronésie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:141
+msgid "Mangolie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:142
+msgid "Monténégro"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:143
+msgid "Mozambique"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:144
+msgid "Myanmar"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:145
+msgid "Namibie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:146
+msgid "Nauru"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:147
+msgid "Népal"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:148
+msgid "Nicaragua"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:149
+msgid "Niger"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:150
+msgid "Nigéria"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:151
+msgid "Norvège"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:152
+msgid "Nouvelle-Zélande"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:153
+msgid "Oman"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:154
+msgid "Ouganda"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:155
+msgid "Ouzbékistan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:156
+msgid "Paistan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:157
+msgid "Palaos"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:158
+msgid "Papousie-Nouvell-Guinée"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:159
+msgid "Paraguay"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:160
+msgid "Pays-Bas"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:161
+msgid "Préou"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:162
+msgid "Philippines"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:163
+msgid "Pologne"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:164
+msgid "Portugal"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:165
+msgid "Quatar"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:166
+msgid "République arabe syrienne"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:167
+msgid "République centrafricaine"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:168
+msgid "République de Corée"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:169
+msgid "République de Moldova"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:170
+msgid "République démocratique du Congo"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:171
+msgid "République démocratique populaire lao"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:172
+msgid "République dominicaine"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:173
+msgid "Répuplique populaire démocratique de Corée"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:174
+msgid "République tchèque"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:175
+msgid "République-Unie de Tanzanie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:176
+msgid "Roumanie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:177
+msgid "Rwanda"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:178
+msgid "Saint-kitts-et-Nevis"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:179
+msgid "Saint-Martin"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:180
+msgid "Saint-Vincent-et-les-Grenadines"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:181
+msgid "Sainte-Lucie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:182
+msgid "Samoa"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:183
+msgid "Sao Tomé-et-Principe"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:184
+msgid "Serbie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:185
+msgid "Seychelles"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:186
+msgid "Sierra Leone"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:187
+msgid "Singapour"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:188
+msgid "Slovaquie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:189
+msgid "Slovénie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:190
+msgid "Somalie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:191
+msgid "Soudan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:192
+msgid "Soudan du Sud"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:193
+msgid "Sri Lanka"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:194
+msgid "Suède"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:195
+msgid "Suriname"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:196
+msgid "Tadjikistan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:197
+msgid "Tchad"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:198
+msgid "Thaïlande"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:199
+msgid "Timor-Leste"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:200
+msgid "Togo"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:201
+msgid "Tonga"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:202
+msgid "Trinité-et-Tobago"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:203
+msgid "Tunisie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:204
+msgid "Turkménistan"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:205
+msgid "Turquie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:206
+msgid "Tuvalu"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:207
+msgid "Ukraine"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:208
+msgid "Uruguay"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:209
+msgid "Vanuatu"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:210
+msgid "Venezuaela"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:211
+msgid "Viet Nam"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:212
+msgid "Yémem"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:213
+msgid "Zambie"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/pays.html:214
+msgid "Zimbabwe"
+msgstr ""
+
+#: blog/templates/blog/amor_monde/policy_papers.html:22
+msgid "Policy Papers"
+msgstr ""
+
+#: blog/templates/blog/l_association/membre.html:15
+msgid "Membre"
+msgstr ""
+
+#: blog/templates/blog/l_association/membre.html:39
+#: blog/templates/blog/nos_projets/article.html:39
+msgid "retour"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:26
+msgid "Ambassadeurs"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:40
+#: templates/base.html:57
+msgid "Nos ambassadeurs"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:41
+msgid ""
+"Sportifs, musiciens, ou artistes en tout genre, ont accepté de porter et "
+"communiquer les couleurs et les idées de l’ONG A.M.OR."
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:42
+msgid ""
+"Que ce soit à travers la chanson, un maillot durant une course sportive, où "
+"un hashtag sur leur réseau social, chacun apporte à sa manière et à sa "
+"hauteur une belle contribution à nos projets."
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_membres.html:32
+msgid "Rencontrez notre équipe"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_membres.html:33
+msgid "Vous trouverez ici un bref profil de tout notre personnel dévoué!"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_membres.html:65
+msgid "Continuer à lire"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_membres.html:84
+msgid "Précédente"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_membres.html:89
+msgid "Page"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_membres.html:90
+msgid "sur"
+msgstr ""
+
+#: blog/templates/blog/l_association/nos_membres.html:94
+msgid "Suivante"
+msgstr ""
+
+#: blog/templates/blog/l_association/notreHistoire.html:14
+msgid "Histoire"
+msgstr ""
+
+#: blog/templates/blog/l_association/notreHistoire.html:31
+#: templates/base.html:55
+msgid "Notre Histoire"
+msgstr ""
+
+#: blog/templates/blog/l_association/notreHistoire.html:36
+msgid ""
+"L’Association fut créée 7 janvier 1999 par M. Togiri Aka, un orphelin "
+"originaire de Côte d’Ivoire, ayant émigré en Suisse. Durant les années "
+"suivantes, l’ONG a organisé différents événements tels que FESTI AMOR en "
+"2013 où un pack informatique a été installé à l’EPP Nianda 1 en Côte "
+"d’Ivoire. Lors de l’édition 2014, une série de dons a été faite à "
+"l’Orphelinat de Bingerville et à SOS Village d’Abobo."
+msgstr ""
+
+#: blog/templates/blog/l_association/notreHistoire.html:39
+msgid ""
+"En 2017 ce fût la récompense avec le statut ECOSOC obtenu auprès de l’ONU. "
+"Aujourd’hui ce  sont plus de 17 délégations dans différents pays que "
+"rassemble A.MOR et plus d’une trentaine de collaborateur œuvrant dans "
+"l’association."
+msgstr ""
+
+#: blog/templates/blog/l_association/notreHistoire.html:42
+msgid ""
+"L'Association Mondiale pour les Orphelins (A.M.OR) est donc à l’heure "
+"actuelle une organisation non gouvernementale à but non lucratif dotée du "
+"statut consultatif auprès de l'ECOSOC, qui croit au potentiel de tous les "
+"individus, y compris en celui des orphelins, des sans-abri, des personnes "
+"séropositives, des femmes et autres personnes dans le besoin. Elle vise à "
+"contribuer à offrir des chances égales de développement et de prospérité "
+"dans le monde."
+msgstr ""
+
+#: blog/templates/blog/l_association/notreHistoire.html:45
+msgid ""
+"Créer des opportunités pour tous est gratifiant tant pour les individus que "
+"pour la société. Avec HiTech4Orphans, notre projet phare lancé en 2017, nous "
+"nous axons dans l’enseignement numérique pour permettre à ceux qui n’en "
+"n’ont pas eu la chance de se former au monde de l’informatique."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:24
+#: templates/base.html:66
+msgid "HITECH4ORPHANS"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:42
+msgid "Résumé"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:45
+msgid ""
+"Elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, "
+"HiTech4Orphans aide des jeunes enfants, étudiants et orphelins à maîtriser "
+"des compétences informatiques. Nous offrons des cours basiques et avancés en "
+"bureautique. Une fois introduit aux éléments primaires sur Microsoft Office "
+"et sur d'autres logiciels libres, les étudiants motivés de HiTech4Orphans "
+"auront l'opportunité d'approfondir leurs connaissances en s'inscrivant dans "
+"des cours de programmation (Objet orienté - C) et de design graphique (AP,"
+"AE)."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:48
+msgid ""
+"Pour mener à bien ce projet central, nous recherchons du matériel "
+"informatique, des programmeurs, des dons, et des bonnes idées."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:67
+msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et au Sénégal"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:71
+msgid ""
+"Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. "
+"HiTech4Orphans travaille en étroite collaboration avec la direction générale "
+"de la protection de l’enfance du secteur 6 (Direcţia Generală de ASISTENTA "
+"sociala şi Protectia Copilului secteur 6) de Bucarest. Le projet sera mis en "
+"œuvre dans trois bâtiments différents. En tout premier lieu dans le bâtiment "
+"qui accueille les enfants handicapés (900 enfants) qui pourront apprendre "
+"grâce à la technologie d'assistance. En second lieu, nous allons mettre en "
+"place les premiers cours d'introduction de codage pour des enfants de tous "
+"les milieux sociaux et les orphelins qui suivent des cours dans un programme "
+"informatique conjoint avec le secteur 6 (jusqu'à 20 personnes)."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:74
+msgid ""
+"Au Sénégal, nous avons ouvert une antenne A.M.OR Sénégal et nommée une "
+"présidente, qui cherche actuellement à établir des partenariats avec des "
+"associations locales dans la région de Dakar. Notre objectif est de "
+"permettre à 500 enfants de bénéficier de HiTech4Orphans."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:76
+msgid ""
+"Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus "
+"grâce à la générosité de nos 3 partenaires. L’International Conference "
+"Center (CICG - Centre International de Genève Conférences) , qui nous a fait "
+"don de 47 ordinateurs. La Solidarité Informatique Sans Frontière (SISF – "
+"Belgique) qui nous a donné 20 ordinateurs. Enfin, la fondation Thuor "
+"(Genève) qui nous a offert 20 ordinateurs. Nous remercions chaleureusement "
+"tous nos partenaires pour leur confiance."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/article.html:15
+msgid "Article"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/articles.html:20 templates/base.html:69
+msgid "Articles"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/articles.html:35
+msgid "Nos Articles"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:16
+msgid "Gala A.M.OR 2019"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:18
+msgid ""
+"A cette occasion, A.M.OR a décidé d’organiser un GALA qui se tiendra le 8 "
+"novembre à Genève. C’est tout au long d’une soirée rythmée par un repas, "
+"différentes activités et présentations que les convives pourront découvrir "
+"plus intimement, les actions menées par A.M.OR depuis 20 années d’existence. "
+"Une occasion pour partager les derniers retours sur les projets en cours et "
+"d’introduire pourquoi pas, de nouveaux objectifs."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:29
+msgid "Organisation"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:30
+msgid ""
+"Pour l’organisation de cette soirée, nous avons la chance de pouvoir compter "
+"sur : Lorentz Élodie, Présidente Directrice Générale de EJL Événementiel et "
+"Corine Matringe, Présidente de A .M.OR Ile-Maurice."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:36
+msgid "Corine Matringe"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:42
+msgid "Lorentz Élodie"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:47
+msgid ""
+"Votre entrée comprendra donc un repas chaud et complet, une place assise "
+"pour assister aux présentations, aux activités, et une partie servira de don "
+"pour le projet HiTech4Orphans."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:48
+msgid "Pour plus d’information ou vous inscrire, n’hésitez pas à nous "
+msgstr ""
+
+#: blog/templates/blog/nos_projets/gala_2019.html:48
+msgid "contacter"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:15 templates/base.html:80
+msgid "Contact"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:30
+msgid "Contribuer à un monde meilleur"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:38
+msgid "Informations"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:42
+msgid "Nom"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:45
+msgid "Nom valid requis"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:49
+msgid "Prenom"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:52
+msgid "Prénom valide requis"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:58
+msgid "Email"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:58
+msgid "(Optionel)"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:61
+msgid "Entrer un mail valide"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:66
+msgid "Message"
+msgstr ""
+
+#: blog/templates/blog/s_engager/contact.html:71
+msgid "Valider"
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_bene.html:28
+msgid " Envie de donner de ton temps ?"
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_bene.html:31
+msgid ""
+"• A.M.OR est toujours à la recherche d’une bonne âme prête à s’engager "
+"ponctuellement ou pour une durée un peu plus longue afin d’aider notre "
+"équipe ! "
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_bene.html:34
+msgid ""
+" • Tu as des compétences informatiques, programmer un jeu t’intéresse, envie "
+"de nous donner un coup de main dans la recherche de matériel informatique, "
+"une bonne énergie et de bonnes idées? "
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_bene.html:35
+#: blog/templates/blog/s_engager/dev_stagiaire.html:34
+msgid "Contacte-nous"
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_bene.html:35
+msgid "au plus vite !"
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_stagiaire.html:28
+msgid "Envie d'obtenir un stage qui a du sens ?"
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_stagiaire.html:31
+msgid ""
+"• L’association est à la recherche de jeunes dynamiques et prêts à "
+"développer leurs propres projets à des fins humanitaires tout comme Eugénie, "
+"Justine, Amélie et Elisabeth, étudiantes en DUT Gestion des Entreprises et "
+"Administrations à l’université d’Amiens parties en janvier pour une mission "
+"d’une semaine au Sénégal."
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_stagiaire.html:34
+msgid ""
+"• Ou comme Perrine Bertrand stagiaire, chargée de communication et relation-"
+"presse. Avec un accès à l’ONU de Genève et aux conférences qui s’y "
+"déroulent. "
+msgstr ""
+
+#: blog/templates/blog/s_engager/dev_stagiaire.html:34
+msgid " au plus vite !"
+msgstr ""
+
+#: templates/base.html:47
+msgid "ACCUEIL"
+msgstr ""
+
+#: templates/base.html:52
+msgid "L'ASSOCIATION"
+msgstr ""
+
+#: templates/base.html:56
+msgid "Nos Membres"
+msgstr ""
+
+#: templates/base.html:63
+msgid "NOS PROJETS"
+msgstr ""
+
+#: templates/base.html:75
+msgid "S'ENGAGER"
+msgstr ""
+
+#: templates/base.html:78
+msgid "Devenir Bénévole"
+msgstr ""
+
+#: templates/base.html:79
+msgid "Devenir Stagiaire"
+msgstr ""
+
+#: templates/base.html:86
+msgid "AMOR MONDE"
+msgstr ""
+
+#: templates/base.html:89
+msgid "ECOSOC/ONU"
+msgstr ""
+
+#: templates/base.html:90
+msgid "Pays"
+msgstr ""
+
+#: templates/base.html:96
+msgid "Langue"
+msgstr ""
+
+#: templates/base.html:109
+msgid "Arabe"
+msgstr ""
+
+#: templates/base.html:110
+msgid "Chinois"
+msgstr ""
+
+#: templates/base.html:111
+msgid "Espagnol"
+msgstr ""
+
+#: templates/base.html:112
+msgid "Russe"
+msgstr ""
+
+#: templates/base.html:142
+msgid "© AMOR 2019, TOUS DROITS RÉSERVÉS, "
+msgstr ""
+
+#: templates/base.html:143
+msgid "Conditions"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/bootstrap4/components.py:25
+#: venv/lib/python3.4/site-packages/bootstrap4/templates/bootstrap4/form_errors.html:3
+#: venv/lib/python3.4/site-packages/bootstrap4/templates/bootstrap4/messages.html:4
+msgid "close"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/contrib/messages/apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/contrib/sitemaps/apps.py:7
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/paginator.py:40
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/paginator.py:42
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/paginator.py:47
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:31
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:102
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:649
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:154
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:165
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.4/site-packages/django/core/validators.py:239
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:246
+msgid ""
+"Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:255
+#: venv/lib/python3.4/site-packages/django/core/validators.py:275
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:260
+#: venv/lib/python3.4/site-packages/django/core/validators.py:276
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:270
+#: venv/lib/python3.4/site-packages/django/core/validators.py:274
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:304
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:310
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:341
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:350
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:360
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:375
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:395
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:400
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:405
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:465
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/core/validators.py:518
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/base.py:1125
+#: venv/lib/python3.4/site-packages/django/forms/models.py:753
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/base.py:1127
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:105
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:106
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:107
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:108
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:112
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:129
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:882
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1782
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:886
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1780
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:959
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1851
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:971
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:973
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1039
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1102
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1150
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1152
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1294
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1155
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1292
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1296
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1300
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1447
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1449
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1601
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1604
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1656
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1680
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1746
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1748
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1866
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1897
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1978
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1980
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2043
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2055
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2068
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2098
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2105
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2133
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2135
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2138
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2263
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2286
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2333
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/files.py:221
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/files.py:359
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:780
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:782
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1001
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1051
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1052
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1094
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.4/site-packages/django/forms/boundfield.py:171
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:53
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:245
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:290
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:325
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:396
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:1114
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:420
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:1115
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:442
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:471
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:525
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:526
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:527
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:529
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:532
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:597
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:753
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:843
+#: venv/lib/python3.4/site-packages/django/forms/models.py:1267
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:844
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:959
+#: venv/lib/python3.4/site-packages/django/forms/models.py:1266
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:960
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/fields.py:1173
+msgid "Enter a valid UUID."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.4/site-packages/django/forms/forms.py:86
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/forms.py:207
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/formsets.py:91
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/formsets.py:338
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/forms/formsets.py:345
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/forms/formsets.py:371
+#: venv/lib/python3.4/site-packages/django/forms/formsets.py:373
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/formsets.py:375
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/models.py:748
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/models.py:752
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/models.py:758
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/models.py:767
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/models.py:1094
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/models.py:1155
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/models.py:1269
+#, python-format
+msgid "\"%(pk)s\" is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/utils.py:162
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/widgets.py:391
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/widgets.py:392
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/widgets.py:393
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/widgets.py:708
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/widgets.py:709
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/forms/widgets.py:710
+msgid "No"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:783
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:812
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:829
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:831
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:833
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:835
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:837
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:839
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:62
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:63
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:68
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:69
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:150
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:152
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:20
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:35
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:36
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:37
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:38
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:39
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:40
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:41
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:42
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:49
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:50
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:51
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:52
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:53
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:54
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:55
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/dates.py:56
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/text.py:70
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s..."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/text.py:237
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.4/site-packages/django/utils/text.py:256
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:69
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.4/site-packages/django/utils/timesince.py:58
+msgid "0 minutes"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:120
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the 'Referrer-Policy: no-referrer' header, please remove them. The "
+"CSRF protection requires the 'Referer' header to do strict referer checking. "
+"If you're concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" ...> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:61
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:111
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:338
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:585
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:619
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/detail.py:53
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/list.py:67
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/generic/list.py:154
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/static.py:41
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/static.py:43
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/static.py:83
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:6
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:345
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:367
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:368
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:383
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:384
+msgid "Topics, references, &amp; how-to's"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:395
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:396
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:407
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:408
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/django_icons/renderers/image.py:223
+msgid "Icon of "
+msgstr ""
+
+#: venv/lib/python3.4/site-packages/modeltranslation/widgets.py:25
+msgid "None"
+msgstr ""
