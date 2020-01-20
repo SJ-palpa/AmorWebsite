@@ -26,7 +26,7 @@ SECRET_KEY = '+90ye43g0b@+n@#&-oqq(1^-+x=*o+iqv0l94l%frnxl7g+lu9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["amorassociation.pythonanywhere.com"]
 
 
 # Application definition
