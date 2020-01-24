@@ -6,36 +6,30 @@
 {% endblock %}
 
 {% block content %}
-
-
-
-<!--
-
-    Ajouter les bonnes photos
-
- -->
-
-
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
-            <div class="row  float-sm-left">
-                <svg viewBox="300 100 1824 800">
-                    <symbol id="s-text">
-                        <text text-anchor="middle" x="47%" y="80%">{% trans "HITECH4ORPHANS" %}</text>
-                    </symbol>
-
-                    <g class="g-ants">
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                    </g>
-                </svg>
+            <div class="row float-md-left">
+                <div class="container">
+                    <div class="sp-container">
+                        <div class="sp-content">
+                            <h2 class="frame-5 text-center">
+                                <span class="text-size-fade-in">{% trans "HITECH4ORPHANS" %}</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-sm-none d-md-none d-lg-block">
+                <div class="container float-right">
+                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                       href="{% url "contact" %}">{% trans "Dons" %}</a>
+                </div>
+                <div class="container float-right">
+                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                       href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
+                </div>
             </div>
         </div>
-
-
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module">
             <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden paragraph_design">
                     <h3 class="pb-3 mb-4 font-italic border-bottom">

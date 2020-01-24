@@ -7,23 +7,6 @@
 {% endblock %}
 
 {% block content %}
-
-
-
-    <!--
-
-
-    Modifier la source de image les mettre dans le css
-
-    Le carousel n'est pas dans le fichier de traduction
-
-    -->
-
-
-
-
-
-
     <main role="main">
         <!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -36,8 +19,11 @@
                 <div class="carousel-item" style="background-image: url('{% static 'img/image_accueil.jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
                         <h1 class="color-fonce-amor">
-                            <div class="animate one">
+                             <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
                                 <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
+                            </div>
+                            <div class="animate one d-none d-sm-none d-md-none d-lg-block ">
+                                 <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
                             </div>
                         </h1>
                         <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Notre projet phare, elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et orphelins..."%}</p>
@@ -47,8 +33,12 @@
                 <div class="carousel-item active" style="background-image: url('{% static 'img/masonry-14.jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
                         <h1 class="color-fonce-amor">
-                            <div class="animate one">
+                            <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
                                 <span>A</span><span>s</span><span>s</span><span>o</span><span>c</span><span>i</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
+                                <span>A</span><span>.M</span><span>.O</span><span>R</span>
+                            </div>
+                            <div class="animate one d-none d-sm-none d-md-none d-lg-block ">
+                                 <span>A</span><span>s</span><span>s</span><span>o</span><span>c</span><span>i</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
                                 <span>A</span><span>.M</span><span>.O</span><span>R</span>
                             </div>
                         </h1>
@@ -59,8 +49,11 @@
                 <div class="carousel-item" style="background-image: url('{% static 'img/slider-4 (1).jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
                         <h1 class="color-fonce-amor">
-                            <div class="animate one">
+                             <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
                                 {% trans "<span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>"%}
+                            </div>
+                            <div class="animate one d-none d-sm-none d-md-none d-lg-block ">
+                                 {% trans "<span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>"%}
                             </div>
                         </h1>
                         <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Nos ambassadeurs engagés."%}</p>

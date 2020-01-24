@@ -25,7 +25,7 @@
     {% bootstrap_messages %}
     {% block ajout_head %}
     {% endblock %}
-
+    <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
     <title>{% block title %}Amor{% endblock %}</title>
 </head>
 <body>
@@ -110,6 +110,12 @@
                         <button type="submit" name="language" class="dropdown-item nav-link-bg-click" disabled>{% trans "Espagnol" %}</button>
                         <button type="submit" name="language" class="dropdown-item nav-link-bg-click" disabled>{% trans "Russe" %}</button>
                     </div>
+                </li>
+                <li class="nav-item d-block d-none d-sm-block d-md-block d-lg-none text-center">
+                        <a class="btn btn-xs btn-outline-danger text-light btn-banniere mr-2"
+                       href="{% url "contact" %}">{% trans "Dons" %}</a>
+                        <a class="btn btn-xs btn-outline-danger text-light btn-banniere "
+                       href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
                 </li>
             </ul>
         </div>

@@ -14,13 +14,26 @@
 
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
-            <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
-                   href="{% url "contact" %}">{% trans "Dons" %} </a>
+            <div class="row float-md-left">
+                <div class="container">
+                    <div class="sp-container">
+                        <div class="sp-content">
+                            <h2 class="frame-5 text-center">
+                                <span class="text-size-fade-in">{% trans "Pays" %}</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
-                   href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
+             <div class="d-none d-sm-none d-md-none d-lg-block">
+                <div class="container float-right">
+                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                       href="{% url "contact" %}">{% trans "Dons" %}</a>
+                </div>
+                <div class="container float-right">
+                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                       href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
+                </div>
             </div>
         </div>
         {% for representantActif in group.paysSelect.representant.all %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 19:45+0000\n"
+"POT-Creation-Date: 2020-01-24 15:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: AmorWebsite/settings.py:64
+#: AmorWebsite/settings.py:63
 msgid "French"
 msgstr ""
 
-#: AmorWebsite/settings.py:65
+#: AmorWebsite/settings.py:64
 msgid "English"
 msgstr ""
 
-#: blog/templates/blog/accueil.html:43
+#: blog/templates/blog/accueil.html:26
 msgid ""
 "Notre projet phare, elaboré après que l'Association aie reçu le statut "
 "ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et "
 "orphelins..."
 msgstr ""
 
-#: blog/templates/blog/accueil.html:44 blog/templates/blog/accueil.html:56
-#: blog/templates/blog/accueil.html:67 blog/templates/blog/accueil.html:137
+#: blog/templates/blog/accueil.html:27 blog/templates/blog/accueil.html:39
+#: blog/templates/blog/accueil.html:50 blog/templates/blog/accueil.html:120
 msgid "En savoir plus"
 msgstr "اقرأ المزيد"
 
-#: blog/templates/blog/accueil.html:55
+#: blog/templates/blog/accueil.html:38
 msgid ""
 "Nous croyons au potentiel de individus et notre objectif est d'aider ceux "
 "dans le besoin afin d'atteindre le meilleur de leurs capacités."
 msgstr ""
 
-#: blog/templates/blog/accueil.html:63
+#: blog/templates/blog/accueil.html:46
 msgid ""
 "<span>A</span><span>m</span><span>b</span><span>a</span><span>s</"
 "span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</"
 "span><span>r</span><span>s</span>"
 msgstr ""
 
-#: blog/templates/blog/accueil.html:66
+#: blog/templates/blog/accueil.html:49
 #, fuzzy
 #| msgid "Nos ambassadeurs"
 msgid "Nos ambassadeurs engagés."
 msgstr "سفراءنا"
 
-#: blog/templates/blog/accueil.html:89
+#: blog/templates/blog/accueil.html:72
 msgid "Notre Mission"
 msgstr "مهمتنا"
 
-#: blog/templates/blog/accueil.html:90
+#: blog/templates/blog/accueil.html:73
 msgid ""
 "L'Association Mondiale pour les Orphelins (A.M.OR) a été fondée par un "
 "orphelin."
 msgstr "تأسست الرابطة العالمية للأيتام على يد يتيم"
 
-#: blog/templates/blog/accueil.html:92
+#: blog/templates/blog/accueil.html:75
 #, fuzzy
 #| msgid ""
 #| "Depuis sa création le 7 Janvier 1999 à Genève, A.M.OR a mené différents "
@@ -82,52 +82,52 @@ msgstr ""
 "منذ إنشائها في 7 جانفي 1999 في جنيف ، أجرت الجمعية مختلفة مشاريع للأيتام "
 "والأشخاص المصابين بفيروس نقص المناعة البشرية والنساء في حاجة"
 
-#: blog/templates/blog/accueil.html:93
+#: blog/templates/blog/accueil.html:76
 msgid ""
 "En Mai 2017 l'Association reçu le statut consultatif ECOSOC des Nations "
 "Unies."
 msgstr ""
 "في ماي 2017 حصلت الجمعية على وضع المجلس الاقتصادي والاجتماعي للأمم المتحدة"
 
-#: blog/templates/blog/accueil.html:100
+#: blog/templates/blog/accueil.html:83
 msgid "Votre contribution aidera ceux qui en ont besoin!"
 msgstr "مساهمتكم سوف تساعد المحتاجين"
 
-#: blog/templates/blog/accueil.html:101
+#: blog/templates/blog/accueil.html:84
 msgid "Contribuer maintenant"
 msgstr "المساهمة الآن"
 
-#: blog/templates/blog/accueil.html:106
+#: blog/templates/blog/accueil.html:89
 msgid "Nos Actualités"
 msgstr ""
 
-#: blog/templates/blog/accueil.html:117
+#: blog/templates/blog/accueil.html:100
 #, fuzzy
 #| msgid "En savoir plus"
 msgid "Voir plus"
 msgstr "اقرأ المزيد"
 
-#: blog/templates/blog/accueil.html:131
+#: blog/templates/blog/accueil.html:114
 msgid "Inspirer les orphelins"
 msgstr " إلهام الأيتام"
 
-#: blog/templates/blog/accueil.html:132
+#: blog/templates/blog/accueil.html:115
 msgid ""
 "Nous postulons que l'éducation est à la souche du progrès pour chaque "
 "sociétés et individus."
 msgstr "نحن نفترض أن التعليم هو أصل التقدم لكل مجتمع وكل فرد"
 
-#: blog/templates/blog/accueil.html:133
+#: blog/templates/blog/accueil.html:116
 msgid ""
 "Par conséquent, nous cherchons à investir chez les plus jeunes pour les "
 "préparer à leur futur."
 msgstr "لذلك ، نحن نتطلع إلى الاستثمار في الشباب لإعدادهم للمستقبل"
 
-#: blog/templates/blog/accueil.html:135
+#: blog/templates/blog/accueil.html:118
 msgid "HiTech4Orphans"
 msgstr "HiTech4Orphans"
 
-#: blog/templates/blog/accueil.html:136
+#: blog/templates/blog/accueil.html:119
 #, fuzzy
 #| msgid ""
 #| "HiTech4Orphans est notre nouveau projet en Roumanie. Son objectif est "
@@ -139,11 +139,11 @@ msgstr ""
 "هو مشروعنا الجديد في رومانيا. هدفه هو مساعدة الأيتام على اكتساب مهارات "
 "الكمبيوتر. HiTech4Orphans"
 
-#: blog/templates/blog/accueil.html:150
+#: blog/templates/blog/accueil.html:133
 msgid "FESTIAMOR"
 msgstr "FESTIAMOR"
 
-#: blog/templates/blog/accueil.html:151
+#: blog/templates/blog/accueil.html:134
 msgid ""
 "FESTIAMOR est une série d'événements publics qui ont l'intention d'apporter "
 "le bonheur et de l'inspiration aux orphelins."
@@ -151,7 +151,7 @@ msgstr ""
 " هي سلسلة من الأحداث العامة التي تهدف إلى تحقيق السعادة والإلهام للأيتام "
 "FESTIAMOR"
 
-#: blog/templates/blog/accueil.html:153
+#: blog/templates/blog/accueil.html:136
 msgid ""
 "Grâce à des sponsors et les dons, les orphelins ont reçu des ordinateurs, "
 "des livres et d'autres objets pour encourager l'apprentissage et le bien-"
@@ -160,12 +160,40 @@ msgstr ""
 "من خلال الرعاية والتبرعات ، تلقى الأيتام أجهزة الكمبيوتر والكتب وغيرها من "
 "المواد لتشجيع التعلم والرفاه"
 
-#: blog/templates/blog/amor_monde/ecosoc_onu.html:14
-#: blog/templates/blog/amor_monde/ecosoc_onu.html:31
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:16
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:37
 msgid "ECOSOC"
 msgstr "المجلس الاقتصادي والاجتماعي"
 
-#: blog/templates/blog/amor_monde/ecosoc_onu.html:35
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:25
+#: blog/templates/blog/amor_monde/pays.html:31
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:37
+#: blog/templates/blog/l_association/nos_membres.html:35
+#: blog/templates/blog/l_association/notreHistoire.html:25
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:25
+#: blog/templates/blog/nos_projets/article.html:26
+#: blog/templates/blog/nos_projets/articles.html:31
+#: blog/templates/blog/s_engager/contact.html:26
+#: blog/templates/blog/s_engager/dev_bene.html:19
+#: blog/templates/blog/s_engager/dev_stagiaire.html:19 templates/base.html:117
+msgid "Dons"
+msgstr "التبرعات"
+
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:29
+#: blog/templates/blog/amor_monde/pays.html:35
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:41
+#: blog/templates/blog/l_association/nos_membres.html:39
+#: blog/templates/blog/l_association/notreHistoire.html:29
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:29
+#: blog/templates/blog/nos_projets/article.html:30
+#: blog/templates/blog/nos_projets/articles.html:35
+#: blog/templates/blog/s_engager/contact.html:30
+#: blog/templates/blog/s_engager/dev_bene.html:22
+#: blog/templates/blog/s_engager/dev_stagiaire.html:22 templates/base.html:119
+msgid "NewsLetters"
+msgstr "النشرات الإخبارية"
+
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:41
 msgid ""
 "Placé au cœur même du système des Nations Unies, le Conseil économique et "
 "social promeut les trois dimensions - économique, sociale et "
@@ -183,7 +211,7 @@ msgstr ""
 "دوليا ، والمجلس مسؤول أيضا عن متابعة المؤتمرات الرئيسية ومؤتمرات القمة التي "
 "تعقدها الأمم المتحدة."
 
-#: blog/templates/blog/amor_monde/ecosoc_onu.html:39
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:45
 #, fuzzy
 #| msgid ""
 #| "La Charte des Nations Unies a créé l'ECOSOC en 1945 comme l'un des six "
@@ -204,7 +232,7 @@ msgstr ""
 "2017 ، قام المجلس الاقتصادي والاجتماعي للأمم المتحدة (ECOSOC) وافق على توصية "
 "اللجنة المعنية بالمنظمات غير الحكومية بمنح المركز AMOR الاستشاري الخاص: رابطة"
 
-#: blog/templates/blog/amor_monde/ecosoc_onu.html:43
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:49
 msgid ""
 "Ainsi, l’ONG A.M.OR dispose du statut d’observateur aux conférences qui se "
 "déroulent à l’ONU et peut donc y assister et même y participer."
@@ -216,719 +244,709 @@ msgstr ""
 msgid "MEDIA"
 msgstr "وسائل الإعلام"
 
-#: blog/templates/blog/amor_monde/pays.html:19
-#: blog/templates/blog/l_association/nos_membres.html:23
-#: blog/templates/blog/s_engager/dev_bene.html:19
-#: blog/templates/blog/s_engager/dev_stagiaire.html:19
-msgid "Dons"
-msgstr "التبرعات"
+#: blog/templates/blog/amor_monde/pays.html:22 templates/base.html:90
+msgid "Pays"
+msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:23
-#: blog/templates/blog/l_association/nos_membres.html:27
-#: blog/templates/blog/s_engager/dev_bene.html:22
-#: blog/templates/blog/s_engager/dev_stagiaire.html:22
-msgid "NewsLetters"
-msgstr "النشرات الإخبارية"
-
-#: blog/templates/blog/amor_monde/pays.html:31
+#: blog/templates/blog/amor_monde/pays.html:44
 msgid "Liste pays"
 msgstr "قائمة الدول"
 
-#: blog/templates/blog/amor_monde/pays.html:41
+#: blog/templates/blog/amor_monde/pays.html:54
 #, fuzzy
 #| msgid "Organisation"
 msgid "Afghanistan"
 msgstr "منظمة"
 
-#: blog/templates/blog/amor_monde/pays.html:42
+#: blog/templates/blog/amor_monde/pays.html:55
 msgid "Afrique du Sud"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:43
+#: blog/templates/blog/amor_monde/pays.html:56
 msgid "Albanie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:44
+#: blog/templates/blog/amor_monde/pays.html:57
 msgid "Algérie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:45
+#: blog/templates/blog/amor_monde/pays.html:58
 msgid "Andorre"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:46
+#: blog/templates/blog/amor_monde/pays.html:59
 msgid "Angola"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:47
+#: blog/templates/blog/amor_monde/pays.html:60
 msgid "Antigua-et-Barbuda"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:48
+#: blog/templates/blog/amor_monde/pays.html:61
 msgid "Arabie saoudite"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:49
+#: blog/templates/blog/amor_monde/pays.html:62
 msgid "Argentine"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:50
+#: blog/templates/blog/amor_monde/pays.html:63
 msgid "Arménie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:51
+#: blog/templates/blog/amor_monde/pays.html:64
 msgid "Australie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:52
+#: blog/templates/blog/amor_monde/pays.html:65
 msgid "Autriche"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:53
+#: blog/templates/blog/amor_monde/pays.html:66
 msgid "Azerbaïdjan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:54
+#: blog/templates/blog/amor_monde/pays.html:67
 msgid "Bahamas"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:55
+#: blog/templates/blog/amor_monde/pays.html:68
 msgid "Bahreïn"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:56
+#: blog/templates/blog/amor_monde/pays.html:69
 msgid "Barbade"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:57
+#: blog/templates/blog/amor_monde/pays.html:70
 msgid "Bélarus"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:58
+#: blog/templates/blog/amor_monde/pays.html:71
 msgid "Bélgique"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:59
+#: blog/templates/blog/amor_monde/pays.html:72
 msgid "Belize"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:60
+#: blog/templates/blog/amor_monde/pays.html:73
 msgid "Bhoutan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:61
+#: blog/templates/blog/amor_monde/pays.html:74
 msgid "Bolivie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:62
+#: blog/templates/blog/amor_monde/pays.html:75
 msgid "Bosnie-Herzégovine"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:63
+#: blog/templates/blog/amor_monde/pays.html:76
 msgid "Botswana"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:64
+#: blog/templates/blog/amor_monde/pays.html:77
 msgid "Brésil"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:65
+#: blog/templates/blog/amor_monde/pays.html:78
 msgid "Brunei Darussalam"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:66
+#: blog/templates/blog/amor_monde/pays.html:79
 msgid "Bulgarie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:67
+#: blog/templates/blog/amor_monde/pays.html:80
 msgid "Burkina Faso"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:68
+#: blog/templates/blog/amor_monde/pays.html:81
 msgid "Burundi"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:69
+#: blog/templates/blog/amor_monde/pays.html:82
 msgid "Cabo Verde"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:70
+#: blog/templates/blog/amor_monde/pays.html:83
 msgid "Cambodge"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:71
+#: blog/templates/blog/amor_monde/pays.html:84
 msgid "Cameroun"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:72
+#: blog/templates/blog/amor_monde/pays.html:85
 msgid "Canada"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:73
+#: blog/templates/blog/amor_monde/pays.html:86
 msgid "Chili"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:74
+#: blog/templates/blog/amor_monde/pays.html:87
 msgid "Chine"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:75
+#: blog/templates/blog/amor_monde/pays.html:88
 msgid "Chypre"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:76
+#: blog/templates/blog/amor_monde/pays.html:89
 msgid "Colombie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:77
+#: blog/templates/blog/amor_monde/pays.html:90
 msgid "Comores"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:78
+#: blog/templates/blog/amor_monde/pays.html:91
 msgid "Congo"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:79
+#: blog/templates/blog/amor_monde/pays.html:92
 msgid "Costa Rica"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:80
+#: blog/templates/blog/amor_monde/pays.html:93
 msgid "Croatie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:81
+#: blog/templates/blog/amor_monde/pays.html:94
 msgid "Cuba"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:82
+#: blog/templates/blog/amor_monde/pays.html:95
 msgid "Danemark"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:83
+#: blog/templates/blog/amor_monde/pays.html:96
 msgid "Djibouti"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:84
+#: blog/templates/blog/amor_monde/pays.html:97
 msgid "Dominique"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:85
+#: blog/templates/blog/amor_monde/pays.html:98
 msgid "Egypte"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:86
+#: blog/templates/blog/amor_monde/pays.html:99
 msgid "El Salvador"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:87
+#: blog/templates/blog/amor_monde/pays.html:100
 msgid "Emirats arabes unis"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:88
+#: blog/templates/blog/amor_monde/pays.html:101
 msgid "Equateur"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:89
+#: blog/templates/blog/amor_monde/pays.html:102
 msgid "Erythree"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:90
+#: blog/templates/blog/amor_monde/pays.html:103
 msgid "Estonie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:91
+#: blog/templates/blog/amor_monde/pays.html:104
 msgid "Eswatini"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:92
+#: blog/templates/blog/amor_monde/pays.html:105
 msgid "Ethiopie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:93
+#: blog/templates/blog/amor_monde/pays.html:106
 msgid "Fédération de Russie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:94
+#: blog/templates/blog/amor_monde/pays.html:107
 msgid "Fidji"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:95
+#: blog/templates/blog/amor_monde/pays.html:108
 msgid "Finlande"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:96
+#: blog/templates/blog/amor_monde/pays.html:109
 msgid "Gabonv"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:97
+#: blog/templates/blog/amor_monde/pays.html:110
 msgid "Gambie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:98
+#: blog/templates/blog/amor_monde/pays.html:111
 msgid "Géorgie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:99
+#: blog/templates/blog/amor_monde/pays.html:112
 msgid "Ghana"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:100
+#: blog/templates/blog/amor_monde/pays.html:113
 msgid "Grèce"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:101
+#: blog/templates/blog/amor_monde/pays.html:114
 msgid "Grenade"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:102
+#: blog/templates/blog/amor_monde/pays.html:115
 msgid "Guatemala"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:103
+#: blog/templates/blog/amor_monde/pays.html:116
 msgid "Guinée Bissau"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:104
+#: blog/templates/blog/amor_monde/pays.html:117
 msgid "Guinée équatoriale"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:105
+#: blog/templates/blog/amor_monde/pays.html:118
 msgid "Guyana"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:106
+#: blog/templates/blog/amor_monde/pays.html:119
 msgid "Haïtiv"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:107
+#: blog/templates/blog/amor_monde/pays.html:120
 msgid "Honduras"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:108
+#: blog/templates/blog/amor_monde/pays.html:121
 msgid "Hongrie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:109
+#: blog/templates/blog/amor_monde/pays.html:122
 msgid "îles Marshall"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:110
+#: blog/templates/blog/amor_monde/pays.html:123
 msgid "îles Salomonv"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:111
+#: blog/templates/blog/amor_monde/pays.html:124
 msgid "Inde"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:112
+#: blog/templates/blog/amor_monde/pays.html:125
 msgid "Indonésie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:113
+#: blog/templates/blog/amor_monde/pays.html:126
 msgid "Iran"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:114
+#: blog/templates/blog/amor_monde/pays.html:127
 msgid "Iraq"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:115
+#: blog/templates/blog/amor_monde/pays.html:128
 msgid "Irlande"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:116
+#: blog/templates/blog/amor_monde/pays.html:129
 msgid "Islande"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:117
+#: blog/templates/blog/amor_monde/pays.html:130
 msgid "Israël"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:118
+#: blog/templates/blog/amor_monde/pays.html:131
 msgid "Jamaïque"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:119
+#: blog/templates/blog/amor_monde/pays.html:132
 msgid "Jordanie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:120
+#: blog/templates/blog/amor_monde/pays.html:133
 msgid "Kazakhstan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:121
+#: blog/templates/blog/amor_monde/pays.html:134
 msgid "Kenya"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:122
+#: blog/templates/blog/amor_monde/pays.html:135
 msgid "Kirghizistan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:123
+#: blog/templates/blog/amor_monde/pays.html:136
 msgid "Kiribati"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:124
+#: blog/templates/blog/amor_monde/pays.html:137
 msgid "Koweït"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:125
+#: blog/templates/blog/amor_monde/pays.html:138
 msgid "Lesotho"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:126
+#: blog/templates/blog/amor_monde/pays.html:139
 msgid "Lettonie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:127
+#: blog/templates/blog/amor_monde/pays.html:140
 msgid "Liban"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:128
+#: blog/templates/blog/amor_monde/pays.html:141
 msgid "Libéria"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:129
+#: blog/templates/blog/amor_monde/pays.html:142
 msgid "Libye"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:130
+#: blog/templates/blog/amor_monde/pays.html:143
 msgid "Liechtenstein"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:131
+#: blog/templates/blog/amor_monde/pays.html:144
 msgid "Lituanie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:132
+#: blog/templates/blog/amor_monde/pays.html:145
 msgid "Macédonie du nord"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:133
+#: blog/templates/blog/amor_monde/pays.html:146
 msgid "Madagascar"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:134
+#: blog/templates/blog/amor_monde/pays.html:147
 msgid "Malaisie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:135
+#: blog/templates/blog/amor_monde/pays.html:148
 msgid "Malawi"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:136
+#: blog/templates/blog/amor_monde/pays.html:149
 msgid "Malte"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:137
+#: blog/templates/blog/amor_monde/pays.html:150
 msgid "Maroc"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:138
+#: blog/templates/blog/amor_monde/pays.html:151
 msgid "Maurice"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:139
+#: blog/templates/blog/amor_monde/pays.html:152
 msgid "Méxique"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:140
+#: blog/templates/blog/amor_monde/pays.html:153
 msgid "Micronésie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:141
+#: blog/templates/blog/amor_monde/pays.html:154
 msgid "Mangolie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:142
+#: blog/templates/blog/amor_monde/pays.html:155
 msgid "Monténégro"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:143
+#: blog/templates/blog/amor_monde/pays.html:156
 msgid "Mozambique"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:144
+#: blog/templates/blog/amor_monde/pays.html:157
 msgid "Myanmar"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:145
+#: blog/templates/blog/amor_monde/pays.html:158
 msgid "Namibie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:146
+#: blog/templates/blog/amor_monde/pays.html:159
 msgid "Nauru"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:147
+#: blog/templates/blog/amor_monde/pays.html:160
 msgid "Népal"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:148
+#: blog/templates/blog/amor_monde/pays.html:161
 msgid "Nicaragua"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:149
+#: blog/templates/blog/amor_monde/pays.html:162
 msgid "Niger"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:150
+#: blog/templates/blog/amor_monde/pays.html:163
 msgid "Nigéria"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:151
+#: blog/templates/blog/amor_monde/pays.html:164
 msgid "Norvège"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:152
+#: blog/templates/blog/amor_monde/pays.html:165
 msgid "Nouvelle-Zélande"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:153
+#: blog/templates/blog/amor_monde/pays.html:166
 msgid "Oman"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:154
+#: blog/templates/blog/amor_monde/pays.html:167
 msgid "Ouganda"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:155
+#: blog/templates/blog/amor_monde/pays.html:168
 msgid "Ouzbékistan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:156
+#: blog/templates/blog/amor_monde/pays.html:169
 msgid "Paistan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:157
+#: blog/templates/blog/amor_monde/pays.html:170
 msgid "Palaos"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:158
+#: blog/templates/blog/amor_monde/pays.html:171
 msgid "Papousie-Nouvell-Guinée"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:159
+#: blog/templates/blog/amor_monde/pays.html:172
 msgid "Paraguay"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:160
+#: blog/templates/blog/amor_monde/pays.html:173
 msgid "Pays-Bas"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:161
+#: blog/templates/blog/amor_monde/pays.html:174
 msgid "Préou"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:162
+#: blog/templates/blog/amor_monde/pays.html:175
 msgid "Philippines"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:163
+#: blog/templates/blog/amor_monde/pays.html:176
 msgid "Pologne"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:164
+#: blog/templates/blog/amor_monde/pays.html:177
 msgid "Portugal"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:165
+#: blog/templates/blog/amor_monde/pays.html:178
 msgid "Quatar"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:166
+#: blog/templates/blog/amor_monde/pays.html:179
 msgid "République arabe syrienne"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:167
+#: blog/templates/blog/amor_monde/pays.html:180
 msgid "République centrafricaine"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:168
+#: blog/templates/blog/amor_monde/pays.html:181
 msgid "République de Corée"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:169
+#: blog/templates/blog/amor_monde/pays.html:182
 msgid "République de Moldova"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:170
+#: blog/templates/blog/amor_monde/pays.html:183
 msgid "République démocratique du Congo"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:171
+#: blog/templates/blog/amor_monde/pays.html:184
 msgid "République démocratique populaire lao"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:172
+#: blog/templates/blog/amor_monde/pays.html:185
 msgid "République dominicaine"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:173
+#: blog/templates/blog/amor_monde/pays.html:186
 msgid "Répuplique populaire démocratique de Corée"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:174
+#: blog/templates/blog/amor_monde/pays.html:187
 msgid "République tchèque"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:175
+#: blog/templates/blog/amor_monde/pays.html:188
 msgid "République-Unie de Tanzanie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:176
+#: blog/templates/blog/amor_monde/pays.html:189
 msgid "Roumanie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:177
+#: blog/templates/blog/amor_monde/pays.html:190
 msgid "Rwanda"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:178
+#: blog/templates/blog/amor_monde/pays.html:191
 msgid "Saint-kitts-et-Nevis"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:179
+#: blog/templates/blog/amor_monde/pays.html:192
 msgid "Saint-Martin"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:180
+#: blog/templates/blog/amor_monde/pays.html:193
 msgid "Saint-Vincent-et-les-Grenadines"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:181
+#: blog/templates/blog/amor_monde/pays.html:194
 msgid "Sainte-Lucie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:182
+#: blog/templates/blog/amor_monde/pays.html:195
 msgid "Samoa"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:183
+#: blog/templates/blog/amor_monde/pays.html:196
 msgid "Sao Tomé-et-Principe"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:184
+#: blog/templates/blog/amor_monde/pays.html:197
 msgid "Serbie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:185
+#: blog/templates/blog/amor_monde/pays.html:198
 msgid "Seychelles"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:186
+#: blog/templates/blog/amor_monde/pays.html:199
 msgid "Sierra Leone"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:187
+#: blog/templates/blog/amor_monde/pays.html:200
 msgid "Singapour"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:188
+#: blog/templates/blog/amor_monde/pays.html:201
 msgid "Slovaquie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:189
+#: blog/templates/blog/amor_monde/pays.html:202
 msgid "Slovénie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:190
+#: blog/templates/blog/amor_monde/pays.html:203
 msgid "Somalie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:191
+#: blog/templates/blog/amor_monde/pays.html:204
 msgid "Soudan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:192
+#: blog/templates/blog/amor_monde/pays.html:205
 msgid "Soudan du Sud"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:193
+#: blog/templates/blog/amor_monde/pays.html:206
 msgid "Sri Lanka"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:194
+#: blog/templates/blog/amor_monde/pays.html:207
 msgid "Suède"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:195
+#: blog/templates/blog/amor_monde/pays.html:208
 msgid "Suriname"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:196
+#: blog/templates/blog/amor_monde/pays.html:209
 msgid "Tadjikistan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:197
+#: blog/templates/blog/amor_monde/pays.html:210
 msgid "Tchad"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:198
+#: blog/templates/blog/amor_monde/pays.html:211
 msgid "Thaïlande"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:199
+#: blog/templates/blog/amor_monde/pays.html:212
 msgid "Timor-Leste"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:200
+#: blog/templates/blog/amor_monde/pays.html:213
 msgid "Togo"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:201
+#: blog/templates/blog/amor_monde/pays.html:214
 msgid "Tonga"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:202
+#: blog/templates/blog/amor_monde/pays.html:215
 msgid "Trinité-et-Tobago"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:203
+#: blog/templates/blog/amor_monde/pays.html:216
 msgid "Tunisie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:204
+#: blog/templates/blog/amor_monde/pays.html:217
 msgid "Turkménistan"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:205
+#: blog/templates/blog/amor_monde/pays.html:218
 msgid "Turquie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:206
+#: blog/templates/blog/amor_monde/pays.html:219
 msgid "Tuvalu"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:207
+#: blog/templates/blog/amor_monde/pays.html:220
 msgid "Ukraine"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:208
+#: blog/templates/blog/amor_monde/pays.html:221
 msgid "Uruguay"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:209
+#: blog/templates/blog/amor_monde/pays.html:222
 msgid "Vanuatu"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:210
+#: blog/templates/blog/amor_monde/pays.html:223
 msgid "Venezuaela"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:211
+#: blog/templates/blog/amor_monde/pays.html:224
 msgid "Viet Nam"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:212
+#: blog/templates/blog/amor_monde/pays.html:225
 msgid "Yémem"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:213
+#: blog/templates/blog/amor_monde/pays.html:226
 msgid "Zambie"
 msgstr ""
 
-#: blog/templates/blog/amor_monde/pays.html:214
+#: blog/templates/blog/amor_monde/pays.html:227
 msgid "Zimbabwe"
 msgstr ""
 
@@ -936,27 +954,27 @@ msgstr ""
 msgid "Policy Papers"
 msgstr "أوراق السياسة"
 
-#: blog/templates/blog/l_association/membre.html:15
+#: blog/templates/blog/l_association/membre.html:17
 #, fuzzy
 #| msgid "Nos Articles"
 msgid "Membre"
 msgstr "مقالاتنا"
 
-#: blog/templates/blog/l_association/membre.html:39
-#: blog/templates/blog/nos_projets/article.html:39
+#: blog/templates/blog/l_association/membre.html:35
+#: blog/templates/blog/nos_projets/article.html:45
 msgid "retour"
 msgstr "عودة"
 
-#: blog/templates/blog/l_association/nos_ambassadeurs.html:26
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:28
 msgid "Ambassadeurs"
 msgstr "سفراء"
 
-#: blog/templates/blog/l_association/nos_ambassadeurs.html:40
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:47
 #: templates/base.html:57
 msgid "Nos ambassadeurs"
 msgstr "سفراءنا"
 
-#: blog/templates/blog/l_association/nos_ambassadeurs.html:41
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:48
 msgid ""
 "Sportifs, musiciens, ou artistes en tout genre, ont accepté de porter et "
 "communiquer les couleurs et les idées de l’ONG A.M.OR."
@@ -964,7 +982,7 @@ msgstr ""
 "وافق الرياضيون الموسيقيون أو الفنانون من جميع الأنواع ارتداء ألوان وأفكار "
 "المنظمة غير الحكومية"
 
-#: blog/templates/blog/l_association/nos_ambassadeurs.html:42
+#: blog/templates/blog/l_association/nos_ambassadeurs.html:49
 msgid ""
 "Que ce soit à travers la chanson, un maillot durant une course sportive, où "
 "un hashtag sur leur réseau social, chacun apporte à sa manière et à sa "
@@ -973,44 +991,50 @@ msgstr ""
 "سواء من خلال الأغنية أو القميص خلال سباق رياضي ، حيث يوجد علامة تصنيف على "
 "شبكتهم الاجتماعية ، فإن الجميع يجلبون مساهمة لطيفة في مشاريع"
 
-#: blog/templates/blog/l_association/nos_membres.html:32
+#: blog/templates/blog/l_association/nos_membres.html:26
+#, fuzzy
+#| msgid "Nos Articles"
+msgid "Membres"
+msgstr "مقالاتنا"
+
+#: blog/templates/blog/l_association/nos_membres.html:45
 msgid "Rencontrez notre équipe"
 msgstr "”التق بفريقنا”"
 
-#: blog/templates/blog/l_association/nos_membres.html:33
+#: blog/templates/blog/l_association/nos_membres.html:46
 msgid "Vous trouverez ici un bref profil de tout notre personnel dévoué!"
 msgstr "ستجد هنا نبذة مختصرة عن جميع موظفينا المتفانين"
 
-#: blog/templates/blog/l_association/nos_membres.html:65
+#: blog/templates/blog/l_association/nos_membres.html:78
 msgid "Continuer à lire"
 msgstr ""
 
-#: blog/templates/blog/l_association/nos_membres.html:84
+#: blog/templates/blog/l_association/nos_membres.html:97
 msgid "Précédente"
 msgstr ""
 
-#: blog/templates/blog/l_association/nos_membres.html:89
+#: blog/templates/blog/l_association/nos_membres.html:102
 msgid "Page"
 msgstr ""
 
-#: blog/templates/blog/l_association/nos_membres.html:90
+#: blog/templates/blog/l_association/nos_membres.html:103
 msgid "sur"
 msgstr ""
 
-#: blog/templates/blog/l_association/nos_membres.html:94
+#: blog/templates/blog/l_association/nos_membres.html:107
 msgid "Suivante"
 msgstr ""
 
-#: blog/templates/blog/l_association/notreHistoire.html:14
+#: blog/templates/blog/l_association/notreHistoire.html:16
 msgid "Histoire"
 msgstr "تاريخ"
 
-#: blog/templates/blog/l_association/notreHistoire.html:31
+#: blog/templates/blog/l_association/notreHistoire.html:37
 #: templates/base.html:55
 msgid "Notre Histoire"
 msgstr "تاريخنا"
 
-#: blog/templates/blog/l_association/notreHistoire.html:36
+#: blog/templates/blog/l_association/notreHistoire.html:42
 msgid ""
 "L’Association fut créée 7 janvier 1999 par M. Togiri Aka, un orphelin "
 "originaire de Côte d’Ivoire, ayant émigré en Suisse. Durant les années "
@@ -1025,7 +1049,7 @@ msgstr ""
 "1 في ساحل العاج. خلال طبعة 2014 ، تم تقديم سلسلة من التبرعات إلى دار الايتام "
 "في Bingerville و SOS Village of Abobo"
 
-#: blog/templates/blog/l_association/notreHistoire.html:39
+#: blog/templates/blog/l_association/notreHistoire.html:45
 msgid ""
 "En 2017 ce fût la récompense avec le statut ECOSOC obtenu auprès de l’ONU. "
 "Aujourd’hui ce  sont plus de 17 délégations dans différents pays que "
@@ -1036,7 +1060,7 @@ msgstr ""
 "الأمم المتحدة. يوجد اليوم أكثر من 17 وفداً في بلدان مختلفة تجمع A.MOR وأكثر "
 "من ثلاثين متعاوناً يعملون في الجمعية."
 
-#: blog/templates/blog/l_association/notreHistoire.html:42
+#: blog/templates/blog/l_association/notreHistoire.html:48
 msgid ""
 "L'Association Mondiale pour les Orphelins (A.M.OR) est donc à l’heure "
 "actuelle une organisation non gouvernementale à but non lucratif dotée du "
@@ -1052,7 +1076,7 @@ msgstr ""
 "والنساء وغيرهم من المحتاجين. يهدف إلى المساعدة في توفير فرص متساوية للتنمية "
 "والازدهار في العالم."
 
-#: blog/templates/blog/l_association/notreHistoire.html:45
+#: blog/templates/blog/l_association/notreHistoire.html:51
 msgid ""
 "Créer des opportunités pour tous est gratifiant tant pour les individus que "
 "pour la société. Avec HiTech4Orphans, notre projet phare lancé en 2017, nous "
@@ -1060,16 +1084,16 @@ msgid ""
 "n’ont pas eu la chance de se former au monde de l’informatique."
 msgstr ""
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:24
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:16
 #: templates/base.html:66
 msgid "HITECH4ORPHANS"
 msgstr "HITECH4ORPHANS"
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:42
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:36
 msgid "Résumé"
 msgstr "ملخص"
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:45
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:39
 msgid ""
 "Elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, "
 "HiTech4Orphans aide des jeunes enfants, étudiants et orphelins à maîtriser "
@@ -1081,17 +1105,17 @@ msgid ""
 "AE)."
 msgstr ""
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:48
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:42
 msgid ""
 "Pour mener à bien ce projet central, nous recherchons du matériel "
 "informatique, des programmeurs, des dons, et des bonnes idées."
 msgstr ""
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:67
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:61
 msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et au Sénégal"
 msgstr ""
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:71
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:65
 msgid ""
 "Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. "
 "HiTech4Orphans travaille en étroite collaboration avec la direction générale "
@@ -1105,7 +1129,7 @@ msgid ""
 "informatique conjoint avec le secteur 6 (jusqu'à 20 personnes)."
 msgstr ""
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:74
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:68
 msgid ""
 "Au Sénégal, nous avons ouvert une antenne A.M.OR Sénégal et nommée une "
 "présidente, qui cherche actuellement à établir des partenariats avec des "
@@ -1113,7 +1137,7 @@ msgid ""
 "permettre à 500 enfants de bénéficier de HiTech4Orphans."
 msgstr ""
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:76
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:70
 msgid ""
 "Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus "
 "grâce à la générosité de nos 3 partenaires. L’International Conference "
@@ -1124,15 +1148,15 @@ msgid ""
 "tous nos partenaires pour leur confiance."
 msgstr ""
 
-#: blog/templates/blog/nos_projets/article.html:15
+#: blog/templates/blog/nos_projets/article.html:17
 msgid "Article"
 msgstr "مقالة"
 
-#: blog/templates/blog/nos_projets/articles.html:20 templates/base.html:69
+#: blog/templates/blog/nos_projets/articles.html:22 templates/base.html:69
 msgid "Articles"
 msgstr "مقالات الصحافة"
 
-#: blog/templates/blog/nos_projets/articles.html:35
+#: blog/templates/blog/nos_projets/articles.html:41
 msgid "Nos Articles"
 msgstr "مقالاتنا"
 
@@ -1192,51 +1216,51 @@ msgstr "لمزيد من المعلومات أو للتسجيل ، يرجى ال�
 msgid "contacter"
 msgstr "اتصال"
 
-#: blog/templates/blog/s_engager/contact.html:15 templates/base.html:80
+#: blog/templates/blog/s_engager/contact.html:17 templates/base.html:80
 msgid "Contact"
 msgstr "اتصال"
 
-#: blog/templates/blog/s_engager/contact.html:30
+#: blog/templates/blog/s_engager/contact.html:36
 msgid "Contribuer à un monde meilleur"
 msgstr "المساهمة في عالم أفضل"
 
-#: blog/templates/blog/s_engager/contact.html:38
+#: blog/templates/blog/s_engager/contact.html:44
 msgid "Informations"
 msgstr "أخبا "
 
-#: blog/templates/blog/s_engager/contact.html:42
+#: blog/templates/blog/s_engager/contact.html:48
 msgid "Nom"
 msgstr "اللقب"
 
-#: blog/templates/blog/s_engager/contact.html:45
+#: blog/templates/blog/s_engager/contact.html:51
 msgid "Nom valid requis"
 msgstr "الاسم صالح مطلوب"
 
-#: blog/templates/blog/s_engager/contact.html:49
-msgid "Prenom"
-msgstr "الأسم"
+#: blog/templates/blog/s_engager/contact.html:55
+msgid "Prénom"
+msgstr ""
 
-#: blog/templates/blog/s_engager/contact.html:52
+#: blog/templates/blog/s_engager/contact.html:58
 msgid "Prénom valide requis"
 msgstr "اسم صالح مطلوب"
 
-#: blog/templates/blog/s_engager/contact.html:58
+#: blog/templates/blog/s_engager/contact.html:64
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
-#: blog/templates/blog/s_engager/contact.html:58
+#: blog/templates/blog/s_engager/contact.html:64
 msgid "(Optionel)"
 msgstr "(اختياري)"
 
-#: blog/templates/blog/s_engager/contact.html:61
+#: blog/templates/blog/s_engager/contact.html:67
 msgid "Entrer un mail valide"
 msgstr "أدخل بريدًا إلكترونيًا صالحًا"
 
-#: blog/templates/blog/s_engager/contact.html:66
+#: blog/templates/blog/s_engager/contact.html:72
 msgid "Message"
 msgstr "رسالة"
 
-#: blog/templates/blog/s_engager/contact.html:71
+#: blog/templates/blog/s_engager/contact.html:77
 msgid "Valider"
 msgstr "يثبت"
 
@@ -1340,10 +1364,6 @@ msgstr ""
 msgid "ECOSOC/ONU"
 msgstr "المجلس الاقتصادي والاجتماعي"
 
-#: templates/base.html:90
-msgid "Pays"
-msgstr ""
-
 #: templates/base.html:96
 msgid "Langue"
 msgstr ""
@@ -1364,11 +1384,11 @@ msgstr ""
 msgid "Russe"
 msgstr ""
 
-#: templates/base.html:142
+#: templates/base.html:148
 msgid "© AMOR 2019, TOUS DROITS RÉSERVÉS, "
 msgstr ""
 
-#: templates/base.html:143
+#: templates/base.html:149
 msgid "Conditions"
 msgstr ""
 
@@ -2544,6 +2564,9 @@ msgstr ""
 #: venv/lib/python3.4/site-packages/modeltranslation/widgets.py:25
 msgid "None"
 msgstr ""
+
+#~ msgid "Prenom"
+#~ msgstr "الأسم"
 
 #~ msgid "Gala 2019"
 #~ msgstr "2019مهرجان"
