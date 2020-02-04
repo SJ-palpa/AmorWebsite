@@ -4,7 +4,12 @@
     {% load i18n %}
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/accueil.css' %}">
     {% load icons %}
+    {% load crispy_forms_tags %}
 {% endblock %}
+
+{% block description %}{%  trans "Des questions à poser sur le fonctionnement de notre ONG ? Ou pour une candidature spontanée ? C’est ici !" %}{% endblock %}
+{% block title %}{% trans "Contact"%} {% endblock %}
+
 
 {% block content %}
     <main role="main">
@@ -22,11 +27,11 @@
             </div>
             <div class="d-none d-sm-none d-md-none d-lg-block">
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
                        href="{% url "contact" %}">{% trans "Dons" %}</a>
                 </div>
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere-size float-right"
                        href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
                 </div>
             </div>
@@ -40,44 +45,84 @@
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
-        <div class=" container mb-5">
-            <h4 class="mb-3">{% trans "Informations" %}</h4>
-            <form class="needs-validation" novalidate="">
+        <div class="container col-sm-12 col-md-12 mb-5">
+            <form class="needs-validation" method="post" action="{% url "contact" %}" novalidate>
+                {% csrf_token %}
                 <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label for="firstName">{% trans "Nom" %}</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                        <div class="invalid-feedback">
-                            {% trans "Nom valid requis" %}
+                    <div class="col-sm-6 col-md-6">
+                        {% if success %}
+                        <div class="alert alert-success" role="alert">
+                          {% trans "Votre message a bien été envoyé" %}
+                        </div>
+                        {% endif %}
+                        <h4 class="mb-4">{% trans "Informations personnels" %}</h4>
+                        <div class="mb-3">
+                            <label for="firstName">{% trans "Nom" %}</label>
+                            {{ form.name|as_crispy_field }}
+                            <div class="invalid-feedback">
+                                {% trans "Nom valid requis" %}
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName">{% trans "Prénom" %}</label>
+                            {{ form.firstname|as_crispy_field }}
+                            <div class="invalid-feedback">
+                                {% trans "Prénom valide requis" %}
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">{% trans "Email" %}</label>
+                            {{ form.from_email|as_crispy_field }}
+                            <div class="invalid-feedback">
+                                {% trans "Entrer un mail valide" %}
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="exampleFormControlTextarea1">{% trans "Message" %}</label>
+                            {{ form.message|as_crispy_field }}
+                        </div>
+                        <hr class="mb-4">
+                        <button class="btn bg-clair-amor btn-outline-dark text-light btn-lg btn-block col-md-4 offset-md-4" type="submit">
+                            {% trans "Valider" %}
+                        </button>
+                    </div>
+                    <div class="col-sm-6 col-md-6 mt-3">
+                        <div class="card" style="background: rgba(50,50,50,.5);">
+                            <div class="card-header">
+                                 <h4 class="text-white">
+                                    {% trans "Informations bancaires" %}
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      {% trans "Titulaire:" %}
+                                      <span class="badge badge-primary badge-pill">A.M.OR</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      {% trans "Banque:" %}
+                                      <span class="badge badge-primary badge-pill">Crédit-Suisse</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      {% trans "IBAN:" %}
+                                      <span class="badge badge-primary badge-pill">CH96 04835273 8839 5100 0</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    {% trans "Code clearing:" %}
+                                    <span class="badge badge-primary badge-pill">4835</span>
+                                  </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="lastName">{% trans "Prénom" %}</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-                        <div class="invalid-feedback">
-                            {% trans "Prénom valide requis" %}
-                        </div>
-                    </div>
                 </div>
-
-                <div class="mb-3">
-                    <label for="email">{% trans "Email" %}</label>
-                    <input type="email" class="form-control" id="email" placeholder="abcd@example.com">
-                    <div class="invalid-feedback">
-                        {% trans "Entrer un mail valide" %}
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">{% trans "Message" %}</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <hr class="mb-4">
-                <button class="btn bg-clair-amor text-light btn-lg btn-block col-md-4 offset-md-4" type="submit">
-                    {% trans "Valider" %}
-                </button>
             </form>
         </div>
+
+
+
+
+
         {% comment %}
         <form method="post">
             {% csrf_token %}

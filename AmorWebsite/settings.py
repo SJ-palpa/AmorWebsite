@@ -27,6 +27,7 @@ SECRET_KEY = '+90ye43g0b@+n@#&-oqq(1^-+x=*o+iqv0l94l%frnxl7g+lu9'
 DEBUG = True
 
 
+ALLOWED_HOSTS = ["127.0.0.1"]
 
 # Application definition
 
@@ -42,7 +43,10 @@ INSTALLED_APPS = [
     'bootstrap4',
     'django_icons',
     'fontawesome',
+    'crispy_forms',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -140,10 +144,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# Mail settings
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
@@ -162,10 +162,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 
-
 STATIC_URL = '/static/'
 
-STATIC_ROOT = "static/misc"
+STATIC_ROOT = 'static/misc'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
@@ -174,3 +173,18 @@ parent_dir = os.path.abspath(os.path.dirname(__file__) + '/..')
 MEDIA_URL = '/img/'
 MEDIA_ROOT = os.path.join(parent_dir, "static/")
 
+# Mail settings
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Host for sending e-mail.
+EMAIL_HOST = 'mail.infomaniak.com'
+
+# Port for sending e-mail.
+EMAIL_PORT = 587
+
+# Optional SMTP authentication information for EMAIL_HOST.
+EMAIL_HOST_USER = 'stephanejermini@amor-association.org'
+EMAIL_HOST_PASSWORD = 'jnzmYPpMe34'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False

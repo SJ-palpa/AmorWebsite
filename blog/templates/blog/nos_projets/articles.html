@@ -6,12 +6,10 @@
     {% load i18n %}
 {% endblock %}
 
+{% block description %}{%  trans "Retrouvez nos dernières publications – basées sur des conférences aux UNOG - sur le droit de l’enfance, les nouvelles technologies, l’éthique humanitaire…" %}{% endblock %}
+{% block title %}{% trans "Articles"%} {% endblock %}
+
 {% block content %}
-
-    <!--
-        FAIRE la page
-     -->
-
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="row float-md-left">
@@ -27,11 +25,11 @@
             </div>
             <div class="d-none d-sm-none d-md-none d-lg-block">
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
                        href="{% url "contact" %}">{% trans "Dons" %}</a>
                 </div>
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere-size float-right"
                        href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
                 </div>
             </div>
@@ -62,6 +60,7 @@
             </div>
         </div>
         {% endfor %}
+
         {# Mise en forme de la pagination ici #}
         <div class="ml-5 mr-5 mb-5">
         {% if is_paginated %}

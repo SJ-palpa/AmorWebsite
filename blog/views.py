@@ -1,3 +1,4 @@
+from django.template import loader
 from django.views.generic import ListView
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
@@ -6,7 +7,7 @@ from blog.form import ContactForm
 from blog.models import Article, Membre, Pays, Ambassadeur
 
 def home(request):
-    articles = Article.objects.all()[:3]
+    articles = Article.objects.all().order_by('-created_at')[:3]
     return render(request, 'blog/accueil.html',{'articles' : articles})
 
 #------------------------------------------------------------------------------------------------
@@ -66,20 +67,31 @@ def donner(request):
 
 
 def contact(request):
-    if request.method == 'GET':
-        form = ContactForm()
-    else:
+    if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
-            subject = form.cleaned_data['subject']
+            nom = form.cleaned_data['name']
+            prenom = form.cleaned_data['firstname']
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
+            html_message = loader.render_to_string(
+                'blog/email/email_contact_form.html',
+                {
+                    'nom': nom,
+                    'prenom': prenom,
+                    'message': message,
+                    'from_email': from_email,
+            }
+            )
             try:
-                send_mail(subject, message, from_email, ['jerministephane@gmail.com'])
+                send_mail("A.M.OR site web", "", 'stephanejermini@amor-association.org', ['jerministephane@gmail.com'], fail_silently=False, html_message=html_message)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
-            return render(request, "blog/s_engager/contact.html", {'form': form,'success': True })
+            return render(request, "blog/s_engager/contact.html", {'form': form,'success': True})
+    else:
+        form = ContactForm()
     return render(request, "blog/s_engager/contact.html", {'form': form})
+
 
 def successView(request):
     return HttpResponse('Success! Thank you for your message.')
@@ -115,4 +127,15 @@ def festiamor_2013(request):
     return render(request, 'blog/festiamor_2013.html')
 
 
+#------------------------------------------------------------------------------------------------
+#--------------------------            Pages d erreurs          ---------------------------------
+#------------------------------------------------------------------------------------------------
+
+
+def error_404(request):
+    return render(request, 'blog/errorPages/404.html')
+
+
+def error_500(request):
+    return render(request, 'blog/errorPages/500.html')
 

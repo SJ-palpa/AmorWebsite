@@ -6,6 +6,8 @@
     {% load icons %}
 {% load i18n %}
 {% endblock %}
+{% block description %}{%  trans "Voici la liste des pays et des membres de l'association A.M.OR ! Cliquez pour les découvrir" %}{% endblock %}
+{% block title %}{% trans "Pays"%} {% endblock %}
 
 {% block content %}
 
@@ -27,11 +29,11 @@
             </div>
              <div class="d-none d-sm-none d-md-none d-lg-block">
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
                        href="{% url "contact" %}">{% trans "Dons" %}</a>
                 </div>
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere-size float-right"
                        href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
                 </div>
             </div>

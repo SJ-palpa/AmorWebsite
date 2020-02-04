@@ -5,6 +5,8 @@
     {% load icons %}
     {% load i18n %}
 {% endblock %}
+{% block description %}{% trans "L’Association Mondiale pour les Orphelins vise à réduire les inégalités d’éducation et d’accès aux technologies de l’information." %}{% endblock %}
+{% block title %}{% trans "Accueil"%}{% endblock %}
 
 {% block content %}
     <main role="main">
@@ -18,21 +20,29 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item" style="background-image: url('{% static 'img/image_accueil.jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
-                        <h1 class="color-fonce-amor">
-                             <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
-                                <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
-                            </div>
-                            <div class="animate one d-none d-sm-none d-md-none d-lg-block ">
-                                 <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
-                            </div>
-                        </h1>
-                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Notre projet phare, elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et orphelins..."%}</p>
-                        <p><a class="btn btn-lg bg-fonce-amor text-light" href="{% url "hitech4orphans" %}" role="button">{% trans "En savoir plus"%}</a></p>
+                        <div class="card" style="background: rgba(50,50,50,.5); ">
+                          <div class="card-header">
+                            <h1 class="color-fonce-amor" >
+                                <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
+                                    <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
+                                </div>
+                                <div class="animate one d-none d-sm-none d-md-none d-lg-block ">
+                                     <span>H</span><span>i</span><span>T</span><span>e</span><span>c</span><span>h</span><span>4</span><span>O</span><span>r</span><span>p</span><span>h</span><span>a</span><span>n</span><span>s</span>
+                                </div>
+                            </h1>
+                              </div>
+                              <div class="card-body">
+                                  <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Notre projet phare, elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, HiTech4Orphans aide des jeunes enfants, étudiants et orphelins..."%}</p>
+                                  <p><a class="btn btn-lg bg-clair-amor btn-outline-light bg-fonce-amor" href="{% url "hitech4orphans" %}" role="button">{% trans "En savoir plus"%}</a></p>
+                              </div>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item active" style="background-image: url('{% static 'img/masonry-14.jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
-                        <h1 class="color-fonce-amor">
+                        <div class="card" style="background: rgba(50,50,50,.5); ">
+                          <div class="card-header">
+                             <h1 class="color-fonce-amor">
                             <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
                                 <span>A</span><span>s</span><span>s</span><span>o</span><span>c</span><span>i</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
                                 <span>A</span><span>.M</span><span>.O</span><span>R</span>
@@ -42,22 +52,34 @@
                                 <span>A</span><span>.M</span><span>.O</span><span>R</span>
                             </div>
                         </h1>
-                        <p class="h3 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Nous croyons au potentiel de individus et notre objectif est d'aider ceux dans le besoin afin d'atteindre le meilleur de leurs capacités."%}</p>
-                        <p><a class="btn btn-lg bg-fonce-amor text-light" href="{% url "notreHistoire" %}" role="button">{% trans "En savoir plus"%}</a></p>
+                              </div>
+                              <div class="card-body">
+                                  <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Nous croyons au potentiel de individus et notre objectif est d'aider ceux dans le besoin afin d'atteindre le meilleur de leurs capacités."%}</p>
+                                  <p><a class="btn btn-lg bg-clair-amor btn-outline-light bg-fonce-amor" href="{% url "notreHistoire" %}" role="button">{% trans "En savoir plus"%}</a></p>
+                              </div>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('{% static 'img/slider-4 (1).jpg' %}')">
                     <div class="carousel-caption text-left mb-5">
-                        <h1 class="color-fonce-amor">
-                             <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
-                                {% trans "<span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>"%}
+
+
+                        <div class="card" style="background: rgba(50,50,50,.5); ">
+                          <div class="card-header">
+                             <h1 class="color-fonce-amor">
+                                 <div class=" animate one d-block d-none d-sm-block d-md-block d-lg-none" style="font-size: 25px;">
+                                    {% trans "<span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>"%}
+                                </div>
+                                <div class="animate one d-none d-sm-none d-md-none d-lg-block ">
+                                     {% trans "<span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>"%}
                             </div>
-                            <div class="animate one d-none d-sm-none d-md-none d-lg-block ">
-                                 {% trans "<span>A</span><span>m</span><span>b</span><span>a</span><span>s</span><span>s</span><span>a</span><span>d</span><span>e</span><span>u</span><span>r</span><span>s</span>"%}
-                            </div>
-                        </h1>
-                        <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Nos ambassadeurs engagés."%}</p>
-                        <p><a class="btn btn-lg bg-fonce-amor text-light" href="{% url "nos_ambassadeurs" %}" role="button">{% trans "En savoir plus"%}</a></p>
+                            </h1>
+                              </div>
+                              <div class="card-body">
+                                  <p class="h4 d-none d-sm-block d-sm-none d-md-block mb-5">{% trans "Nos ambassadeurs engagés."%}</p>
+                                  <p><a class="btn btn-lg bg-clair-amor btn-outline-light bg-fonce-amor" href="{% url "nos_ambassadeurs" %}" role="button">{% trans "En savoir plus"%}</a></p>
+                              </div>
+                        </div>
                     </div>
                 </div>
             </div>

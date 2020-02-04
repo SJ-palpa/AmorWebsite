@@ -18,7 +18,6 @@ from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns
 from django.conf.urls.static import static
 
-
 urlpatterns = [
     path('i18n/', include('django.conf.urls.i18n')),
 ]
@@ -26,3 +25,7 @@ urlpatterns = [
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += i18n_patterns(path('', include('blog.urls')),)
+
+#handler404 = 'blog.views.error_404'
+#handler500 = 'blog.views.error_500'
+

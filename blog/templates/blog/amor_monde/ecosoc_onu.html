@@ -5,6 +5,9 @@
 {% load i18n %}
 {% endblock %}
 
+{% block description %}{%  trans "A.M.OR a reçu le statut consultatif auprès du Conseil Economique et Social des Nations Unies en 2017 pour participer au développement des SDGs." %}{% endblock %}
+{% block title %}{% trans "ECOSOC/ONU"%} {% endblock %}
+
 {% block content %}
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
@@ -21,11 +24,11 @@
             </div>
             <div class="d-none d-sm-none d-md-none d-lg-block">
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
                        href="{% url "contact" %}">{% trans "Dons" %}</a>
                 </div>
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere-size float-right"
                        href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
                 </div>
             </div>

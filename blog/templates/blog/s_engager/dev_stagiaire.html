@@ -6,6 +6,8 @@
     {% load icons %}
 
 {% endblock %}
+{% block description %}{%  trans "Tu cherche un stage dans le social dans lequel tu pourras d'épanouir, tu es à la bonne adresse." %}{% endblock %}
+{% block title %}{% trans "Devenir Stagiaire"%} {% endblock %}
 
 {% block content %}
 
@@ -16,10 +18,10 @@
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
             <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="{% url "contact" %}">{% trans "Dons" %}</a>
+                <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons" href="{% url "contact" %}">{% trans "Dons" %}</a>
             </div>
             <div class="container float-right">
-                <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"  href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
+                <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere-size float-right"  href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
             </div>
         </div>
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 module">

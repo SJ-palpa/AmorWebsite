@@ -5,6 +5,9 @@
 {% load i18n %}
 {% endblock %}
 
+{% block description %}{% trans "L’Association Mondiale pour les Orphelins a été créé le 7 Janvier 1999 par un Orphelin de Côte d’Ivoire devenu entrepreneur en Suisse." %}{% endblock %}
+{% block title %}{% trans "Notre Histoire"%}{% endblock %}
+
 {% block content %}
     <main role="main">
         <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
@@ -21,11 +24,11 @@
             </div>
             <div class="d-none d-sm-none d-md-none d-lg-block">
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light mb-3 btn-banniere-size btn-banniere-size_dons"
                        href="{% url "contact" %}">{% trans "Dons" %}</a>
                 </div>
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere-size float-right"
                        href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
                 </div>
             </div>
@@ -39,7 +42,7 @@
 
                     <div class="blog-post justify">
 
-                        <p>{% trans "L’Association fut créée 7 janvier 1999 par M. Togiri Aka, un orphelin originaire de Côte d’Ivoire, ayant émigré en Suisse. Durant les années suivantes, l’ONG a organisé différents événements tels que FESTI AMOR en 2013 où un pack informatique a été installé à l’EPP Nianda 1 en Côte d’Ivoire. Lors de l’édition 2014, une série de dons a été faite à l’Orphelinat de Bingerville et à SOS Village d’Abobo." %}</p>
+                        <p>{% trans "L’Association fut créée 7 janvier 1999 par M. Togiri Aka, un orphelin originaire de Côte d’Ivoire, ayant émigré en Suisse. Durant les années suivantes, l’ONG a organisé différents événements tels que FESTI AMOR en 2013 où un parc informatique a été installé à l’EPP Nianda 1 en Côte d’Ivoire. Lors de l’édition 2014, une série de dons a été faite à l’Orphelinat de Bingerville et à SOS Village d’Abobo." %}</p>
                         <hr>
                         <p>
                             {% trans "En 2017 ce fût la récompense avec le statut ECOSOC obtenu auprès de l’ONU. Aujourd’hui ce  sont plus de 17 délégations dans différents pays que rassemble A.MOR et plus d’une trentaine de collaborateur œuvrant dans l’association." %}</p>

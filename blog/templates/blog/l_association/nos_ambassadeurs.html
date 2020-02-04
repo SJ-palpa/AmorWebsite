@@ -6,17 +6,10 @@
 {% load i18n %}
 {% endblock %}
 
+{% block description %}{%  trans "Découvrez ici nos différents ambassadeurs qui font rayonner l'association A.M.OR ." %}{% endblock %}
+{% block title %}{% trans "Nos ambassadeurs"%} {% endblock %}
+
 {% block content %}
-    
-
-
-    <!--
-
-        Rajouter les ambassadeurs non présent
-        Formater le texte avant les ambassadeurs
-
-    -->
-
 
     <main role="main">
                 <div class="banniere margeBanniere" style="background-image: url('{% static 'img/photo-banniere2.jpg' %}')">
@@ -33,11 +26,11 @@
             </div>
             <div class="d-none d-sm-none d-md-none d-lg-block">
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere mb-3 btn-banniere-size btn-banniere-size_dons"
                        href="{% url "contact" %}">{% trans "Dons" %}</a>
                 </div>
                 <div class="container float-right">
-                    <a class="btn btn-lg btn-outline-danger text-light btn-banniere-size float-right"
+                    <a class="btn btn-lg bg-clair-amor btn-outline-light btn-banniere-size float-right"
                        href="{% url "contact" %}">{% trans "NewsLetters" %}</a>
                 </div>
             </div>

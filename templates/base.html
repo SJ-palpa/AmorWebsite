@@ -1,12 +1,13 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
+
     {# Load the tag library #}
-    {% load i18n %}
     {% load bootstrap4 %}
     {% load icons %}
     {% load fontawesome %}
-
     <!-- pour la liste de toutes les icon :  https://fontawesome.com/icons?d=gallery -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -21,12 +22,14 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="icon" href="{% static 'img/Amor-main.png' %}">
+
     {# Display django.contrib.messages as Bootstrap alerts #}
     {% bootstrap_messages %}
     {% block ajout_head %}
     {% endblock %}
     <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
-    <title>{% block title %}A.M.OR{% endblock %}</title>
+    <meta name="description" content="{% block description %}Ma description personnalisée{% endblock %}">
+    <title>A.M.OR | {% block title %}{% endblock %}</title>
 </head>
 <body>
 
@@ -74,7 +77,7 @@
                         {% trans "S'ENGAGER"%}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
-                        <a class="dropdown-item nav-link-bg-click" href="{% url "dev_bene" %}">{% trans "Devenir Bénévole"%}</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "dev_bene" %}">{% trans "Devenir Membre"%}</a>
                         <a class="dropdown-item nav-link-bg-click" href="{% url "dev_stagiaire" %}">{% trans "Devenir Stagiaire"%}</a>
                         <a class="dropdown-item nav-link-bg-click" href="{% url "contact" %}">{% trans "Contact"%}</a>
                     </div>
@@ -140,12 +143,12 @@
         <a class="btn btn-social-icon btn-lg btn-facebook" target="_blank" href="https://www.facebook.com/Association-Mondiale-pour-les-Orphelins-1940330459537434/">
             <span class="fa fa-facebook white"></span>
         </a>
-        <a class="btn btn-social-icon btn-lg btn-twitter" target="_blank" href="https://twitter.com/amorgeneve1">
+        <a class="btn btn-social-icon btn-lg btn-twitter" target="_blank" href="https://twitter.com/NGOAMor">
             <span class="fa fa-twitter white"></span>
         </a>
     </div>
     <p class="mt-3">{% trans "© AMOR 2019, TOUS DROITS RÉSERVÉS, "%}
-        · <a href="#" class="color-clair-amor">{% trans "Conditions"%}</a> · IBAN : CH96 04835273 8839 5100 0</p>
+        {% comment %}· <a href="#" class="color-clair-amor">{% trans "Conditions"%}</a> {% endcomment %}</p>
     <span>
         <a class="icon-arrow-amor" href="#">{% icon 'arrow-circle-up' %}</a>
     </span>
