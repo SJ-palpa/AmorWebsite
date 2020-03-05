@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 11:03+0000\n"
+"POT-Creation-Date: 2020-03-05 14:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,9 +195,9 @@ msgstr "ECOSOC"
 #: blog/templates/blog/l_association/nos_ambassadeurs.html:30
 #: blog/templates/blog/l_association/nos_membres.html:31
 #: blog/templates/blog/l_association/notreHistoire.html:28
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:28
 #: blog/templates/blog/nos_projets/article.html:26
 #: blog/templates/blog/nos_projets/articles.html:29
+#: blog/templates/blog/nos_projets/hitech4orphans.html:28
 #: blog/templates/blog/s_engager/contact.html:31
 #: blog/templates/blog/s_engager/dev_bene.html:21
 #: blog/templates/blog/s_engager/dev_stagiaire.html:21 templates/base.html:118
@@ -209,9 +209,9 @@ msgstr "Donations"
 #: blog/templates/blog/l_association/nos_ambassadeurs.html:34
 #: blog/templates/blog/l_association/nos_membres.html:35
 #: blog/templates/blog/l_association/notreHistoire.html:32
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:32
 #: blog/templates/blog/nos_projets/article.html:30
 #: blog/templates/blog/nos_projets/articles.html:33
+#: blog/templates/blog/nos_projets/hitech4orphans.html:32
 #: blog/templates/blog/s_engager/contact.html:35
 #: blog/templates/blog/s_engager/dev_bene.html:24
 #: blog/templates/blog/s_engager/dev_stagiaire.html:24 templates/base.html:120
@@ -1151,222 +1151,6 @@ msgstr ""
 "focusing on digital education to enable those who have not had the "
 "opportunity to train in the world of IT."
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:8
-msgid ""
-"Avec des outils en libres accès et OpenSource, nous équipons nos partenaires "
-"et enseignons la programmation et le graphique design aux plus démunis."
-msgstr ""
-"With open access and OpenSource tools, we equip our partners and teach "
-"programming and graphic design to the most needy."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:9
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:19
-#: templates/base.html:67
-msgid "HITECH4ORPHANS"
-msgstr "HITECH4ORPHANS"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:39
-msgid "Résumé"
-msgstr "Abstract"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:43
-msgid ""
-"L'Association Mondiale pour les Orphelins (A.M.OR) vise à offrir une "
-"éducation numérique à des enfants en situation de précarité."
-msgstr ""
-"L'Association Mondiale pour les Orphelins (A.M.OR) aims to offer digital "
-"education to children in precarious situations."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:46
-msgid ""
-"A travers son projet phare HiTech4Orphans lancé en 2017, des programmes "
-"éducatifs en programmation et design graphique sont établis en partenariat "
-"avec des écoles et institutions. Ces institutions reçoivent les moyens "
-"matériels et des outils pédagogiques innovants favorisant l'apprentissage "
-"par leurs écoliers de compétences digitales, de plus en plus importantes "
-"dans le monde du travail. Nous utilisons surtout des logiciels opensource et "
-"des ressources libre d'accès (LibreOffice, Atom, Freecodecamp, GIMP, "
-"Scratch, Roblox...). Nous utilisons aussi des licences chez https://"
-"codecombat.com/ pour l'initiation des enfants de bas âge."
-msgstr ""
-"Through its flagship project HiTech4Orphans launched in 2017, educational "
-"programs in programming and graphic design are established in partnership "
-"with schools and institutions. These institutions are provided with the "
-"material resources and innovative pedagogical tools to help their students "
-"learn digital skills, which are increasingly important in the world of work. "
-"We mainly use open source software and free access resources (LibreOffice, "
-"Atom, Freecodecamp, GIMP, Scratch, Roblox...). We also use licenses at "
-"https://codecombat.com/ for the initiation of young children."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:49
-msgid ""
-"Après avoir obtenu du matériel informatique donné par des acteurs publiques "
-"et privés, et suite aux évaluations et contacts établis avec les "
-"institutions locales, des salles informatiques et des programmes "
-"d'apprentissage ont été mis en place pour le bénéfice des enfants. Nous "
-"offrons des cours et des outils aux élèves mais aussi et surtout aux "
-"professeurs et aux structures locales - car au cœur de nos projets, "
-"soutenabilité et autonomie de l’apprentissage sont cruciales. En effet, nos "
-"partenaires sur le terrain initient les enfants à ces  compétences "
-"digitales;  semaine après semaine, année après année; comme une "
-"pollinisation dans la durée."
-msgstr ""
-"After obtaining computer equipment donated by public and private actors, and "
-"following evaluations and contacts established with local institutions, "
-"computer rooms and learning programmes were set up for the benefit of the "
-"children. We offer courses and tools to the pupils but also and above all to "
-"the teachers and local structures - because at the heart of our projects, "
-"sustainability and autonomy of learning are crucial. Indeed, our partners in "
-"the field introduce children to these digital skills; week after week, year "
-"after year."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:68
-#, fuzzy
-#| msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et au Sénégal"
-msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et Île Maurice"
-msgstr "1st step: 1500 children assisted and trained in Romania and Mauritus"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:72
-msgid ""
-"Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. "
-"HiTech4Orphans travaille en étroite collaboration avec la direction générale "
-"de la protection de l’enfance du secteur 6 (Direcţia Generală de ASISTENTA "
-"sociala şi Protectia Copilului secteur 6) de Bucarest. Le projet sera mis en "
-"œuvre dans trois bâtiments différents. En tout premier lieu dans le bâtiment "
-"qui accueille les enfants handicapés (900 enfants) qui pourront apprendre "
-"grâce à la technologie d'assistance. En second lieu, nous allons mettre en "
-"place les premiers cours d'introduction de codage pour des enfants de tous "
-"les milieux sociaux et les orphelins qui suivent des cours dans un programme "
-"informatique conjoint avec le secteur 6 (jusqu'à 20 personnes)."
-msgstr ""
-"Today, we are completing a contract with the city of Bucharest. "
-"HiTech4Orphans works closely with the General Directorate for Child "
-"Protection of Sector 6 (Direcţia Generală of ASISTENTA sociala şi Protectia "
-"Copilului Sector 6) in Bucharest. The project will be implemented in three "
-"different buildings. First of all, in the building that houses disabled "
-"children (900 children) who will be able to learn thanks to assistive "
-"technology. Secondly, we will implement the first introductory coding "
-"courses for children from all social backgrounds and orphans who are taking "
-"courses in a joint computer program with Sector 6 (up to 20 people). "
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:77
-msgid ""
-"Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus "
-"grâce à la générosité de nos 3 partenaires. L’International Conference "
-"Center (CICG - Centre International de Genève Conférences) , qui nous a fait "
-"don de 47 ordinateurs. La Solidarité Informatique Sans Frontière (SISF – "
-"Belgique) qui nous a donné 20 ordinateurs. Enfin, la fondation Thuor "
-"(Genève) qui nous a offert 20 ordinateurs. Nous remercions chaleureusement "
-"tous nos partenaires pour leur confiance."
-msgstr ""
-"All this would never have been possible without our 87 computers obtained "
-"thanks to the generosity of our 3 partners. The International Conference "
-"Center (CICG - Centre International de Genève Conférences), which donated 47 "
-"computers to us. La Solidarité Informatique Sans Frontière (SISF - Belgium) "
-"which gave us 20 computers. Finally, the Thuor Foundation (Geneva) which "
-"gave us 20 computers. We warmly thank all our partners for their trust. "
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:81
-msgid ""
-"Île Maurice: avec le soutien du canton de Vaud, A.M.OR a fourni 4 laptops et "
-"donne des cours auprès de la Maison Familiale rurale du Nord  (MFR du Nord "
-"de Calebasses) - institution pédagogique pour plus de 120 enfants en "
-"situation précaire."
-msgstr ""
-"Mauritius: with the support of the canton of Vaud, A.M.OR has provided 4 "
-"laptops and gives courses at the Maison Familiale rurale du Nord (MFR du "
-"Nord de Calebasses) - an educational institution for more than 120 children "
-"in precarious situations."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:91
-msgid "Avenir 2022"
-msgstr "Futur 2022"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:95
-msgid "Nous avons décidé d’étendre nos action à 10 pays d’ici 2022:"
-msgstr "We have decided to extend our action to 10 countries by 2022:"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:99
-msgid ""
-"• Sénégal: Dakar - Nous planifions l'opérationnalisation d'une salle "
-"informatique pouvant accueillir 25 enfants."
-msgstr ""
-"• Senegal: Dakar- We are planning the implementation of a computer room for "
-"25 children."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:102
-msgid ""
-"• RDC: Uvira - L'Association des Jeunes pour le Développement Intégré-"
-"Kalundu nous a sollicité et nous avons une salle prête pour accueillir 15 PC "
-"qui serviront deux à trois fois par semaines pour des enfants affectés par "
-"des conflits armés."
-msgstr ""
-"• DRC: Uvira - The Youth Association for Integrated Development-Kalundu has "
-"asked us for help and we have a room ready to host 15 PCs that will be used "
-"2-3 times a week for children affected by armed conflict."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:105
-msgid ""
-"• Togo: Tsévié - L'Association des Jeunes en Action pour le Développement de "
-"l’Afrique nous a approché pour inauguré une salle d'une capacité de 40 PC "
-"dans leurs centres spécialisés dans l'auto-entreprenariat pour les jeunes."
-msgstr ""
-"• Togo:  Tsévié - The Association des Jeunes en Action pour le Développement "
-"de l'Afrique approached us to inaugurate a room with a capacity of 40 PCs in "
-"their centers specialized in self-entrepreneurship for young people."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:108
-msgid ""
-"• Côte d'Ivoire: Yamoussoukro - Avec l'appui de la municipalité avec "
-"laquelle nous participons activement au débat sur le besoin de former les "
-"pédagogues africains pour éviter une pénurie d'enseignant pour une jeunesse "
-"africaine en pleine explosion démographique. Nous sommes sollicités par "
-"l’éducation nationale pour mettre en place notre projet dans différentes "
-"écoles publiques."
-msgstr ""
-"• Côte d'Ivoire: Yamoussoukro - With the support of the municipality, with "
-"which we are actively participating in the debate on the need to train "
-"African teachers to avoid a shortage of teachers for Africa's burgeoning "
-"youth population. We have been asked by the national education system to "
-"implement our project in various public schools."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:111
-msgid ""
-"• Maroc: Casablanca - Avec L'Association Marocaine de l'Orphelin; (AMO), un "
-"projet conjoint est en discussion pour équiper un de leur centre et "
-"implémenter HiTech4Orphans."
-msgstr ""
-"• Morocco: Casablanca - With the Association Marocaine de l'Orphelin (AMO), "
-"a joint project is under discussion to equip one of their centers and "
-"implement HiTech4Orphans."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:114
-msgid ""
-"• Cambodge: Phnom Penh - Notre représentant va établir un partenariat avec "
-"une institutions chargé de l'éducation des enfants pauvre de la périphérie "
-"de Phnom Penh."
-msgstr ""
-"• Cambodia: Phnom Penh - Our representative will establish a partnership "
-"with an institution in charge of the education of poor children from the "
-"outskirts of Phnom Penh."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:117
-msgid ""
-"• Bulgarie: Sofia - notre représentante locale explore différentes "
-"opportunités pour 2020 et dans la capitale Sofia."
-msgstr ""
-"• Bulgaria: Sofia - our local representative is exploring different "
-"opportunities for 2020 and in the capital Sofia."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:120
-msgid ""
-"• A déterminer, nous n'avons pas encore décider quel sera le dernier pays "
-"pour accueillir HiTech4Orphans. Nous étudions des possibles partenariats au "
-"Trinidad, au Venezuela, en Colombie, Pérou et au Kazakhstan. Nous vous "
-"prions de nous contacter pour étudier des propositions sérieuses sur "
-"l'implémentation de salle informatique."
-msgstr "To be determined, we have not yet decided which will be the last country to host HiTech4Orphans. We are exploring possible partnerships in Trinidad, Venezuela, Colombia, Peru and Kazakhstan.  Please contact us to study serious proposals on computer room implementation."
-
 #: blog/templates/blog/nos_projets/article.html:17
 msgid "Article"
 msgstr "Article"
@@ -1454,6 +1238,224 @@ msgstr ""
 msgid "contacter"
 msgstr "Contact us"
 
+#: blog/templates/blog/nos_projets/hitech4orphans.html:8
+msgid ""
+"Avec des outils en libres accès et OpenSource, nous équipons nos partenaires "
+"et enseignons la programmation et le graphique design aux plus démunis."
+msgstr ""
+"With open access and OpenSource tools, we equip our partners and teach "
+"programming and graphic design to the most needy."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:9
+#: blog/templates/blog/nos_projets/hitech4orphans.html:19
+#: templates/base.html:67
+msgid "HITECH4ORPHANS"
+msgstr "HITECH4ORPHANS"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:39
+msgid "Résumé"
+msgstr "Abstract"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:43
+msgid ""
+"L'Association Mondiale pour les Orphelins (A.M.OR) vise à offrir une "
+"éducation numérique à des enfants en situation de précarité."
+msgstr ""
+"L'Association Mondiale pour les Orphelins (A.M.OR) aims to offer digital "
+"education to children in precarious situations."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:46
+msgid ""
+"A travers son projet phare HiTech4Orphans lancé en 2017, des programmes "
+"éducatifs en programmation et design graphique sont établis en partenariat "
+"avec des écoles et institutions. Ces institutions reçoivent les moyens "
+"matériels et des outils pédagogiques innovants favorisant l'apprentissage "
+"par leurs écoliers de compétences digitales, de plus en plus importantes "
+"dans le monde du travail. Nous utilisons surtout des logiciels opensource et "
+"des ressources libre d'accès (LibreOffice, Atom, Freecodecamp, GIMP, "
+"Scratch, Roblox...). Nous utilisons aussi des licences chez https://"
+"codecombat.com/ pour l'initiation des enfants de bas âge."
+msgstr ""
+"Through its flagship project HiTech4Orphans launched in 2017, educational "
+"programs in programming and graphic design are established in partnership "
+"with schools and institutions. These institutions are provided with the "
+"material resources and innovative pedagogical tools to help their students "
+"learn digital skills, which are increasingly important in the world of work. "
+"We mainly use open source software and free access resources (LibreOffice, "
+"Atom, Freecodecamp, GIMP, Scratch, Roblox...). We also use licenses at "
+"https://codecombat.com/ for the initiation of young children."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:49
+msgid ""
+"Après avoir obtenu du matériel informatique donné par des acteurs publiques "
+"et privés, et suite aux évaluations et contacts établis avec les "
+"institutions locales, des salles informatiques et des programmes "
+"d'apprentissage ont été mis en place pour le bénéfice des enfants. Nous "
+"offrons des cours et des outils aux élèves mais aussi et surtout aux "
+"professeurs et aux structures locales - car au cœur de nos projets, "
+"soutenabilité et autonomie de l’apprentissage sont cruciales. En effet, nos "
+"partenaires sur le terrain initient les enfants à ces  compétences "
+"digitales;  semaine après semaine, année après année; comme une "
+"pollinisation dans la durée."
+msgstr ""
+"After obtaining computer equipment donated by public and private actors, and "
+"following evaluations and contacts established with local institutions, "
+"computer rooms and learning programmes were set up for the benefit of the "
+"children. We offer courses and tools to the pupils but also and above all to "
+"the teachers and local structures - because at the heart of our projects, "
+"sustainability and autonomy of learning are crucial. Indeed, our partners in "
+"the field introduce children to these digital skills; week after week, year "
+"after year."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:68
+msgid "Premier résultat du project HiTech4Orphans"
+msgstr "The first results of HiTech4Orphans"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:73
+msgid ""
+"Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. "
+"HiTech4Orphans travaille en étroite collaboration avec la direction générale "
+"de la protection de l’enfance du secteur 6 (Direcţia Generală de ASISTENTA "
+"sociala şi Protectia Copilului secteur 6) de Bucarest. Le projet sera mis en "
+"œuvre dans trois bâtiments différents. En tout premier lieu dans le bâtiment "
+"qui accueille les enfants handicapés (900 enfants) qui pourront apprendre "
+"grâce à la technologie d'assistance. En second lieu, nous allons mettre en "
+"place les premiers cours d'introduction de codage pour des enfants de tous "
+"les milieux sociaux et les orphelins qui suivent des cours dans un programme "
+"informatique conjoint avec le secteur 6 (jusqu'à 20 personnes)."
+msgstr ""
+"After A.M.OR signed an agreement with the city of Bucharest, it integrated "
+"HiTech4Orphans to the General directorate for Child Protection of Sector 6 "
+"(Direcţia Generală of ASISTENTA sociala şi Protectia Copilului Sector 6) in "
+"Bucharest. The project will be implemented in three different buildings. "
+"First of all, in the building that houses disabled children (900 children) "
+"who will be able to learn thanks to assistive technology. Secondly, we will "
+"implement the first introductory coding courses for children from all social "
+"backgrounds and orphans who are taking courses in a joint computer program "
+"with Sector 6 (up to 20 people). "
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:77
+msgid ""
+"Île Maurice: avec le soutien du canton de Vaud, A.M.OR a fourni 4 laptops et "
+"donne des cours auprès de la Maison Familiale rurale du Nord  (MFR du Nord "
+"de Calebasses) - institution pédagogique pour plus de 120 enfants en "
+"situation précaire."
+msgstr ""
+"Mauritius: with the support of the canton of Vaud, A.M.OR has provided 4 "
+"laptops and gives courses at the Maison Familiale rurale du Nord (MFR du "
+"Nord de Calebasses) - an educational institution for more than 120 children "
+"in precarious situations."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:81
+msgid ""
+"Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus "
+"grâce à la générosité de nos 3 partenaires. L’International Conference "
+"Center (CICG - Centre International de Genève Conférences) , qui nous a fait "
+"don de 47 ordinateurs. La Solidarité Informatique Sans Frontière (SISF – "
+"Belgique) qui nous a donné 20 ordinateurs. Enfin, la fondation Thuor "
+"(Genève) qui nous a offert 20 ordinateurs. Nous remercions chaleureusement "
+"tous nos partenaires pour leur confiance."
+msgstr ""
+"All this would never have been possible without our 87 computers obtained "
+"thanks to the generosity of our 3 partners. The International Conference "
+"Center (CICG - Centre International de Genève Conférences), which donated 47 "
+"computers to us. La Solidarité Informatique Sans Frontière (SISF - Belgium) "
+"which gave us 20 computers. Finally, the Thuor Foundation (Geneva) which "
+"gave us 20 computers. We warmly thank all our partners for their trust. "
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:91
+msgid "Avenir 2022"
+msgstr "Futur 2022"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:95
+msgid "Nous avons décidé d’étendre nos action à 10 pays d’ici 2022:"
+msgstr "We have decided to extend our action to 10 countries by 2022:"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:99
+msgid ""
+"• Sénégal: Dakar - Nous planifions l'opérationnalisation d'une salle "
+"informatique pouvant accueillir 25 enfants."
+msgstr ""
+"• Senegal: Dakar- We are planning the implementation of a computer room for "
+"25 children."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:102
+msgid ""
+"• RDC: Uvira - L'Association des Jeunes pour le Développement Intégré-"
+"Kalundu nous a sollicité et nous avons une salle prête pour accueillir 15 PC "
+"qui serviront deux à trois fois par semaines pour des enfants affectés par "
+"des conflits armés."
+msgstr ""
+"• DRC: Uvira - The Youth Association for Integrated Development-Kalundu has "
+"asked us for help and we have a room ready to host 15 PCs that will be used "
+"2-3 times a week for children affected by armed conflict."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:105
+msgid ""
+"• Togo: Tsévié - L'Association des Jeunes en Action pour le Développement de "
+"l’Afrique nous a approché pour inauguré une salle d'une capacité de 40 PC "
+"dans leurs centres spécialisés dans l'auto-entreprenariat pour les jeunes."
+msgstr ""
+"• Togo:  Tsévié - The Association des Jeunes en Action pour le Développement "
+"de l'Afrique approached us to inaugurate a room with a capacity of 40 PCs in "
+"their centers specialized in self-entrepreneurship for young people."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:108
+msgid ""
+"• Côte d'Ivoire: Yamoussoukro - Avec l'appui de la municipalité avec "
+"laquelle nous participons activement au débat sur le besoin de former les "
+"pédagogues africains pour éviter une pénurie d'enseignant pour une jeunesse "
+"africaine en pleine explosion démographique. Nous sommes sollicités par "
+"l’éducation nationale pour mettre en place notre projet dans différentes "
+"écoles publiques."
+msgstr ""
+"• Côte d'Ivoire: Yamoussoukro - With the support of the municipality, with "
+"which we are actively participating in the debate on the need to train "
+"African teachers to avoid a shortage of teachers for Africa's burgeoning "
+"youth population. We have been asked by the national education system to "
+"implement our project in various public schools."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:111
+msgid ""
+"• Maroc: Casablanca - Avec L'Association Marocaine de l'Orphelin; (AMO), un "
+"projet conjoint est en discussion pour équiper un de leur centre et "
+"implémenter HiTech4Orphans."
+msgstr ""
+"• Morocco: Casablanca - With the Association Marocaine de l'Orphelin (AMO), "
+"a joint project is under discussion to equip one of their centers and "
+"implement HiTech4Orphans."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:114
+msgid ""
+"• Cambodge: Phnom Penh - Notre représentant va établir un partenariat avec "
+"une institutions chargé de l'éducation des enfants pauvre de la périphérie "
+"de Phnom Penh."
+msgstr ""
+"• Cambodia: Phnom Penh - Our representative will establish a partnership "
+"with an institution in charge of the education of poor children from the "
+"outskirts of Phnom Penh."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:117
+msgid ""
+"• Bulgarie: Sofia - notre représentante locale explore différentes "
+"opportunités pour 2020 et dans la capitale Sofia."
+msgstr ""
+"• Bulgaria: Sofia - our local representative is exploring different "
+"opportunities for 2020 and in the capital Sofia."
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:120
+msgid ""
+"• A déterminer, nous n'avons pas encore décider quel sera le dernier pays "
+"pour accueillir HiTech4Orphans. Nous étudions des possibles partenariats au "
+"Trinidad, au Venezuela, en Colombie, Pérou et au Kazakhstan. Nous vous "
+"prions de nous contacter pour étudier des propositions sérieuses sur "
+"l'implémentation de salle informatique."
+msgstr ""
+"To be determined, we have not yet decided which will be the last country to "
+"host HiTech4Orphans. We are exploring possible partnerships in Trinidad, "
+"Venezuela, Colombia, Peru and Kazakhstan.  Please contact us to study "
+"serious proposals on computer room implementation."
+
 #: blog/templates/blog/s_engager/contact.html:10
 msgid ""
 "Des questions à poser sur le fonctionnement de notre ONG ? Ou pour une "
@@ -1464,8 +1466,6 @@ msgstr ""
 
 #: blog/templates/blog/s_engager/contact.html:11
 #: blog/templates/blog/s_engager/contact.html:22 templates/base.html:81
-#, fuzzy
-#| msgid "Contacte-nous"
 msgid "Contact"
 msgstr "Contact us"
 
@@ -1478,8 +1478,6 @@ msgid "Votre message a bien été envoyé"
 msgstr "Your message has been sent"
 
 #: blog/templates/blog/s_engager/contact.html:58
-#, fuzzy
-#| msgid "Informations"
 msgid "Informations personnels"
 msgstr "Informations"
 
@@ -1488,8 +1486,6 @@ msgid "Nom"
 msgstr "Name"
 
 #: blog/templates/blog/s_engager/contact.html:63
-#, fuzzy
-#| msgid "Nom valide requis"
 msgid "Nom valid requis"
 msgstr "Valid name required "
 
@@ -1518,8 +1514,6 @@ msgid "Valider"
 msgstr "Validate"
 
 #: blog/templates/blog/s_engager/contact.html:93
-#, fuzzy
-#| msgid "Informations"
 msgid "Informations bancaires"
 msgstr "Informations"
 
@@ -1536,10 +1530,8 @@ msgid "IBAN:"
 msgstr ""
 
 #: blog/templates/blog/s_engager/contact.html:111
-#, fuzzy
-#| msgid "Corine Matringe"
 msgid "Code clearing:"
-msgstr "Corine Matringe"
+msgstr "Code clearing:"
 
 #: blog/templates/blog/s_engager/dev_bene.html:8
 msgid ""
@@ -1655,8 +1647,6 @@ msgid "Nos Membres"
 msgstr "Our Members"
 
 #: templates/base.html:58
-#, fuzzy
-#| msgid "Nos ambassadeurs"
 msgid "Nos Ambassadeurs"
 msgstr "Our Ambassadors "
 
@@ -2903,6 +2893,10 @@ msgstr ""
 #: venv/lib/python3.7/site-packages/modeltranslation/widgets.py:25
 msgid "None"
 msgstr ""
+
+#~ msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et Île Maurice"
+#~ msgstr ""
+#~ "1st step: 1500 children assisted and trained in Romania and Mauritus"
 
 #~ msgid ""
 #~ "Elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, "

@@ -52,8 +52,7 @@ class ListeArticles(ListView):
 
 def article(request, art_id):
     articleSelect = Article.objects.get(id=art_id)  # id de l'article
-    return http.HttpResponseServerError()
-    #return render(request, 'blog/nos_projets/article.html', {'article': articleSelect})
+    return render(request, 'blog/nos_projets/article.html', {'article': articleSelect})
 
 #------------------------------------------------------------------------------------------------
 

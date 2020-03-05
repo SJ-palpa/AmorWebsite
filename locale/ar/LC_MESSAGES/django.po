@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 11:03+0000\n"
+"POT-Creation-Date: 2020-03-05 14:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -192,9 +192,9 @@ msgstr "المجلس الاقتصادي والاجتماعي"
 #: blog/templates/blog/l_association/nos_ambassadeurs.html:30
 #: blog/templates/blog/l_association/nos_membres.html:31
 #: blog/templates/blog/l_association/notreHistoire.html:28
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:28
 #: blog/templates/blog/nos_projets/article.html:26
 #: blog/templates/blog/nos_projets/articles.html:29
+#: blog/templates/blog/nos_projets/hitech4orphans.html:28
 #: blog/templates/blog/s_engager/contact.html:31
 #: blog/templates/blog/s_engager/dev_bene.html:21
 #: blog/templates/blog/s_engager/dev_stagiaire.html:21 templates/base.html:118
@@ -206,9 +206,9 @@ msgstr "التبرعات"
 #: blog/templates/blog/l_association/nos_ambassadeurs.html:34
 #: blog/templates/blog/l_association/nos_membres.html:35
 #: blog/templates/blog/l_association/notreHistoire.html:32
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:32
 #: blog/templates/blog/nos_projets/article.html:30
 #: blog/templates/blog/nos_projets/articles.html:33
+#: blog/templates/blog/nos_projets/hitech4orphans.html:32
 #: blog/templates/blog/s_engager/contact.html:35
 #: blog/templates/blog/s_engager/dev_bene.html:24
 #: blog/templates/blog/s_engager/dev_stagiaire.html:24 templates/base.html:120
@@ -1150,164 +1150,6 @@ msgid ""
 "n’ont pas eu la chance de se former au monde de l’informatique."
 msgstr ""
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:8
-msgid ""
-"Avec des outils en libres accès et OpenSource, nous équipons nos partenaires "
-"et enseignons la programmation et le graphique design aux plus démunis."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:9
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:19
-#: templates/base.html:67
-msgid "HITECH4ORPHANS"
-msgstr "HITECH4ORPHANS"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:39
-msgid "Résumé"
-msgstr "ملخص"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:43
-#, fuzzy
-#| msgid ""
-#| "L'Association Mondiale pour les Orphelins (A.M.OR) a été fondée par un "
-#| "orphelin."
-msgid ""
-"L'Association Mondiale pour les Orphelins (A.M.OR) vise à offrir une "
-"éducation numérique à des enfants en situation de précarité."
-msgstr "تأسست الرابطة العالمية للأيتام على يد يتيم"
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:46
-msgid ""
-"A travers son projet phare HiTech4Orphans lancé en 2017, des programmes "
-"éducatifs en programmation et design graphique sont établis en partenariat "
-"avec des écoles et institutions. Ces institutions reçoivent les moyens "
-"matériels et des outils pédagogiques innovants favorisant l'apprentissage "
-"par leurs écoliers de compétences digitales, de plus en plus importantes "
-"dans le monde du travail. Nous utilisons surtout des logiciels opensource et "
-"des ressources libre d'accès (LibreOffice, Atom, Freecodecamp, GIMP, "
-"Scratch, Roblox...). Nous utilisons aussi des licences chez https://"
-"codecombat.com/ pour l'initiation des enfants de bas âge."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:49
-msgid ""
-"Après avoir obtenu du matériel informatique donné par des acteurs publiques "
-"et privés, et suite aux évaluations et contacts établis avec les "
-"institutions locales, des salles informatiques et des programmes "
-"d'apprentissage ont été mis en place pour le bénéfice des enfants. Nous "
-"offrons des cours et des outils aux élèves mais aussi et surtout aux "
-"professeurs et aux structures locales - car au cœur de nos projets, "
-"soutenabilité et autonomie de l’apprentissage sont cruciales. En effet, nos "
-"partenaires sur le terrain initient les enfants à ces  compétences "
-"digitales;  semaine après semaine, année après année; comme une "
-"pollinisation dans la durée."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:68
-msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et Île Maurice"
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:72
-msgid ""
-"Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. "
-"HiTech4Orphans travaille en étroite collaboration avec la direction générale "
-"de la protection de l’enfance du secteur 6 (Direcţia Generală de ASISTENTA "
-"sociala şi Protectia Copilului secteur 6) de Bucarest. Le projet sera mis en "
-"œuvre dans trois bâtiments différents. En tout premier lieu dans le bâtiment "
-"qui accueille les enfants handicapés (900 enfants) qui pourront apprendre "
-"grâce à la technologie d'assistance. En second lieu, nous allons mettre en "
-"place les premiers cours d'introduction de codage pour des enfants de tous "
-"les milieux sociaux et les orphelins qui suivent des cours dans un programme "
-"informatique conjoint avec le secteur 6 (jusqu'à 20 personnes)."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:77
-msgid ""
-"Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus "
-"grâce à la générosité de nos 3 partenaires. L’International Conference "
-"Center (CICG - Centre International de Genève Conférences) , qui nous a fait "
-"don de 47 ordinateurs. La Solidarité Informatique Sans Frontière (SISF – "
-"Belgique) qui nous a donné 20 ordinateurs. Enfin, la fondation Thuor "
-"(Genève) qui nous a offert 20 ordinateurs. Nous remercions chaleureusement "
-"tous nos partenaires pour leur confiance."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:81
-msgid ""
-"Île Maurice: avec le soutien du canton de Vaud, A.M.OR a fourni 4 laptops et "
-"donne des cours auprès de la Maison Familiale rurale du Nord  (MFR du Nord "
-"de Calebasses) - institution pédagogique pour plus de 120 enfants en "
-"situation précaire."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:91
-msgid "Avenir 2022"
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:95
-msgid "Nous avons décidé d’étendre nos action à 10 pays d’ici 2022:"
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:99
-msgid ""
-"• Sénégal: Dakar - Nous planifions l'opérationnalisation d'une salle "
-"informatique pouvant accueillir 25 enfants."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:102
-msgid ""
-"• RDC: Uvira - L'Association des Jeunes pour le Développement Intégré-"
-"Kalundu nous a sollicité et nous avons une salle prête pour accueillir 15 PC "
-"qui serviront deux à trois fois par semaines pour des enfants affectés par "
-"des conflits armés."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:105
-msgid ""
-"• Togo: Tsévié - L'Association des Jeunes en Action pour le Développement de "
-"l’Afrique nous a approché pour inauguré une salle d'une capacité de 40 PC "
-"dans leurs centres spécialisés dans l'auto-entreprenariat pour les jeunes."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:108
-msgid ""
-"• Côte d'Ivoire: Yamoussoukro - Avec l'appui de la municipalité avec "
-"laquelle nous participons activement au débat sur le besoin de former les "
-"pédagogues africains pour éviter une pénurie d'enseignant pour une jeunesse "
-"africaine en pleine explosion démographique. Nous sommes sollicités par "
-"l’éducation nationale pour mettre en place notre projet dans différentes "
-"écoles publiques."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:111
-msgid ""
-"• Maroc: Casablanca - Avec L'Association Marocaine de l'Orphelin; (AMO), un "
-"projet conjoint est en discussion pour équiper un de leur centre et "
-"implémenter HiTech4Orphans."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:114
-msgid ""
-"• Cambodge: Phnom Penh - Notre représentant va établir un partenariat avec "
-"une institutions chargé de l'éducation des enfants pauvre de la périphérie "
-"de Phnom Penh."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:117
-msgid ""
-"• Bulgarie: Sofia - notre représentante locale explore différentes "
-"opportunités pour 2020 et dans la capitale Sofia."
-msgstr ""
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:120
-msgid ""
-"• A déterminer, nous n'avons pas encore décider quel sera le dernier pays "
-"pour accueillir HiTech4Orphans. Nous étudions des possibles partenariats au "
-"Trinidad, au Venezuela, en Colombie, Pérou et au Kazakhstan. Nous vous "
-"prions de nous contacter pour étudier des propositions sérieuses sur "
-"l'implémentation de salle informatique."
-msgstr ""
-
 #: blog/templates/blog/nos_projets/article.html:17
 msgid "Article"
 msgstr "مقالة"
@@ -1382,6 +1224,164 @@ msgstr "لمزيد من المعلومات أو للتسجيل ، يرجى ال�
 #: blog/templates/blog/nos_projets/gala_2019.html:48
 msgid "contacter"
 msgstr "اتصال"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:8
+msgid ""
+"Avec des outils en libres accès et OpenSource, nous équipons nos partenaires "
+"et enseignons la programmation et le graphique design aux plus démunis."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:9
+#: blog/templates/blog/nos_projets/hitech4orphans.html:19
+#: templates/base.html:67
+msgid "HITECH4ORPHANS"
+msgstr "HITECH4ORPHANS"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:39
+msgid "Résumé"
+msgstr "ملخص"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:43
+#, fuzzy
+#| msgid ""
+#| "L'Association Mondiale pour les Orphelins (A.M.OR) a été fondée par un "
+#| "orphelin."
+msgid ""
+"L'Association Mondiale pour les Orphelins (A.M.OR) vise à offrir une "
+"éducation numérique à des enfants en situation de précarité."
+msgstr "تأسست الرابطة العالمية للأيتام على يد يتيم"
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:46
+msgid ""
+"A travers son projet phare HiTech4Orphans lancé en 2017, des programmes "
+"éducatifs en programmation et design graphique sont établis en partenariat "
+"avec des écoles et institutions. Ces institutions reçoivent les moyens "
+"matériels et des outils pédagogiques innovants favorisant l'apprentissage "
+"par leurs écoliers de compétences digitales, de plus en plus importantes "
+"dans le monde du travail. Nous utilisons surtout des logiciels opensource et "
+"des ressources libre d'accès (LibreOffice, Atom, Freecodecamp, GIMP, "
+"Scratch, Roblox...). Nous utilisons aussi des licences chez https://"
+"codecombat.com/ pour l'initiation des enfants de bas âge."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:49
+msgid ""
+"Après avoir obtenu du matériel informatique donné par des acteurs publiques "
+"et privés, et suite aux évaluations et contacts établis avec les "
+"institutions locales, des salles informatiques et des programmes "
+"d'apprentissage ont été mis en place pour le bénéfice des enfants. Nous "
+"offrons des cours et des outils aux élèves mais aussi et surtout aux "
+"professeurs et aux structures locales - car au cœur de nos projets, "
+"soutenabilité et autonomie de l’apprentissage sont cruciales. En effet, nos "
+"partenaires sur le terrain initient les enfants à ces  compétences "
+"digitales;  semaine après semaine, année après année; comme une "
+"pollinisation dans la durée."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:68
+msgid "Premier résultat du project HiTech4Orphans"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:73
+msgid ""
+"Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. "
+"HiTech4Orphans travaille en étroite collaboration avec la direction générale "
+"de la protection de l’enfance du secteur 6 (Direcţia Generală de ASISTENTA "
+"sociala şi Protectia Copilului secteur 6) de Bucarest. Le projet sera mis en "
+"œuvre dans trois bâtiments différents. En tout premier lieu dans le bâtiment "
+"qui accueille les enfants handicapés (900 enfants) qui pourront apprendre "
+"grâce à la technologie d'assistance. En second lieu, nous allons mettre en "
+"place les premiers cours d'introduction de codage pour des enfants de tous "
+"les milieux sociaux et les orphelins qui suivent des cours dans un programme "
+"informatique conjoint avec le secteur 6 (jusqu'à 20 personnes)."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:77
+msgid ""
+"Île Maurice: avec le soutien du canton de Vaud, A.M.OR a fourni 4 laptops et "
+"donne des cours auprès de la Maison Familiale rurale du Nord  (MFR du Nord "
+"de Calebasses) - institution pédagogique pour plus de 120 enfants en "
+"situation précaire."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:81
+msgid ""
+"Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus "
+"grâce à la générosité de nos 3 partenaires. L’International Conference "
+"Center (CICG - Centre International de Genève Conférences) , qui nous a fait "
+"don de 47 ordinateurs. La Solidarité Informatique Sans Frontière (SISF – "
+"Belgique) qui nous a donné 20 ordinateurs. Enfin, la fondation Thuor "
+"(Genève) qui nous a offert 20 ordinateurs. Nous remercions chaleureusement "
+"tous nos partenaires pour leur confiance."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:91
+msgid "Avenir 2022"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:95
+msgid "Nous avons décidé d’étendre nos action à 10 pays d’ici 2022:"
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:99
+msgid ""
+"• Sénégal: Dakar - Nous planifions l'opérationnalisation d'une salle "
+"informatique pouvant accueillir 25 enfants."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:102
+msgid ""
+"• RDC: Uvira - L'Association des Jeunes pour le Développement Intégré-"
+"Kalundu nous a sollicité et nous avons une salle prête pour accueillir 15 PC "
+"qui serviront deux à trois fois par semaines pour des enfants affectés par "
+"des conflits armés."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:105
+msgid ""
+"• Togo: Tsévié - L'Association des Jeunes en Action pour le Développement de "
+"l’Afrique nous a approché pour inauguré une salle d'une capacité de 40 PC "
+"dans leurs centres spécialisés dans l'auto-entreprenariat pour les jeunes."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:108
+msgid ""
+"• Côte d'Ivoire: Yamoussoukro - Avec l'appui de la municipalité avec "
+"laquelle nous participons activement au débat sur le besoin de former les "
+"pédagogues africains pour éviter une pénurie d'enseignant pour une jeunesse "
+"africaine en pleine explosion démographique. Nous sommes sollicités par "
+"l’éducation nationale pour mettre en place notre projet dans différentes "
+"écoles publiques."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:111
+msgid ""
+"• Maroc: Casablanca - Avec L'Association Marocaine de l'Orphelin; (AMO), un "
+"projet conjoint est en discussion pour équiper un de leur centre et "
+"implémenter HiTech4Orphans."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:114
+msgid ""
+"• Cambodge: Phnom Penh - Notre représentant va établir un partenariat avec "
+"une institutions chargé de l'éducation des enfants pauvre de la périphérie "
+"de Phnom Penh."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:117
+msgid ""
+"• Bulgarie: Sofia - notre représentante locale explore différentes "
+"opportunités pour 2020 et dans la capitale Sofia."
+msgstr ""
+
+#: blog/templates/blog/nos_projets/hitech4orphans.html:120
+msgid ""
+"• A déterminer, nous n'avons pas encore décider quel sera le dernier pays "
+"pour accueillir HiTech4Orphans. Nous étudions des possibles partenariats au "
+"Trinidad, au Venezuela, en Colombie, Pérou et au Kazakhstan. Nous vous "
+"prions de nous contacter pour étudier des propositions sérieuses sur "
+"l'implémentation de salle informatique."
+msgstr ""
 
 #: blog/templates/blog/s_engager/contact.html:10
 msgid ""
