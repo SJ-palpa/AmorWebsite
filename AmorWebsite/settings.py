@@ -39,11 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
+    # packages
     'bootstrap4',
     'django_icons',
     'fontawesome',
     'crispy_forms',
+    # User app
+    'blog',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -188,3 +190,10 @@ EMAIL_HOST_USER = 'stephanejermini@amor-association.org'
 EMAIL_HOST_PASSWORD = 'jnzmYPpMe34'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
+# MailChimp
+
+
+MAILCHIMP_API_KEY = '1c1435db48b29b78bd581048883e4d88-us4'
+MAILCHIMP_DATA_CENTER = 'us4'
+MAILCHIMP_LIST_ID = ''

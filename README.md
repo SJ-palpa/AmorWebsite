@@ -16,6 +16,8 @@ https://www.liquidweb.com/kb/install-pip-windows/
 * Root of the project
 * Create a virtual environnement
 
+virtualenv -p python3 venv
+
 * Root of the project
 * Activate venv:
 

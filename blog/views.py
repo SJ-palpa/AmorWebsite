@@ -1,10 +1,10 @@
 from django.template import loader
 from django.views.generic import ListView
 from django.core.mail import send_mail, BadHeaderError
-from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render, redirect
+from django.http import HttpResponse
 from blog.form import ContactForm
 from blog.models import Article, Membre, Pays, Ambassadeur
+from django.shortcuts import render
 
 def home(request):
     articles = Article.objects.all().order_by('-created_at')[:3]
@@ -52,7 +52,8 @@ class ListeArticles(ListView):
 
 def article(request, art_id):
     articleSelect = Article.objects.get(id=art_id)  # id de l'article
-    return render(request, 'blog/nos_projets/article.html', {'article': articleSelect})
+    return http.HttpResponseServerError()
+    #return render(request, 'blog/nos_projets/article.html', {'article': articleSelect})
 
 #------------------------------------------------------------------------------------------------
 
@@ -117,10 +118,9 @@ class ListePays(ListView):
         context['group'] = {'paysSelect': paysSelect,'paysTous': paysTous}
         return context
 
+
 def policy_papers(request):
     return render(request, 'blog/amor_monde/policy_papers.html')
-
-
 
 
 def festiamor_2013(request):
@@ -131,11 +131,10 @@ def festiamor_2013(request):
 #--------------------------            Pages d erreurs          ---------------------------------
 #------------------------------------------------------------------------------------------------
 
+def handler404(request, exception):
+    data = {}
+    return render(request, 'blog/errorPages/404.html', data)
 
-def error_404(request):
-    return render(request, 'blog/errorPages/404.html')
 
-
-def error_500(request):
-    return render(request, 'blog/errorPages/500.html')
-
+def handler500(request):
+    return render(request, 'blog/errorPages/500.html', {}, status=500)

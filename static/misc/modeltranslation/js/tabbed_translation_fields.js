@@ -146,6 +146,8 @@ var google, django, gettext;
         function createTabs(groupedTranslations) {
             var tabs = [];
             $.each(groupedTranslations, function (groupId, lang) {
+                if (groupId.includes("__prefix__"))
+                    return;
                 var tabsContainer = $('<div></div>'),
                     tabsList = $('<ul></ul>'),
                     insertionPoint;
@@ -398,7 +400,7 @@ var google, django, gettext;
             // Group normal fields and fields in (existing) stacked inlines
             var grouper = new TranslationFieldGrouper({
                 $fields: $('.mt').filter(
-                    'input, textarea, select, iframe, div').filter(':parents(.tabular)')
+                    'input, textarea, select, iframe, div').filter(':parents(.tabular)').filter(':parents(.empty-form)')
             });
             MainSwitch.init(grouper.groupedTranslations, createTabs(grouper.groupedTranslations));
 

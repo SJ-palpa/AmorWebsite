@@ -28,12 +28,10 @@
     {% block ajout_head %}
     {% endblock %}
     <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
-    <meta name="description" content="{% block description %}Ma description personnalisée{% endblock %}">
+    <meta name="description" content="{% block description %}{% endblock %}">
     <title>A.M.OR | {% block title %}{% endblock %}</title>
 </head>
 <body>
-
-{# Mettre des breadcrumb#}
 
 {% block nav %}
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-border-top">
@@ -57,7 +55,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownAprop">
                         <a class="dropdown-item nav-link-bg-click" id="test" href="{% url "notreHistoire" %}">{% trans "Notre Histoire"%}</a>
                         <a class="dropdown-item nav-link-bg-click" href="{% url "membres" %}">{% trans "Nos Membres"%}</a>
-                        <a class="dropdown-item nav-link-bg-click" href="{% url "nos_ambassadeurs" %}">{% trans "Nos ambassadeurs"%}</a>
+                        <a class="dropdown-item nav-link-bg-click" href="{% url "nos_ambassadeurs" %}">{% trans "Nos Ambassadeurs"%}</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

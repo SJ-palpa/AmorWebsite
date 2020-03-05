@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-04 14:46+0000\n"
+"POT-Creation-Date: 2020-03-04 11:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: AmorWebsite/settings.py:67
+#: AmorWebsite/settings.py:69
 msgid "French"
 msgstr ""
 
-#: AmorWebsite/settings.py:68
+#: AmorWebsite/settings.py:70
 msgid "English"
 msgstr ""
 
@@ -31,7 +31,7 @@ msgid ""
 "L’Association Mondiale pour les Orphelins vise à réduire les inégalités "
 "d’éducation et d’accès aux technologies de l’information."
 msgstr ""
-"The World Association for Orphans aims to reduce education inequalitiesand "
+"The World Association for Orphans aims to reduce education inequalities and "
 "improve access to information technology."
 
 #: blog/templates/blog/accueil.html:9
@@ -181,7 +181,7 @@ msgstr ""
 "A.M.OR received consultative status with the Economic and Social Councilof "
 "the United Nations in 2017 to take part of the SDGs development."
 
-#: blog/templates/blog/amor_monde/ecosoc_onu.html:9 templates/base.html:92
+#: blog/templates/blog/amor_monde/ecosoc_onu.html:9 templates/base.html:90
 msgid "ECOSOC/ONU"
 msgstr "ECOSOC/UN"
 
@@ -200,7 +200,7 @@ msgstr "ECOSOC"
 #: blog/templates/blog/nos_projets/articles.html:29
 #: blog/templates/blog/s_engager/contact.html:31
 #: blog/templates/blog/s_engager/dev_bene.html:21
-#: blog/templates/blog/s_engager/dev_stagiaire.html:21 templates/base.html:120
+#: blog/templates/blog/s_engager/dev_stagiaire.html:21 templates/base.html:118
 msgid "Dons"
 msgstr "Donations"
 
@@ -214,7 +214,7 @@ msgstr "Donations"
 #: blog/templates/blog/nos_projets/articles.html:33
 #: blog/templates/blog/s_engager/contact.html:35
 #: blog/templates/blog/s_engager/dev_bene.html:24
-#: blog/templates/blog/s_engager/dev_stagiaire.html:24 templates/base.html:122
+#: blog/templates/blog/s_engager/dev_stagiaire.html:24 templates/base.html:120
 msgid "NewsLetters"
 msgstr "NewsLetters"
 
@@ -273,7 +273,7 @@ msgstr ""
 "it out"
 
 #: blog/templates/blog/amor_monde/pays.html:10
-#: blog/templates/blog/amor_monde/pays.html:24 templates/base.html:93
+#: blog/templates/blog/amor_monde/pays.html:24 templates/base.html:91
 msgid "Pays"
 msgstr "Country"
 
@@ -1006,9 +1006,8 @@ msgstr "Discover our different ambassadors who promote the association A.M.OR."
 
 #: blog/templates/blog/l_association/nos_ambassadeurs.html:10
 #: blog/templates/blog/l_association/nos_ambassadeurs.html:40
-#: templates/base.html:60
 msgid "Nos ambassadeurs"
-msgstr "Our Ambassadors "
+msgstr "Our Ambassadors"
 
 #: blog/templates/blog/l_association/nos_ambassadeurs.html:21
 msgid "Ambassadeurs"
@@ -1080,10 +1079,6 @@ msgid "Suivante"
 msgstr "Next"
 
 #: blog/templates/blog/l_association/notreHistoire.html:8
-#, fuzzy
-#| msgid ""
-#| "L'Association Mondiale pour les Orphelins (A.M.OR) a été fondée par un "
-#| "orphelin."
 msgid ""
 "L’Association Mondiale pour les Orphelins a été créé le 7 Janvier 1999 par "
 "un Orphelin de Côte d’Ivoire devenu entrepreneur en Suisse."
@@ -1093,7 +1088,7 @@ msgstr ""
 
 #: blog/templates/blog/l_association/notreHistoire.html:9
 #: blog/templates/blog/l_association/notreHistoire.html:40
-#: templates/base.html:58
+#: templates/base.html:56
 msgid "Notre Histoire"
 msgstr "Our History "
 
@@ -1102,14 +1097,6 @@ msgid "Histoire"
 msgstr "History "
 
 #: blog/templates/blog/l_association/notreHistoire.html:45
-#, fuzzy
-#| msgid ""
-#| "L’Association fut créée 7 janvier 1999 par M. Togiri Aka, un orphelin "
-#| "originaire de Côte d’Ivoire, ayant émigré en Suisse. Durant les années "
-#| "suivantes, l’ONG a organisé différents événements tels que FESTI AMOR en "
-#| "2013 où un pack informatique a été installé à l’EPP Nianda 1 en Côte "
-#| "d’Ivoire. Lors de l’édition 2014, une série de dons a été faite à "
-#| "l’Orphelinat de Bingerville et à SOS Village d’Abobo."
 msgid ""
 "L’Association fut créée 7 janvier 1999 par M. Togiri Aka, un orphelin "
 "originaire de Côte d’Ivoire, ayant émigré en Suisse. Durant les années "
@@ -1174,7 +1161,7 @@ msgstr ""
 
 #: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:9
 #: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:19
-#: templates/base.html:69
+#: templates/base.html:67
 msgid "HITECH4ORPHANS"
 msgstr "HITECH4ORPHANS"
 
@@ -1182,40 +1169,64 @@ msgstr "HITECH4ORPHANS"
 msgid "Résumé"
 msgstr "Abstract"
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:42
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:43
 msgid ""
-"Elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, "
-"HiTech4Orphans aide des jeunes enfants, étudiants et orphelins à maîtriser "
-"des compétences informatiques. Nous offrons des cours basiques et avancés en "
-"bureautique. Une fois introduit aux éléments primaires sur Microsoft Office "
-"et sur d'autres logiciels libres, les étudiants motivés de HiTech4Orphans "
-"auront l'opportunité d'approfondir leurs connaissances en s'inscrivant dans "
-"des cours de programmation (Objet orienté - C) et de design graphique (AP,"
-"AE)."
+"L'Association Mondiale pour les Orphelins (A.M.OR) vise à offrir une "
+"éducation numérique à des enfants en situation de précarité."
 msgstr ""
-"Developed after the Association received ECOSOC status in May 2017, "
-"HiTech4Orphans helps young children, students and orphans master computer "
-"skills. We offer basic and advanced courses in office automation. Once "
-"introduced to the primary elements of Microsoft Office and other free "
-"software, motivated HiTech4Orphans students will have the opportunity to "
-"deepen their knowledge by enrolling in courses in programming (Oriented "
-"Object - C) and graphic design (AP,AE). To carry out this central project, "
-"we are looking for computer equipment, programmers, donations, and good "
-"ideas. "
+"L'Association Mondiale pour les Orphelins (A.M.OR) aims to offer digital "
+"education to children in precarious situations."
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:45
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:46
 msgid ""
-"Pour mener à bien ce projet central, nous recherchons du matériel "
-"informatique, des programmeurs, des dons, et des bonnes idées."
+"A travers son projet phare HiTech4Orphans lancé en 2017, des programmes "
+"éducatifs en programmation et design graphique sont établis en partenariat "
+"avec des écoles et institutions. Ces institutions reçoivent les moyens "
+"matériels et des outils pédagogiques innovants favorisant l'apprentissage "
+"par leurs écoliers de compétences digitales, de plus en plus importantes "
+"dans le monde du travail. Nous utilisons surtout des logiciels opensource et "
+"des ressources libre d'accès (LibreOffice, Atom, Freecodecamp, GIMP, "
+"Scratch, Roblox...). Nous utilisons aussi des licences chez https://"
+"codecombat.com/ pour l'initiation des enfants de bas âge."
 msgstr ""
-"To carry out this key project, we are looking for IT material, programmers, "
-"donations, and good ideas."
+"Through its flagship project HiTech4Orphans launched in 2017, educational "
+"programs in programming and graphic design are established in partnership "
+"with schools and institutions. These institutions are provided with the "
+"material resources and innovative pedagogical tools to help their students "
+"learn digital skills, which are increasingly important in the world of work. "
+"We mainly use open source software and free access resources (LibreOffice, "
+"Atom, Freecodecamp, GIMP, Scratch, Roblox...). We also use licenses at "
+"https://codecombat.com/ for the initiation of young children."
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:64
-msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et au Sénégal"
-msgstr "1st step: 1500 children assisted and trained in Romania and Senegal"
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:49
+msgid ""
+"Après avoir obtenu du matériel informatique donné par des acteurs publiques "
+"et privés, et suite aux évaluations et contacts établis avec les "
+"institutions locales, des salles informatiques et des programmes "
+"d'apprentissage ont été mis en place pour le bénéfice des enfants. Nous "
+"offrons des cours et des outils aux élèves mais aussi et surtout aux "
+"professeurs et aux structures locales - car au cœur de nos projets, "
+"soutenabilité et autonomie de l’apprentissage sont cruciales. En effet, nos "
+"partenaires sur le terrain initient les enfants à ces  compétences "
+"digitales;  semaine après semaine, année après année; comme une "
+"pollinisation dans la durée."
+msgstr ""
+"After obtaining computer equipment donated by public and private actors, and "
+"following evaluations and contacts established with local institutions, "
+"computer rooms and learning programmes were set up for the benefit of the "
+"children. We offer courses and tools to the pupils but also and above all to "
+"the teachers and local structures - because at the heart of our projects, "
+"sustainability and autonomy of learning are crucial. Indeed, our partners in "
+"the field introduce children to these digital skills; week after week, year "
+"after year."
 
 #: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:68
+#, fuzzy
+#| msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et au Sénégal"
+msgid "1ère étape : 1500 enfants aidés et formés en Roumanie et Île Maurice"
+msgstr "1st step: 1500 children assisted and trained in Romania and Mauritus"
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:72
 msgid ""
 "Aujourd'hui, nous terminons un contrat avec la ville de Bucarest. "
 "HiTech4Orphans travaille en étroite collaboration avec la direction générale "
@@ -1238,19 +1249,7 @@ msgstr ""
 "courses for children from all social backgrounds and orphans who are taking "
 "courses in a joint computer program with Sector 6 (up to 20 people). "
 
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:71
-msgid ""
-"Au Sénégal, nous avons ouvert une antenne A.M.OR Sénégal et nommée une "
-"présidente, qui cherche actuellement à établir des partenariats avec des "
-"associations locales dans la région de Dakar. Notre objectif est de "
-"permettre à 500 enfants de bénéficier de HiTech4Orphans."
-msgstr ""
-"In Senegal, we have opened an A.M.OR Senegal branch and appointed a "
-"president, who is currently seeking to establish partnerships with local "
-"associations in the Dakar region. Our goal is to enable 500 children to "
-"benefit from HiTech4Orphans."
-
-#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:73
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:77
 msgid ""
 "Tout cela n’aurait jamais pu être possible sans nos 87 ordinateurs obtenus "
 "grâce à la générosité de nos 3 partenaires. L’International Conference "
@@ -1267,6 +1266,107 @@ msgstr ""
 "which gave us 20 computers. Finally, the Thuor Foundation (Geneva) which "
 "gave us 20 computers. We warmly thank all our partners for their trust. "
 
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:81
+msgid ""
+"Île Maurice: avec le soutien du canton de Vaud, A.M.OR a fourni 4 laptops et "
+"donne des cours auprès de la Maison Familiale rurale du Nord  (MFR du Nord "
+"de Calebasses) - institution pédagogique pour plus de 120 enfants en "
+"situation précaire."
+msgstr ""
+"Mauritius: with the support of the canton of Vaud, A.M.OR has provided 4 "
+"laptops and gives courses at the Maison Familiale rurale du Nord (MFR du "
+"Nord de Calebasses) - an educational institution for more than 120 children "
+"in precarious situations."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:91
+msgid "Avenir 2022"
+msgstr "Futur 2022"
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:95
+msgid "Nous avons décidé d’étendre nos action à 10 pays d’ici 2022:"
+msgstr "We have decided to extend our action to 10 countries by 2022:"
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:99
+msgid ""
+"• Sénégal: Dakar - Nous planifions l'opérationnalisation d'une salle "
+"informatique pouvant accueillir 25 enfants."
+msgstr ""
+"• Senegal: Dakar- We are planning the implementation of a computer room for "
+"25 children."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:102
+msgid ""
+"• RDC: Uvira - L'Association des Jeunes pour le Développement Intégré-"
+"Kalundu nous a sollicité et nous avons une salle prête pour accueillir 15 PC "
+"qui serviront deux à trois fois par semaines pour des enfants affectés par "
+"des conflits armés."
+msgstr ""
+"• DRC: Uvira - The Youth Association for Integrated Development-Kalundu has "
+"asked us for help and we have a room ready to host 15 PCs that will be used "
+"2-3 times a week for children affected by armed conflict."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:105
+msgid ""
+"• Togo: Tsévié - L'Association des Jeunes en Action pour le Développement de "
+"l’Afrique nous a approché pour inauguré une salle d'une capacité de 40 PC "
+"dans leurs centres spécialisés dans l'auto-entreprenariat pour les jeunes."
+msgstr ""
+"• Togo:  Tsévié - The Association des Jeunes en Action pour le Développement "
+"de l'Afrique approached us to inaugurate a room with a capacity of 40 PCs in "
+"their centers specialized in self-entrepreneurship for young people."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:108
+msgid ""
+"• Côte d'Ivoire: Yamoussoukro - Avec l'appui de la municipalité avec "
+"laquelle nous participons activement au débat sur le besoin de former les "
+"pédagogues africains pour éviter une pénurie d'enseignant pour une jeunesse "
+"africaine en pleine explosion démographique. Nous sommes sollicités par "
+"l’éducation nationale pour mettre en place notre projet dans différentes "
+"écoles publiques."
+msgstr ""
+"• Côte d'Ivoire: Yamoussoukro - With the support of the municipality, with "
+"which we are actively participating in the debate on the need to train "
+"African teachers to avoid a shortage of teachers for Africa's burgeoning "
+"youth population. We have been asked by the national education system to "
+"implement our project in various public schools."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:111
+msgid ""
+"• Maroc: Casablanca - Avec L'Association Marocaine de l'Orphelin; (AMO), un "
+"projet conjoint est en discussion pour équiper un de leur centre et "
+"implémenter HiTech4Orphans."
+msgstr ""
+"• Morocco: Casablanca - With the Association Marocaine de l'Orphelin (AMO), "
+"a joint project is under discussion to equip one of their centers and "
+"implement HiTech4Orphans."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:114
+msgid ""
+"• Cambodge: Phnom Penh - Notre représentant va établir un partenariat avec "
+"une institutions chargé de l'éducation des enfants pauvre de la périphérie "
+"de Phnom Penh."
+msgstr ""
+"• Cambodia: Phnom Penh - Our representative will establish a partnership "
+"with an institution in charge of the education of poor children from the "
+"outskirts of Phnom Penh."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:117
+msgid ""
+"• Bulgarie: Sofia - notre représentante locale explore différentes "
+"opportunités pour 2020 et dans la capitale Sofia."
+msgstr ""
+"• Bulgaria: Sofia - our local representative is exploring different "
+"opportunities for 2020 and in the capital Sofia."
+
+#: blog/templates/blog/nos_projets/HITECH4ORPHANS.html:120
+msgid ""
+"• A déterminer, nous n'avons pas encore décider quel sera le dernier pays "
+"pour accueillir HiTech4Orphans. Nous étudions des possibles partenariats au "
+"Trinidad, au Venezuela, en Colombie, Pérou et au Kazakhstan. Nous vous "
+"prions de nous contacter pour étudier des propositions sérieuses sur "
+"l'implémentation de salle informatique."
+msgstr "To be determined, we have not yet decided which will be the last country to host HiTech4Orphans. We are exploring possible partnerships in Trinidad, Venezuela, Colombia, Peru and Kazakhstan.  Please contact us to study serious proposals on computer room implementation."
+
 #: blog/templates/blog/nos_projets/article.html:17
 msgid "Article"
 msgstr "Article"
@@ -1280,7 +1380,7 @@ msgstr ""
 "children's law, new technologies, humanitarian ethics ..."
 
 #: blog/templates/blog/nos_projets/articles.html:10
-#: blog/templates/blog/nos_projets/articles.html:20 templates/base.html:72
+#: blog/templates/blog/nos_projets/articles.html:20 templates/base.html:70
 msgid "Articles"
 msgstr "Articles"
 
@@ -1363,7 +1463,7 @@ msgstr ""
 "application? It's here !"
 
 #: blog/templates/blog/s_engager/contact.html:11
-#: blog/templates/blog/s_engager/contact.html:22 templates/base.html:83
+#: blog/templates/blog/s_engager/contact.html:22 templates/base.html:81
 #, fuzzy
 #| msgid "Contacte-nous"
 msgid "Contact"
@@ -1449,7 +1549,7 @@ msgstr ""
 "You want to participate in an innovative project and give your energy in an "
 "NGO working for local agencies in the field? Join us!"
 
-#: blog/templates/blog/s_engager/dev_bene.html:9 templates/base.html:81
+#: blog/templates/blog/s_engager/dev_bene.html:9 templates/base.html:79
 msgid "Devenir Membre"
 msgstr "Become a member"
 
@@ -1475,6 +1575,11 @@ msgid ""
 "enfants les plus démunis. Veuillez nous contacter avec notre formulaire pour "
 "plus de détails."
 msgstr ""
+"• You can become a member of our association for an annual fee of only CHF. "
+"60 or 50 Euros. By being a member, you support projects that we develop or "
+"continue each year and you allow us to reduce the inequalities of access to "
+"quality education for the most underprivileged children. Please contact us "
+"with our form for more details."
 
 #: blog/templates/blog/s_engager/dev_bene.html:38
 msgid ""
@@ -1502,7 +1607,7 @@ msgstr ""
 "You are looking for an internship, some social work in which you can "
 "flourish, you are at the right address."
 
-#: blog/templates/blog/s_engager/dev_stagiaire.html:10 templates/base.html:82
+#: blog/templates/blog/s_engager/dev_stagiaire.html:10 templates/base.html:80
 msgid "Devenir Stagiaire"
 msgstr "Internship"
 
@@ -1537,175 +1642,181 @@ msgstr ""
 msgid " au plus vite !"
 msgstr " as soon as possible!"
 
-#: templates/base.html:50
+#: templates/base.html:48
 msgid "ACCUEIL"
 msgstr "HOME"
 
-#: templates/base.html:55
+#: templates/base.html:53
 msgid "L'ASSOCIATION"
 msgstr "ASSOCIATION"
 
-#: templates/base.html:59
+#: templates/base.html:57
 msgid "Nos Membres"
 msgstr "Our Members"
 
-#: templates/base.html:66
+#: templates/base.html:58
+#, fuzzy
+#| msgid "Nos ambassadeurs"
+msgid "Nos Ambassadeurs"
+msgstr "Our Ambassadors "
+
+#: templates/base.html:64
 msgid "NOS PROJETS"
 msgstr "OUR PROJECTS"
 
-#: templates/base.html:78
+#: templates/base.html:76
 msgid "S'ENGAGER"
 msgstr "ADHERE"
 
-#: templates/base.html:89
+#: templates/base.html:87
 msgid "AMOR MONDE"
 msgstr "AMOR WORLD"
 
-#: templates/base.html:99
+#: templates/base.html:97
 msgid "Langue"
 msgstr "Language"
 
-#: templates/base.html:112
+#: templates/base.html:110
 #, fuzzy
 #| msgid "arabe"
 msgid "Arabe"
 msgstr "Arab"
 
-#: templates/base.html:113
+#: templates/base.html:111
 #, fuzzy
 #| msgid "chinois"
 msgid "Chinois"
 msgstr "Chinese"
 
-#: templates/base.html:114
+#: templates/base.html:112
 #, fuzzy
 #| msgid "espagnol"
 msgid "Espagnol"
 msgstr "Spanish"
 
-#: templates/base.html:115
+#: templates/base.html:113
 #, fuzzy
 #| msgid "russe"
 msgid "Russe"
 msgstr "Russian"
 
-#: templates/base.html:151
+#: templates/base.html:149
 msgid "© AMOR 2019, TOUS DROITS RÉSERVÉS, "
 msgstr "© AMOR 2019, ALL RIGHTS RESERVED, "
 
-#: venv/lib/python3.4/site-packages/bootstrap4/components.py:25
-#: venv/lib/python3.4/site-packages/bootstrap4/templates/bootstrap4/form_errors.html:3
-#: venv/lib/python3.4/site-packages/bootstrap4/templates/bootstrap4/messages.html:4
+#: venv/lib/python3.7/site-packages/bootstrap4/components.py:17
+#: venv/lib/python3.7/site-packages/bootstrap4/templates/bootstrap4/form_errors.html:3
+#: venv/lib/python3.7/site-packages/bootstrap4/templates/bootstrap4/messages.html:4
 msgid "close"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/crispy_forms/tests/test_form_helper.py:142
-#: venv/lib/python3.4/site-packages/crispy_forms/tests/test_form_helper.py:152
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:53
+#: venv/lib/python3.7/site-packages/crispy_forms/tests/test_form_helper.py:142
+#: venv/lib/python3.7/site-packages/crispy_forms/tests/test_form_helper.py:152
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:53
 msgid "This field is required."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/crispy_forms/tests/test_layout.py:394
+#: venv/lib/python3.7/site-packages/crispy_forms/tests/test_layout.py:394
 msgid "i18n text"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/crispy_forms/tests/test_layout.py:396
+#: venv/lib/python3.7/site-packages/crispy_forms/tests/test_layout.py:396
 msgid "i18n legend"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/crispy_forms/tests/test_layout_objects.py:127
-#: venv/lib/python3.4/site-packages/django/core/validators.py:31
+#: venv/lib/python3.7/site-packages/crispy_forms/tests/test_layout_objects.py:127
+#: venv/lib/python3.7/site-packages/django/core/validators.py:31
 msgid "Enter a valid value."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/contrib/messages/apps.py:7
+#: venv/lib/python3.7/site-packages/django/contrib/messages/apps.py:7
 msgid "Messages"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/contrib/sitemaps/apps.py:7
+#: venv/lib/python3.7/site-packages/django/contrib/sitemaps/apps.py:7
 msgid "Site Maps"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/contrib/staticfiles/apps.py:9
+#: venv/lib/python3.7/site-packages/django/contrib/staticfiles/apps.py:9
 msgid "Static Files"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/contrib/syndication/apps.py:7
+#: venv/lib/python3.7/site-packages/django/contrib/syndication/apps.py:7
 msgid "Syndication"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/paginator.py:40
+#: venv/lib/python3.7/site-packages/django/core/paginator.py:45
 msgid "That page number is not an integer"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/paginator.py:42
+#: venv/lib/python3.7/site-packages/django/core/paginator.py:47
 msgid "That page number is less than 1"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/paginator.py:47
+#: venv/lib/python3.7/site-packages/django/core/paginator.py:52
 msgid "That page contains no results"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:102
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:649
+#: venv/lib/python3.7/site-packages/django/core/validators.py:102
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:658
 msgid "Enter a valid URL."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:154
+#: venv/lib/python3.7/site-packages/django/core/validators.py:154
 msgid "Enter a valid integer."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:165
+#: venv/lib/python3.7/site-packages/django/core/validators.py:165
 msgid "Enter a valid email address."
 msgstr ""
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
-#: venv/lib/python3.4/site-packages/django/core/validators.py:239
+#: venv/lib/python3.7/site-packages/django/core/validators.py:239
 msgid ""
 "Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:246
+#: venv/lib/python3.7/site-packages/django/core/validators.py:246
 msgid ""
 "Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:255
-#: venv/lib/python3.4/site-packages/django/core/validators.py:275
+#: venv/lib/python3.7/site-packages/django/core/validators.py:255
+#: venv/lib/python3.7/site-packages/django/core/validators.py:275
 msgid "Enter a valid IPv4 address."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:260
-#: venv/lib/python3.4/site-packages/django/core/validators.py:276
+#: venv/lib/python3.7/site-packages/django/core/validators.py:260
+#: venv/lib/python3.7/site-packages/django/core/validators.py:276
 msgid "Enter a valid IPv6 address."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:270
-#: venv/lib/python3.4/site-packages/django/core/validators.py:274
+#: venv/lib/python3.7/site-packages/django/core/validators.py:270
+#: venv/lib/python3.7/site-packages/django/core/validators.py:274
 msgid "Enter a valid IPv4 or IPv6 address."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:304
+#: venv/lib/python3.7/site-packages/django/core/validators.py:304
 msgid "Enter only digits separated by commas."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:310
+#: venv/lib/python3.7/site-packages/django/core/validators.py:310
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:341
+#: venv/lib/python3.7/site-packages/django/core/validators.py:342
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:350
+#: venv/lib/python3.7/site-packages/django/core/validators.py:351
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:360
+#: venv/lib/python3.7/site-packages/django/core/validators.py:361
 #, python-format
 msgid ""
 "Ensure this value has at least %(limit_value)d character (it has "
@@ -1716,7 +1827,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:375
+#: venv/lib/python3.7/site-packages/django/core/validators.py:376
 #, python-format
 msgid ""
 "Ensure this value has at most %(limit_value)d character (it has "
@@ -1727,21 +1838,27 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:395
+#: venv/lib/python3.7/site-packages/django/core/validators.py:395
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:290
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:325
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.7/site-packages/django/core/validators.py:397
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:400
+#: venv/lib/python3.7/site-packages/django/core/validators.py:402
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:405
+#: venv/lib/python3.7/site-packages/django/core/validators.py:407
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
@@ -1750,316 +1867,326 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:465
+#: venv/lib/python3.7/site-packages/django/core/validators.py:469
 #, python-format
 msgid ""
 "File extension '%(extension)s' is not allowed. Allowed extensions are: "
 "'%(allowed_extensions)s'."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/core/validators.py:518
+#: venv/lib/python3.7/site-packages/django/core/validators.py:521
 msgid "Null characters are not allowed."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/base.py:1125
-#: venv/lib/python3.4/site-packages/django/forms/models.py:753
+#: venv/lib/python3.7/site-packages/django/db/models/base.py:1162
+#: venv/lib/python3.7/site-packages/django/forms/models.py:756
 msgid "and"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/base.py:1127
+#: venv/lib/python3.7/site-packages/django/db/models/base.py:1164
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:105
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:104
 #, python-format
 msgid "Value %(value)r is not a valid choice."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:106
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:105
 msgid "This field cannot be null."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:107
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:106
 msgid "This field cannot be blank."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:108
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:107
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
 msgstr ""
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:112
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:111
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:129
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:128
 #, python-format
 msgid "Field of type: %(field_type)s"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:882
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1782
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:905
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1772
 msgid "Integer"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:886
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1780
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:909
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1770
 #, python-format
 msgid "'%(value)s' value must be an integer."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:959
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1851
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:984
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1850
 msgid "Big (8 byte) integer"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:971
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:996
 #, python-format
 msgid "'%(value)s' value must be either True or False."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:973
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:997
+#, python-format
+msgid "'%(value)s' value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:999
 msgid "Boolean (Either True or False)"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1039
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1040
 #, python-format
 msgid "String (up to %(max_length)s)"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1102
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1104
 msgid "Comma-separated integers"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1150
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1153
 #, python-format
 msgid ""
 "'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1152
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1294
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1155
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1298
 #, python-format
 msgid ""
 "'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1155
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1158
 msgid "Date (without time)"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1292
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1296
 #, python-format
 msgid ""
 "'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1296
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1300
 #, python-format
 msgid ""
 "'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1300
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1304
 msgid "Date (with time)"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1447
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1452
 #, python-format
 msgid "'%(value)s' value must be a decimal number."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1449
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1454
 msgid "Decimal number"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1601
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1593
 #, python-format
 msgid ""
 "'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
 "uuuuuu] format."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1604
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1596
 msgid "Duration"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1656
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1646
 msgid "Email address"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1680
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1669
 msgid "File path"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1746
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1735
 #, python-format
 msgid "'%(value)s' value must be a float."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1748
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1737
 msgid "Floating point number"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1866
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1866
 msgid "IPv4 address"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1897
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1897
 msgid "IP address"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1978
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1977
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1978
 #, python-format
 msgid "'%(value)s' value must be either None, True or False."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1980
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1980
 msgid "Boolean (Either True, False or None)"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2043
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2015
 msgid "Positive integer"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2055
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2028
 msgid "Positive small integer"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2068
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2042
 #, python-format
 msgid "Slug (up to %(max_length)s)"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2098
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2074
 msgid "Small integer"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2105
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2081
 msgid "Text"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2133
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2109
 #, python-format
 msgid ""
 "'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2135
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2111
 #, python-format
 msgid ""
 "'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2138
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2114
 msgid "Time"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2263
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2240
 msgid "URL"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2286
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2262
 msgid "Raw binary data"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/__init__.py:2333
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2312
 #, python-format
 msgid "'%(value)s' is not a valid UUID."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/files.py:221
+#: venv/lib/python3.7/site-packages/django/db/models/fields/__init__.py:2314
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.7/site-packages/django/db/models/fields/files.py:221
 msgid "File"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/files.py:359
+#: venv/lib/python3.7/site-packages/django/db/models/fields/files.py:360
 msgid "Image"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:780
+#: venv/lib/python3.7/site-packages/django/db/models/fields/related.py:778
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:782
+#: venv/lib/python3.7/site-packages/django/db/models/fields/related.py:780
 msgid "Foreign Key (type determined by related field)"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1001
+#: venv/lib/python3.7/site-packages/django/db/models/fields/related.py:1007
 msgid "One-to-one relationship"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1051
+#: venv/lib/python3.7/site-packages/django/db/models/fields/related.py:1057
 #, python-format
 msgid "%(from)s-%(to)s relationship"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1052
+#: venv/lib/python3.7/site-packages/django/db/models/fields/related.py:1058
 #, python-format
 msgid "%(from)s-%(to)s relationships"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/db/models/fields/related.py:1094
+#: venv/lib/python3.7/site-packages/django/db/models/fields/related.py:1100
 msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the label
-#: venv/lib/python3.4/site-packages/django/forms/boundfield.py:171
+#: venv/lib/python3.7/site-packages/django/forms/boundfield.py:146
 msgid ":?.!"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:245
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:245
 msgid "Enter a whole number."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:290
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:325
-msgid "Enter a number."
-msgstr ""
-
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:396
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:1114
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:396
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:1126
 msgid "Enter a valid date."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:420
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:1115
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:420
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:1127
 msgid "Enter a valid time."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:442
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:442
 msgid "Enter a valid date/time."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:471
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:471
 msgid "Enter a valid duration."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:525
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:472
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:532
 msgid "No file was submitted. Check the encoding type on the form."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:526
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:533
 msgid "No file was submitted."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:527
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:534
 msgid "The submitted file is empty."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:529
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:536
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
@@ -2067,547 +2194,547 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:532
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:539
 msgid "Please either submit a file or check the clear checkbox, not both."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:597
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:600
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:753
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:843
-#: venv/lib/python3.4/site-packages/django/forms/models.py:1267
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:762
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:852
+#: venv/lib/python3.7/site-packages/django/forms/models.py:1270
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:844
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:959
-#: venv/lib/python3.4/site-packages/django/forms/models.py:1266
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:853
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:968
+#: venv/lib/python3.7/site-packages/django/forms/models.py:1269
 msgid "Enter a list of values."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:960
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:969
 msgid "Enter a complete value."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/fields.py:1173
+#: venv/lib/python3.7/site-packages/django/forms/fields.py:1185
 msgid "Enter a valid UUID."
 msgstr ""
 
 #. Translators: This is the default suffix added to form field labels
-#: venv/lib/python3.4/site-packages/django/forms/forms.py:86
+#: venv/lib/python3.7/site-packages/django/forms/forms.py:86
 msgid ":"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/forms.py:207
+#: venv/lib/python3.7/site-packages/django/forms/forms.py:212
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/formsets.py:91
+#: venv/lib/python3.7/site-packages/django/forms/formsets.py:91
 msgid "ManagementForm data is missing or has been tampered with"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/formsets.py:338
+#: venv/lib/python3.7/site-packages/django/forms/formsets.py:338
 #, python-format
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/forms/formsets.py:345
+#: venv/lib/python3.7/site-packages/django/forms/formsets.py:345
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/forms/formsets.py:371
-#: venv/lib/python3.4/site-packages/django/forms/formsets.py:373
+#: venv/lib/python3.7/site-packages/django/forms/formsets.py:371
+#: venv/lib/python3.7/site-packages/django/forms/formsets.py:373
 msgid "Order"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/formsets.py:375
+#: venv/lib/python3.7/site-packages/django/forms/formsets.py:375
 msgid "Delete"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/models.py:748
+#: venv/lib/python3.7/site-packages/django/forms/models.py:751
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/models.py:752
+#: venv/lib/python3.7/site-packages/django/forms/models.py:755
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/models.py:758
+#: venv/lib/python3.7/site-packages/django/forms/models.py:761
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/models.py:767
+#: venv/lib/python3.7/site-packages/django/forms/models.py:770
 msgid "Please correct the duplicate values below."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/models.py:1094
+#: venv/lib/python3.7/site-packages/django/forms/models.py:1091
 msgid "The inline value did not match the parent instance."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/models.py:1155
+#: venv/lib/python3.7/site-packages/django/forms/models.py:1158
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/models.py:1269
+#: venv/lib/python3.7/site-packages/django/forms/models.py:1272
 #, python-format
 msgid "\"%(pk)s\" is not a valid value."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/utils.py:162
+#: venv/lib/python3.7/site-packages/django/forms/utils.py:162
 #, python-format
 msgid ""
 "%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/widgets.py:391
+#: venv/lib/python3.7/site-packages/django/forms/widgets.py:395
 msgid "Clear"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/widgets.py:392
+#: venv/lib/python3.7/site-packages/django/forms/widgets.py:396
 msgid "Currently"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/widgets.py:393
+#: venv/lib/python3.7/site-packages/django/forms/widgets.py:397
 msgid "Change"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/widgets.py:708
+#: venv/lib/python3.7/site-packages/django/forms/widgets.py:709
 msgid "Unknown"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/widgets.py:709
+#: venv/lib/python3.7/site-packages/django/forms/widgets.py:710
 msgid "Yes"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/forms/widgets.py:710
+#: venv/lib/python3.7/site-packages/django/forms/widgets.py:711
 msgid "No"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:783
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:788
 msgid "yes,no,maybe"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:812
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:829
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:817
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:834
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:831
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:836
 #, python-format
 msgid "%s KB"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:833
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:838
 #, python-format
 msgid "%s MB"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:835
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:840
 #, python-format
 msgid "%s GB"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:837
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:842
 #, python-format
 msgid "%s TB"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/template/defaultfilters.py:839
+#: venv/lib/python3.7/site-packages/django/template/defaultfilters.py:844
 #, python-format
 msgid "%s PB"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:62
+#: venv/lib/python3.7/site-packages/django/utils/dateformat.py:62
 msgid "p.m."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:63
+#: venv/lib/python3.7/site-packages/django/utils/dateformat.py:63
 msgid "a.m."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:68
+#: venv/lib/python3.7/site-packages/django/utils/dateformat.py:68
 msgid "PM"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:69
+#: venv/lib/python3.7/site-packages/django/utils/dateformat.py:69
 msgid "AM"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:150
+#: venv/lib/python3.7/site-packages/django/utils/dateformat.py:150
 msgid "midnight"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dateformat.py:152
+#: venv/lib/python3.7/site-packages/django/utils/dateformat.py:152
 msgid "noon"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:6
 msgid "Monday"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:6
 msgid "Tuesday"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:6
 msgid "Wednesday"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:6
 msgid "Thursday"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:6
 msgid "Friday"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:7
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:7
 msgid "Saturday"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:7
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:7
 msgid "Sunday"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:10
 msgid "Mon"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:10
 msgid "Tue"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:10
 msgid "Wed"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:10
 msgid "Thu"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:10
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:10
 msgid "Fri"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:11
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:11
 msgid "Sat"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:11
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:11
 msgid "Sun"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:14
 msgid "January"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:14
 msgid "February"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:14
 msgid "March"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:14
 msgid "April"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:14
 msgid "May"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:18
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:14
 msgid "June"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:15
 msgid "July"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:15
 msgid "August"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:15
 msgid "September"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:15
 msgid "October"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:19
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:15
 msgid "November"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:20
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:16
 msgid "December"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:19
 msgid "jan"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:19
 msgid "feb"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:19
 msgid "mar"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:19
 msgid "apr"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:19
 msgid "may"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:23
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:19
 msgid "jun"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:20
 msgid "jul"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:20
 msgid "aug"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:20
 msgid "sep"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:20
 msgid "oct"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:20
 msgid "nov"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:24
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:20
 msgid "dec"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:31
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:23
 msgctxt "abbrev. month"
 msgid "Jan."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:32
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:24
 msgctxt "abbrev. month"
 msgid "Feb."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:33
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:25
 msgctxt "abbrev. month"
 msgid "March"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:34
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:26
 msgctxt "abbrev. month"
 msgid "April"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:35
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:27
 msgctxt "abbrev. month"
 msgid "May"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:36
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:28
 msgctxt "abbrev. month"
 msgid "June"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:37
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:29
 msgctxt "abbrev. month"
 msgid "July"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:38
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:30
 msgctxt "abbrev. month"
 msgid "Aug."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:39
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:31
 msgctxt "abbrev. month"
 msgid "Sept."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:40
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:32
 msgctxt "abbrev. month"
 msgid "Oct."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:41
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:33
 msgctxt "abbrev. month"
 msgid "Nov."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:42
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:34
 msgctxt "abbrev. month"
 msgid "Dec."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:45
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:37
 msgctxt "alt. month"
 msgid "January"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:46
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:38
 msgctxt "alt. month"
 msgid "February"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:47
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:39
 msgctxt "alt. month"
 msgid "March"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:48
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:40
 msgctxt "alt. month"
 msgid "April"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:49
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:41
 msgctxt "alt. month"
 msgid "May"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:50
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:42
 msgctxt "alt. month"
 msgid "June"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:51
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:43
 msgctxt "alt. month"
 msgid "July"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:52
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:44
 msgctxt "alt. month"
 msgid "August"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:53
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:45
 msgctxt "alt. month"
 msgid "September"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:54
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:46
 msgctxt "alt. month"
 msgid "October"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:55
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:47
 msgctxt "alt. month"
 msgid "November"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/dates.py:56
+#: venv/lib/python3.7/site-packages/django/utils/dates.py:48
 msgctxt "alt. month"
 msgid "December"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/ipv6.py:8
+#: venv/lib/python3.7/site-packages/django/utils/ipv6.py:8
 msgid "This is not a valid IPv6 address."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/text.py:70
+#: venv/lib/python3.7/site-packages/django/utils/text.py:67
 #, python-format
 msgctxt "String to return when truncating text"
-msgid "%(truncated_text)s..."
+msgid "%(truncated_text)s…"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/text.py:237
+#: venv/lib/python3.7/site-packages/django/utils/text.py:233
 msgid "or"
 msgstr ""
 
 #. Translators: This string is used as a separator between list elements
-#: venv/lib/python3.4/site-packages/django/utils/text.py:256
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:69
+#: venv/lib/python3.7/site-packages/django/utils/text.py:252
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:83
 msgid ", "
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:9
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:9
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:10
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:10
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:11
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:11
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:12
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:12
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:13
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:13
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:14
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:14
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/lib/python3.4/site-packages/django/utils/timesince.py:58
+#: venv/lib/python3.7/site-packages/django/utils/timesince.py:72
 msgid "0 minutes"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:110
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:110
 msgid "Forbidden"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:111
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:111
 msgid "CSRF verification failed. Request aborted."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:115
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:115
 msgid ""
 "You are seeing this message because this HTTPS site requires a 'Referer "
 "header' to be sent by your Web browser, but none was sent. This header is "
@@ -2615,14 +2742,14 @@ msgid ""
 "hijacked by third parties."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:120
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:120
 msgid ""
 "If you have configured your browser to disable 'Referer' headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for 'same-"
 "origin' requests."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:124
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:124
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
 "including the 'Referrer-Policy: no-referrer' header, please remove them. The "
@@ -2631,112 +2758,112 @@ msgid ""
 "\" ...> for links to third-party sites."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:132
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:132
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:137
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:137
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for 'same-origin' requests."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/csrf.py:142
+#: venv/lib/python3.7/site-packages/django/views/csrf.py:142
 msgid "More information is available with DEBUG=True."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:41
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:41
 msgid "No year specified"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:61
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:111
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:208
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:61
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:111
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:208
 msgid "Date out of range"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:90
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:90
 msgid "No month specified"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:142
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:142
 msgid "No day specified"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:188
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:188
 msgid "No week specified"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:338
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:367
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:338
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:367
 #, python-format
 msgid "No %(verbose_name_plural)s available"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:585
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:589
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/dates.py:619
+#: venv/lib/python3.7/site-packages/django/views/generic/dates.py:623
 #, python-format
 msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/detail.py:53
+#: venv/lib/python3.7/site-packages/django/views/generic/detail.py:54
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/list.py:67
+#: venv/lib/python3.7/site-packages/django/views/generic/list.py:67
 msgid "Page is not 'last', nor can it be converted to an int."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/list.py:72
+#: venv/lib/python3.7/site-packages/django/views/generic/list.py:72
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/generic/list.py:154
+#: venv/lib/python3.7/site-packages/django/views/generic/list.py:154
 #, python-format
 msgid "Empty list and '%(class_name)s.allow_empty' is False."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/static.py:41
+#: venv/lib/python3.7/site-packages/django/views/static.py:40
 msgid "Directory indexes are not allowed here."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/static.py:43
+#: venv/lib/python3.7/site-packages/django/views/static.py:42
 #, python-format
 msgid "\"%(path)s\" does not exist"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/static.py:83
+#: venv/lib/python3.7/site-packages/django/views/static.py:80
 #, python-format
 msgid "Index of %(directory)s"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:6
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:6
 msgid "Django: the Web framework for perfectionists with deadlines."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:345
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:345
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:367
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:367
 msgid "The install worked successfully! Congratulations!"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:368
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:368
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
@@ -2745,37 +2872,75 @@ msgid ""
 "URLs."
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:383
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:383
 msgid "Django Documentation"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:384
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:384
 msgid "Topics, references, &amp; how-to's"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:395
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:395
 msgid "Tutorial: A Polling App"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:396
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:396
 msgid "Get started with Django"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:407
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:407
 msgid "Django Community"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django/views/templates/default_urlconf.html:408
+#: venv/lib/python3.7/site-packages/django/views/templates/default_urlconf.html:408
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/django_icons/renderers/image.py:223
-msgid "Icon of "
+#: venv/lib/python3.7/site-packages/django_icons/renderers/image.py:217
+msgid "Icon of {}"
 msgstr ""
 
-#: venv/lib/python3.4/site-packages/modeltranslation/widgets.py:25
+#: venv/lib/python3.7/site-packages/modeltranslation/widgets.py:25
 msgid "None"
 msgstr ""
+
+#~ msgid ""
+#~ "Elaboré après que l'Association aie reçu le statut ECOSOC en mai 2017, "
+#~ "HiTech4Orphans aide des jeunes enfants, étudiants et orphelins à "
+#~ "maîtriser des compétences informatiques. Nous offrons des cours basiques "
+#~ "et avancés en bureautique. Une fois introduit aux éléments primaires sur "
+#~ "Microsoft Office et sur d'autres logiciels libres, les étudiants motivés "
+#~ "de HiTech4Orphans auront l'opportunité d'approfondir leurs connaissances "
+#~ "en s'inscrivant dans des cours de programmation (Objet orienté - C) et de "
+#~ "design graphique (AP,AE)."
+#~ msgstr ""
+#~ "Developed after the Association received ECOSOC status in May 2017, "
+#~ "HiTech4Orphans helps young children, students and orphans master computer "
+#~ "skills. We offer basic and advanced courses in office automation. Once "
+#~ "introduced to the primary elements of Microsoft Office and other free "
+#~ "software, motivated HiTech4Orphans students will have the opportunity to "
+#~ "deepen their knowledge by enrolling in courses in programming (Oriented "
+#~ "Object - C) and graphic design (AP,AE). To carry out this central "
+#~ "project, we are looking for computer equipment, programmers, donations, "
+#~ "and good ideas. "
+
+#~ msgid ""
+#~ "Pour mener à bien ce projet central, nous recherchons du matériel "
+#~ "informatique, des programmeurs, des dons, et des bonnes idées."
+#~ msgstr ""
+#~ "To carry out this key project, we are looking for IT material, "
+#~ "programmers, donations, and good ideas."
+
+#~ msgid ""
+#~ "Au Sénégal, nous avons ouvert une antenne A.M.OR Sénégal et nommée une "
+#~ "présidente, qui cherche actuellement à établir des partenariats avec des "
+#~ "associations locales dans la région de Dakar. Notre objectif est de "
+#~ "permettre à 500 enfants de bénéficier de HiTech4Orphans."
+#~ msgstr ""
+#~ "In Senegal, we have opened an A.M.OR Senegal branch and appointed a "
+#~ "president, who is currently seeking to establish partnerships with local "
+#~ "associations in the Dakar region. Our goal is to enable 500 children to "
+#~ "benefit from HiTech4Orphans."
 
 #~ msgid "Conditions"
 #~ msgstr "Terms"

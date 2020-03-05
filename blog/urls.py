@@ -28,5 +28,8 @@ urlpatterns = [
     path('amor_monde/policy_papers', views.policy_papers, name="policy_papers"),
 
     path('festiamor_2013', views.festiamor_2013, name="festiamor_2013"),
+
+    path('404', views.handler404, name="404"),
+    path('500', views.handler500, name="500"),
 ]
 

@@ -35,13 +35,13 @@
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
             <div class=" w-100 my-md-3 pl-md-3 mb-5">
                 <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden text-secondary paragraph_design">
-                    <h3 class="pb-3 mb-4 font-italic border-bottom">
-                        {{ article.titre }}
-                    </h3>
+                    <h1 class="pb-3 mb-4 font-italic border-bottom text-center">
+                        {{ article.titre }}, ({{ article.created_at }})
+                    </h1>
                     <div>
                         <p class="justify">{{ article.contenu|safe|linebreaks }}</p>
                         <hr>
-                        <p class="text-center">{{ article.auteur }}, {{ article.created_at }}</p>
+                        <p class="text-center">{{ article.auteur.prenom}} {{ article.auteur.nom}}</p>
                         <a class="btn btn-lg bg-fonce-amor text-light mb-5" href="{%  url "articles" %}">{% trans "retour" %}</a>
                     </div>
                 </div>
